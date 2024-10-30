@@ -1,0 +1,414 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hifumi
+  name: 日本語・一二三
+  version: "1"
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "中字", "英数" ] 
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@mandarin_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - lua_translator@katakana
+    - lua_translator@katakana_halfwidth
+    - script_translator@mandarin_lookup
+  filters:
+    - reverse_lookup_filter@mandarin_reverse_lookup
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    katakana: "^[a-z-]*;$"
+    katakana_halfwidth: "^[a-z-]*;;$"
+    mandarin_lookup: "`[a-z]*"
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz-_"
+  delimiter: "'"
+  algebra:
+    - derive/([^n])nn([^aiueon])/$1n$2/
+    # ん○ 以外は事前転換済み
+
+punctuator:
+  half_shape: &punc_table
+    # MS-IME 的標點习惯
+    # MS-IME 風句読
+    "-" : ー
+    "=" : ＝
+    "!" : ！
+    "@" : ＠
+    "#" : ＃
+    "$" : [ ＄, ￥ ]
+    "%" : ％
+    "^" : ＾
+    "&" : ＆
+    "*" : ＊
+    "(" : （
+    ")" : ）
+    # "_" : ＿ 小文字に使われ
+    "+" : ＋
+    "[" : [ 「, 『, 【 ]
+    "]" : [ 」, 』, 】 ]
+    "\\": [ ￥, ＼ ]
+    "{" : [ ｛, 〔 ]
+    "}" : [ ｝, 〕 ]
+    "|" : [ ｜, ‖ ]
+    ";" : ；
+    ":" : ：
+    "," : [ 、, ， ]
+    "." : 。
+    "/" : [ ・, ÷, ／ ]
+    "<" : [ ＜, 〈, 《 ]
+    ">" : [ ＞, 〉, 》 ]
+    "?" : ？
+  full_shape: *punc_table
+
+translator:
+  dictionary: hifumi
+  enable_completion: false
+  enable_user_dict: true
+  enable_sentence: true
+  comment_format: &kana_table
+    # Speller の逆変換
+    # Speller 的逆變換
+    - 'derive|x|_|'
+    - 'derive|q|-|'
+    - 'derive|zzi|jji|'
+    - 'derive|zzy([aueo])|jj$1|'
+    - 'derive|ty([aueo])|ch$1|'
+    - 'derive|zy([aueo])|j$1|'
+    - 'derive|jy([aueo])|j$1|'
+    - 'derive|sy([aueo])|sh$1|'
+    - 'derive|([^n])n([^aiueon])|$1nn$2|'
+    - 'derive|tu|tsu|'
+    - 'derive|ti|chi|'
+    - 'derive|zi|ji|'
+    - 'derive|si|shi|'
+    - 'derive|we|whe|'
+    - 'derive|wi|whi|'
+    # - 'derive|hu|fu|' # 「ちゅ」、「しぅ」と衝突
+    # 仮名表
+    - "xform|_tu|っ|" # xtu -> _tu -> _tsu -> 「っ」 は何故か認識されてない
+    - "xform|_tsu|っ|"
+    - "xform|_ke|ゖ|"
+    - "xform|_ka|ゕ|"
+    - "xform|_wa|ゎ|"
+    - "xform|_yo|ょ|"
+    - "xform|_yu|ゅ|"
+    - "xform|_ya|ゃ|"
+    - "xform|_o|ぉ|"
+    - "xform|_e|ぇ|"
+    - "xform|_u|ぅ|"
+    - "xform|_i|ぃ|"
+    - "xform|_a|ぁ|"
+    - "xform|rryo|っりょ|"
+    - "xform|rryu|っりゅ|"
+    - "xform|rrya|っりゃ|"
+    - "xform|ppyo|っぴょ|"
+    - "xform|ppyu|っぴゅ|"
+    - "xform|ppya|っぴゃ|"
+    - "xform|bbyo|っびょ|"
+    - "xform|bbyu|っびゅ|"
+    - "xform|bbya|っびゃ|"
+    - "xform|ffyo|っふょ|"
+    - "xform|ffyu|っふゅ|"
+    - "xform|ffya|っふゃ|"
+    - "xform|ffo|っふぉ|"
+    - "xform|ffe|っふぇ|"
+    - "xform|ffi|っふぃ|"
+    - "xform|ffa|っふぁ|"
+    - "xform|hhyo|っひょ|"
+    - "xform|hhyu|っひゅ|"
+    - "xform|hhya|っひゃ|"
+    - "xform|ddyo|っぢょ|"
+    - "xform|ddyu|っぢゅ|"
+    - "xform|ddya|っぢゃ|"
+    - "xform|ddye|っぢぇ|"
+    - "xform|ttso|っつぉ|"
+    - "xform|ttse|っつぇ|"
+    - "xform|ttsi|っつぃ|"
+    - "xform|ttsa|っつぁ|"
+    - "xform|tcho|っちょ|"
+    - "xform|tchu|っちゅ|"
+    - "xform|tcha|っちゃ|"
+    - "xform|tche|っちぇ|"
+    - "xform|jjo|っじょ|"
+    - "xform|jju|っじゅ|"
+    - "xform|jja|っじゃ|"
+    - "xform|jje|っじぇ|"
+    - "xform|ssho|っしょ|"
+    - "xform|sshu|っしゅ|"
+    - "xform|ssha|っしゃ|"
+    - "xform|sshe|っしぇ|"
+    - "xform|ggwo|っぐぉ|"
+    - "xform|ggwe|っぐぇ|"
+    - "xform|ggwi|っぐぃ|"
+    - "xform|ggwa|っぐぁ|"
+    - "xform|ggyo|っぎょ|"
+    - "xform|ggyu|っぎゅ|"
+    - "xform|ggya|っぎゃ|"
+    - "xform|kkwo|っくぉ|"
+    - "xform|kkwe|っくぇ|"
+    - "xform|kkwi|っくぃ|"
+    - "xform|kkwa|っくぁ|"
+    - "xform|kkyo|っきょ|"
+    - "xform|kkyu|っきゅ|"
+    - "xform|kkya|っきゃ|"
+    - "xform|vvyo|っゔょ|"
+    - "xform|vvyu|っゔゅ|"
+    - "xform|vvya|っゔゃ|"
+    - "xform|vvo|っゔぉ|"
+    - "xform|vve|っゔぇ|"
+    - "xform|vvi|っゔぃ|"
+    - "xform|vva|っゔぁ|"
+    - "xform|rro|っろ|"
+    - "xform|rre|っれ|"
+    - "xform|rru|っる|"
+    - "xform|rri|っり|"
+    - "xform|rra|っら|"
+    - "xform|ppo|っぽ|"
+    - "xform|ppe|っぺ|"
+    - "xform|ppu|っぷ|"
+    - "xform|ppi|っぴ|"
+    - "xform|ppa|っぱ|"
+    - "xform|bbo|っぼ|"
+    - "xform|bbe|っべ|"
+    - "xform|bbu|っぶ|"
+    - "xform|bbi|っび|"
+    - "xform|bba|っば|"
+    - "xform|hho|っほ|"
+    - "xform|hhe|っへ|"
+    - "xform|ffu|っふ|"
+    - "xform|hhu|っふ|" # See above
+    - "xform|hhi|っひ|"
+    - "xform|hha|っは|"
+    - "xform|ddo|っど|"
+    - "xform|dde|っで|"
+    - "xform|ddu|っづ|"
+    - "xform|ddi|っぢ|"
+    - "xform|dda|っだ|"
+    - "xform|tto|っと|"
+    - "xform|tte|って|"
+    - "xform|ttsu|っつ|"
+    - "xform|tchi|っち|"
+    - "xform|tta|った|"
+    - "xform|zzo|っぞ|"
+    - "xform|zze|っぜ|"
+    - "xform|zzu|っず|"
+    - "xform|jji|っじ|"
+    - "xform|zza|っざ|"
+    - "xform|sso|っそ|"
+    - "xform|sse|っせ|"
+    - "xform|ssu|っす|"
+    - "xform|sshi|っし|"
+    - "xform|ssa|っさ|"
+    - "xform|ggo|っご|"
+    - "xform|gge|っげ|"
+    - "xform|ggu|っぐ|"
+    - "xform|ggi|っぎ|"
+    - "xform|gga|っが|"
+    - "xform|kko|っこ|"
+    - "xform|kke|っけ|"
+    - "xform|kku|っく|"
+    - "xform|kki|っき|"
+    - "xform|kka|っか|"
+    - "xform|vvu|っゔ|"
+    - "xform|ryo|りょ|"
+    - "xform|ryu|りゅ|"
+    - "xform|rya|りゃ|"
+    - "xform|myo|みょ|"
+    - "xform|myu|みゅ|"
+    - "xform|mya|みゃ|"
+    - "xform|pyo|ぴょ|"
+    - "xform|pyu|ぴゅ|"
+    - "xform|pya|ぴゃ|"
+    - "xform|byo|びょ|"
+    - "xform|byu|びゅ|"
+    - "xform|bya|びゃ|"
+    - "xform|fyo|ふょ|"
+    - "xform|fyu|ふゅ|"
+    - "xform|fya|ふゃ|"
+    - "xform|fo|ふぉ|"
+    - "xform|fe|ふぇ|"
+    - "xform|fi|ふぃ|"
+    - "xform|fa|ふぁ|"
+    - "xform|hyo|ひょ|"
+    - "xform|hyu|ひゅ|"
+    - "xform|hya|ひゃ|"
+    - "xform|nyo|にょ|"
+    - "xform|nyu|にゅ|"
+    - "xform|nya|にゃ|"
+    - "xform|dyo|ぢょ|"
+    - "xform|dyu|ぢゅ|"
+    - "xform|dya|ぢゃ|"
+    - "xform|dye|ぢぇ|"
+    - "xform|tso|つぉ|"
+    - "xform|tse|つぇ|"
+    - "xform|tsi|つぃ|"
+    - "xform|tsa|つぁ|"
+    - "xform|cho|ちょ|"
+    - "xform|chu|ちゅ|"
+    - "xform|cha|ちゃ|"
+    - "xform|che|ちぇ|"
+    - "xform|jo|じょ|"
+    - "xform|ju|じゅ|"
+    - "xform|ja|じゃ|"
+    - "xform|je|じぇ|"
+    - "xform|sho|しょ|"
+    - "xform|shu|しゅ|"
+    - "xform|sha|しゃ|"
+    - "xform|she|しぇ|"
+    - "xform|gwo|ぐぉ|"
+    - "xform|gwe|ぐぇ|"
+    - "xform|gwi|ぐぃ|"
+    - "xform|gwa|ぐぁ|"
+    - "xform|gyo|ぎょ|"
+    - "xform|gyu|ぎゅ|"
+    - "xform|gya|ぎゃ|"
+    - "xform|kwo|くぉ|"
+    - "xform|kwe|くぇ|"
+    - "xform|kwi|くぃ|"
+    - "xform|kwa|くぁ|"
+    - "xform|kyo|きょ|"
+    - "xform|kyu|きゅ|"
+    - "xform|kya|きゃ|"
+    - "xform|vyo|ゔょ|"
+    - "xform|vyu|ゔゅ|"
+    - "xform|vya|ゔゃ|"
+    - "xform|vo|ゔぉ|"
+    - "xform|ve|ゔぇ|"
+    - "xform|vi|ゔぃ|"
+    - "xform|va|ゔぁ|"
+    - "xform|who|うぉ|"
+    - "xform|whe|うぇ|"
+    - "xform|whi|うぃ|"
+    - "xform|wha|うぁ|"
+    - "xform|tsu|つ|"
+    - "xform|chi|ち|"
+    - "xform|shi|し|"
+    - "xform|wo|を|"
+    - "xform|wa|わ|"
+    - "xform|ro|ろ|"
+    - "xform|re|れ|"
+    - "xform|ru|る|"
+    - "xform|ri|り|"
+    - "xform|ra|ら|"
+    - "xform|yo|よ|"
+    - "xform|yu|ゆ|"
+    - "xform|ya|や|"
+    - "xform|mo|も|"
+    - "xform|me|め|"
+    - "xform|mu|む|"
+    - "xform|mi|み|"
+    - "xform|ma|ま|"
+    - "xform|po|ぽ|"
+    - "xform|pe|ぺ|"
+    - "xform|pu|ぷ|"
+    - "xform|pi|ぴ|"
+    - "xform|pa|ぱ|"
+    - "xform|bo|ぼ|"
+    - "xform|be|べ|"
+    - "xform|bu|ぶ|"
+    - "xform|bi|び|"
+    - "xform|ba|ば|"
+    - "xform|ho|ほ|"
+    - "xform|he|へ|"
+    - "xform|fu|ふ|"
+    - "xform|hu|ふ|" # See above
+    - "xform|hi|ひ|"
+    - "xform|ha|は|"
+    - "xform|nn|ん|"
+    - "xform|no|の|"
+    - "xform|ne|ね|"
+    - "xform|nu|ぬ|"
+    - "xform|ni|に|"
+    - "xform|na|な|"
+    - "xform|do|ど|"
+    - "xform|de|で|"
+    - "xform|du|づ|"
+    - "xform|di|ぢ|"
+    - "xform|da|だ|"
+    - "xform|to|と|"
+    - "xform|te|て|"
+    - "xform|ta|た|"
+    - "xform|zo|ぞ|"
+    - "xform|ze|ぜ|"
+    - "xform|zu|ず|"
+    - "xform|ji|じ|"
+    - "xform|za|ざ|"
+    - "xform|so|そ|"
+    - "xform|se|せ|"
+    - "xform|su|す|"
+    - "xform|sa|さ|"
+    - "xform|go|ご|"
+    - "xform|ge|げ|"
+    - "xform|gu|ぐ|"
+    - "xform|gi|ぎ|"
+    - "xform|ga|が|"
+    - "xform|ko|こ|"
+    - "xform|ke|け|"
+    - "xform|ku|く|"
+    - "xform|ki|き|"
+    - "xform|ka|か|"
+    - "xform|vu|ゔ|"
+    - "xlit|aiueo|あいうえお|"
+    - "xform|-|ー|"
+    # かな出力のため、文割符を消します
+    # 消除分隔符、假名上屏
+    - "xform|'||"
+  preedit_format: *kana_table
+
+editor:
+  bindings:
+    Return: commit_script_text
+
+mandarin_lookup:
+  tag: mandarin_lookup
+  prefix: "`"
+  dictionary: luna_pinyin
+  prism: luna_pinyin
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  # TODO: Add "Simplifier to Japanese Typeface"
+  tips: 〔陸普〕
+
+mandarin_reverse_lookup:
+  tags: [ mandarin_lookup ]
+  dictionary: hifumi
+  spelling_hints: 10
+  comment_format: *kana_table
+
+__patch:
+  - hifumi.custom:/patch?
+

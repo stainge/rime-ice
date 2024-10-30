@@ -1,0 +1,14 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.1
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Thu Sep 19 14:02:00 2024"
+  rime_version: 1.11.2
+patch:
+  "app_options/+":
+    __include: "weasel_style_copy:/app_options"
+  "preset_color_schemes/+":
+    __include: "weasel_style_copy:/preset_color_schemes"
+  "style/+":
+    __include: "weasel_style_copy:/style"
+  "style/color_scheme": google

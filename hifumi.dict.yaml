@@ -1,0 +1,44 @@
+# hifumi.dict.yaml
+# encoding: utf-8
+
+---
+name: hifumi
+version: 'v0.1'
+
+import_tables:
+  - 'mozc'
+...
+
+# 必須
+ー  -
+ぁ	_a
+ぃ	_i
+ぅ	_u
+ぇ	_e
+ぉ	_o
+ゃ	_ya
+ゅ	_yu
+ょ	_yo
+ゎ	_wa
+ゕ	_ka
+ゖ	_ke
+っ	_tsu
+っ	_tu
+った	tta
+ゑ	whe
+ゐ	whi
+づ	du
+ゔ	vu
+# 任意
+↑	ue
+↓	shita
+←	hidari
+→	migi
+○	maru
+×	batsu
+♡	ha-to
+♤	supe-do
+♢	daiya
+♧	kurabu
+〒	yuubin
+〆	shime

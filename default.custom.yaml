@@ -1,0 +1,28 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Oct 10 08:41:30 2024"
+  rime_version: 1.11.2
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: commit_code
+    Shift_R: noop
+  key_binder:
+    bindings: [{accept: "Shift+Tab", send: "Shift+Left", when: composing}, {accept: Tab, send: "Shift+Right", when: composing}, {accept: "Alt+Left", send: "Shift+Left", when: composing}, {accept: "Alt+Right", send: "Shift+Right", when: composing}, {accept: comma, send: Page_Up, when: paging}, {accept: period, send: Page_Down, when: has_menu}, {accept: "Control+Shift+3", toggle: ascii_punct, when: always}, {accept: "Control+Shift+4", toggle: traditionalization, when: always}]
+    select_first_character: bracketleft
+    select_last_character: bracketright
+  "menu/page_size": 7
+  punctuator:
+    full_shape: {" ": {commit: "　"}, "!": {commit: "！"}, "\"": {pair: ["“", "”"]}, "#": ["＃", "⌘"], "$": ["￥", "$", "€", "£", "¥", "¢", "¤"], "%": ["％", "°", "℃"], "&": "＆", "'": {pair: ["‘", "’"]}, "(": "（", ")": "）", "*": ["＊", "·", "・", "×", "※", "❂"], "+": "＋", ",": {commit: "，"}, "-": "－", .: {commit: "。"}, "/": ["／", "÷"], ":": {commit: "："}, ";": {commit: "；"}, "<": ["《", "〈", "«", "‹"], "=": "＝", ">": ["》", "〉", "»", "›"], "?": {commit: "？"}, "@": ["＠", "☯"], "[": ["「", "【", "〔", "［"], "\\": ["、", "＼"], "]": ["」", "】", "〕", "］"], "^": {commit: "……"}, _: "——", "`": "｀", "{": ["『", "〖", "｛"], "|": ["·", "｜", "§", "¦"], "}": ["』", "〗", "｝"], "~": "～"}
+    half_shape: {"!": "！", "\"": {pair: ["“", "”"]}, "#": "#", "$": ["¥", "$", "€", "£", "¢", "¤"], "%": "%", "&": "&", "'": {pair: ["‘", "’"]}, "(": "（", ")": "）", "*": "*", "+": "+", ",": "，", "-": "-", .: "。", "/": ["/", "÷"], ":": "：", ";": "；", "<": ["《", "〈", "«", "<"], "=": "=", ">": ["》", "〉", "»", ">"], "?": "？", "@": "@", "[": ["【", "["], "\\": "、", "]": ["】", "]"], "^": "……", _: "——", "`": "`", "{": "「", "|": "|", "}": "」", "~": "~"}
+  schema_list:
+    - {schema: rime_ice}
+    - {schema: hifumi}
+  "switcher/hotkeys":
+    - "Control+grave"

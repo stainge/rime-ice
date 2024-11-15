@@ -1951,10 +1951,11 @@
 # 「辟若」→「譬若」
 # 「塞伯坦」→「赛博坦」
 # 「清柠」→「青柠」
+#* 「嗔目」→「瞋目」 两者均正确，汉语辞海均收录，「瞋」为「嗔」的异体字
 #///
 ---
 name: base
-version: "2024-11-08"
+version: "2024-11-15"
 sort: by_weight
 ...
 # +_+
@@ -42017,8 +42018,11 @@ sort: by_weight
 仓廪之官	cang lin zhi guan	7
 苍龙	cang long	10740
 藏龙	cang long	2805
+沧龙	cang long	1
 藏龙百瀑	cang long bai pu	6
+沧龙类	cang long lei	1
 苍龙日暮还行雨	cang long ri mu hai xing yu	6
+沧龙属	cang long shu	1
 藏龙卧虎	cang long wo hu	4790
 苍鹭	cang lu	1840
 苍绿	cang lv	9999
@@ -43501,6 +43505,7 @@ sort: by_weight
 测孕	ce yun	470
 测云仪	ce yun yi	20
 侧载	ce zai	3333
+策展	ce zhan	1
 策杖独行	ce zhang du xing	1
 策杖归去来	ce zhang gui qu lai	1
 侧着	ce zhe	8015
@@ -43825,6 +43830,7 @@ sort: by_weight
 茶百戏	cha bai xi	175
 查办	cha ban	47305
 插班	cha ban	6080
+插板	cha ban	1
 差半车麦秸	cha ban che mai jie	35
 查办大案要案	cha ban da an yao an	1165
 查办公司法人违法案件操作规程	cha ban gong si fa ren wei fa an jian cao zuo gui cheng	2
@@ -44151,6 +44157,7 @@ sort: by_weight
 茶会	cha hui	9999
 插回	cha hui	2560
 茶会小区	cha hui xiao qu	24
+插混	cha hun	3333
 查获	cha huo	78697
 查获了	cha huo le	3825
 茶几	cha ji	32430
@@ -50593,6 +50600,7 @@ sort: by_weight
 陈果夫	chen guo fu	80
 陈国顺	chen guo shun	7
 尘海	chen hai	290
+沉海	chen hai	1
 陈海公路	chen hai gong lu	148
 陈海霞	chen hai xia	33
 陈海银	chen hai yin	17
@@ -51000,11 +51008,13 @@ sort: by_weight
 陈某志	chen mou zhi	167
 沉谋重虑	chen mou zhong lv	1
 瞋目	chen mu	480
+# 嗔目	chen mu	0
 瞋目案剑	chen mu an jian	1
 陈牧驰	chen mu chi	166
 陈慕华	chen mu hua	1350
 瞋目裂眦	chen mu lie zi	1
-嗔目切齿	chen mu qie chi	1
+瞋目切齿	chen mu qie chi	1
+# 嗔目切齿	chen mu qie chi	0
 陈木胜	chen mu sheng	125
 瞋目视项王	chen mu shi xiang wang	1
 瞋目张胆	chen mu zhang dan	1
@@ -65291,6 +65301,7 @@ sort: by_weight
 粗略地	cu lve de	5385
 粗略估计	cu lve gu ji	2875
 粗略叙述	cu lve xu shu	25
+粗吗	cu ma	2730
 粗麻	cu ma	1730
 粗麻绳	cu ma sheng	280
 粗莽	cu mang	9999
@@ -70103,12 +70114,14 @@ sort: by_weight
 大刘庄乡	da liu zhuang xiang	7
 大龙	da long	18925
 大笼	da long	52
+打龙	da long	1
 # 达龙	da long	0
 大龙坝	da long ba	1
 大泷粗棘鰕虎鱼	da long cu ji xia hu yu	1
 大龙峒	da long dong	25
 大龙华乡	da long hua xiang	5
 达隆郡	da long jun	13
+打龙吗	da long ma	1
 达隆米尔湖	da long mi er hu	1
 打龙袍	da long pao	166
 大龙坪	da long ping	2
@@ -83718,6 +83731,7 @@ sort: by_weight
 低容积率	di rong ji lv	750
 低柔	di rou	680
 滴入	di ru	12050
+抵入	di ru	120
 滴如车轴	di ru che zhou	1
 羝乳得归	di ru de gui	1
 地若不爱酒	di ruo bu ai jiu	10
@@ -128189,6 +128203,7 @@ sort: by_weight
 搞输入法	gao shu ru fa	15
 高树森	gao shu sen	8
 高树勋	gao shu xun	337
+高刷	gao shua	1111
 高刷屏	gao shua ping	184
 膏霜	gao shuang	2725
 高爽	gao shuang	1470
@@ -299213,6 +299228,8 @@ sort: by_weight
 欺负死你	qi fu si ni	130
 欺负他	qi fu ta	4100
 欺负她	qi fu ta	3410
+起付线	qi fu xian	111
+岐阜县	qi fu xian	1
 起伏着	qi fu zhe	2985
 气腹针	qi fu zhen	9
 乞丐	qi gai	79850
@@ -318525,8 +318542,8 @@ sort: by_weight
 让爱	rang ai	24860
 让爱重生	rang ai chong sheng	8
 攘臂	rang bi	999
-攘臂嗔目	rang bi chen mu	2
 攘臂瞋目	rang bi chen mu	1
+# 攘臂嗔目	rang bi chen mu	0
 攘臂切齿	rang bi qie chi	1
 攘臂一呼	rang bi yi hu	1
 让别人	rang bie ren	73720
@@ -415599,7 +415616,7 @@ sort: by_weight
 乌兰牧骑	wu lan mu qi	1250
 乌兰陶勒盖镇	wu lan tao le gai zhen	6
 乌兰县	wu lan xian	535
-吴兰英	wu lan ying	349
+吴兰英	wu lan ying	1
 五郎	wu lang	10845
 伍郎	wu lang	2
 乌狼鲞烤肉	wu lang xiang kao rou	8
@@ -423344,9 +423361,9 @@ sort: by_weight
 稀稀	xi xi	1770
 淅淅	xi xi	1320
 细隙	xi xi	30
+栖栖	xi xi	1
 西溪	xi xi	1
 # 恓恓	xi xi	0
-# 栖栖	xi xi	0
 # 溪西	xi xi	0
 # 虩虩	xi xi	0
 # 西席	xi xi	0
@@ -485213,6 +485230,7 @@ sort: by_weight
 有会子	you hui zi	9999
 游魂	you hun	11610
 幽魂	you hun	8600
+油混	you hun	3333
 幽魂法师	you hun fa shi	104
 有婚无性	you hun wu xing	140
 有荤有素	you hun you su	490
@@ -520319,15 +520337,16 @@ sort: by_weight
 知己者	zhi ji zhe	1205
 至记者	zhi ji zhe	750
 知己知彼	zhi ji zhi bi	22160
-之家	zhi jia	233155
 指甲	zhi jia	95450
 支架	zhi jia	92035
+之家	zhi jia	23315
 制假	zhi jia	12595
 治假	zhi jia	8888
-治家	zhi jia	7730
 只加	zhi jia	6055
-趾甲	zhi jia	4565
-纸夹	zhi jia	915
+智驾	zhi jia	4444
+趾甲	zhi jia	456
+治家	zhi jia	77
+纸夹	zhi jia	9
 支架厂	zhi jia chang	7
 支家村村	zhi jia cun cun	1
 指甲锉	zhi jia cuo	1605
@@ -530353,7 +530372,8 @@ sort: by_weight
 周末小狗	zhou mo xiao gou	11
 周末休假	zhou mo xiu jia	115
 周某	zhou mou	15140
-州牧	zhou mu	5840
+周目	zhou mu	3333
+州牧	zhou mu	584
 周慕莲	zhou mu lian	2
 周穆王	zhou mu wang	53
 周纳	zhou na	80

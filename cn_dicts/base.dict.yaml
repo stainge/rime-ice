@@ -1953,10 +1953,25 @@
 # 「清柠」→「青柠」
 #* 「嗔目」→「瞋目」 两者均正确，汉语辞海均收录，「瞋」为「嗔」的异体字
 # 「后脑杓」->「后脑勺」
+# 「楮遂良」->「褚遂良」
+# 「朱佑樘」->「朱祐樘」
+# 「周舫」->「周昉」「周鲂」，无知名人物叫「周舫」，唐代画家和三国武将zhou fang常被写成「周舫」
+# 「氯安酮」->「氯胺酮」
+# 「堰蜓座」->「蝘蜓座」
+# 「徐世绩」「李世绩」「李绩」->「李世𪟝」「徐世𪟝」「李𪟝」
+# 「鬼冢虎」->「鬼塚虎」
+# 「打家截舍」→「打家劫舍」
+# 「买官鬻爵」→「卖官鬻爵」
+# 「凌波丽」→「绫波丽」
+# 「玛卡龙」→「马卡龙」
+# 「铺面而来」→「扑面而来」
+# 「若隐若显」→「若隐若现」
+# 「胡芦」→「葫芦」
+# 「葫芦巴」→「胡芦巴」
 #///
 ---
 name: base
-version: "2024-11-25"
+version: "2024-11-30"
 sort: by_weight
 ...
 # +_+
@@ -2943,7 +2958,8 @@ sort: by_weight
 爱爱医	ai ai yi	448
 暧暧远人村	ai ai yuan ren cun	28
 哀哀怨怨	ai ai yuan yuan	165
-爱俺	ai an	111
+爱俺	ai an	1111
+埃安	ai an	222
 艾安琪	ai an qi	2
 爱奥尼亚式	ai ao ni ya shi	21
 艾奥瓦	ai ao wa	1515
@@ -3924,7 +3940,7 @@ sort: by_weight
 爱使股份	ai shi gu fen	12500
 艾氏活额寄居蟹	ai shi huo e ji ju xie	4
 艾氏吕宋花鮨	ai shi lv song hua yi	1
-爱世梦萝	ai shi meng luo	6666
+爱世梦罗	ai shi meng luo	6666
 埃氏磨塘鳢	ai shi mo tang li	1
 埃氏奈波鰕虎鱼	ai shi nai bo xia hu yu	1
 爱是什么	ai shi shen me	3880
@@ -5282,6 +5298,7 @@ sort: by_weight
 氨氯地平	an lv di ping	49
 暗绿色	an lv se	2995
 暗绿稀红	an lv xi hong	1
+暗绿绣眼鸟	an lv xiu yan niao	1
 暗骂	an ma	12400
 鞍马	an ma	5315
 暗码	an ma	890
@@ -7543,6 +7560,7 @@ sort: by_weight
 澳洲燕鸻	ao zhou yan heng	1
 澳洲有袋类	ao zhou you dai lei	10
 熬煮	ao zhu	5265
+袄子	ao zi	111
 凹子	ao zi	68
 鏊子	ao zi	11
 熬走	ao zou	1111
@@ -9010,6 +9028,7 @@ sort: by_weight
 拔伞	ba san	111
 扒三样	ba san yang	23
 扒三样儿	ba san yang er	13
+八色鸫	ba se dong	1
 岜沙	ba sha	9999
 巴莎兰	ba sha lan	1
 巴山	ba shan	1506
@@ -10491,7 +10510,7 @@ sort: by_weight
 白附片	bai fu pian	2
 白浮桥	bai fu qiao	1
 白浮泉路	bai fu quan lu	12
-白腹隼雕和棕腹隼雕	bai fu sun diao he zong fu sun diao	1
+白腹隼雕	bai fu sun diao	1
 白腹小蟌	bai fu xiao cong	1
 柏肤小蠹	bai fu xiao du	8
 白腹鱼狗	bai fu yu gou	1
@@ -10685,6 +10704,7 @@ sort: by_weight
 白喉棒状杆菌	bai hou bang zhuang gan jun	2
 白喉病	bai hou bing	16
 白喉毒素	bai hou du su	145
+白喉红臀鹎	bai hou hong tun bei	1
 白喉抗毒素	bai hou kang du su	4
 白喉类毒素	bai hou lei du su	2
 白喉扇尾鹟	bai hou shan wei weng	1
@@ -10859,6 +10879,7 @@ sort: by_weight
 白记饺子	bai ji jiao zi	50
 白𬶨鲸	bai ji jing	1
 白蒺藜	bai ji li	25
+白鹡鸰	bai ji ling	1
 白鸡梦后三百岁	bai ji meng hou san bai sui	1
 白吉馍	bai ji mo	612
 百吉圈	bai ji quan	3333
@@ -10904,6 +10925,8 @@ sort: by_weight
 百家事	bai jia shi	29
 白家乡	bai jia xiang	16
 百家姓	bai jia xing	6545
+白甲鱼	bai jia yu	1
+白颊噪鹛	bai jia zao mei	1
 柏加镇	bai jia zhen	80
 百家争鸣	bai jia zheng ming	19520
 百家诸子	bai jia zhu zi	375
@@ -11245,7 +11268,6 @@ sort: by_weight
 柏露乡	bai lu xiang	2
 白鹿巷	bai lu xiang	1
 白鹭映春洲	bai lu ying chun zhou	1
-白鹿影院	bai lu ying yuan	1
 白鹿原	bai lu yuan	2570
 白鹿苑	bai lu yuan	2
 白露沾野草	bai lu zhan ye cao	1
@@ -12450,8 +12472,10 @@ sort: by_weight
 白熊	bai xiong	3645
 白胸侧颈龟	bai xiong ce jing gui	1
 白胸刺尾鱼	bai xiong ci wei yu	1
+白胸翡翠	bai xiong fei cui	1
 白胸非洲鸦鹛	bai xiong fei zhou ya mei	1
 白胸黑雀	bai xiong hei que	1
+白胸苦恶鸟	bai xiong ku e niao	1
 白雄乡	bai xiong xiang	3
 白修德	bai xiu de	72
 白秀秀	bai xiu xiu	188
@@ -12535,6 +12559,7 @@ sort: by_weight
 白要	bai yao	755
 百妖	bai yao	111
 百药煎	bai yao jian	6
+白腰文鸟	bai yao wen niao	1
 百妖之巅	bai yao zhi dian	126
 白药子	bai yao zi	6
 百业	bai ye	13850
@@ -13109,6 +13134,7 @@ sort: by_weight
 班表	ban biao	111
 班彪	ban biao	1
 半表半里	ban biao ban li	1
+斑鳖	ban bie	1
 斑鬓	ban bin	90
 搬兵	ban bing	600
 半冰半水	ban bing ban shui	13
@@ -13644,6 +13670,7 @@ sort: by_weight
 斑喉希鹛	ban hou xi mei	1
 伴虎	ban hu	3333
 板胡	ban hu	22
+斑鳠	ban hu	1
 办护照	ban hu zhao	985
 版画	ban hua	40050
 班花	ban hua	3185
@@ -13693,6 +13720,7 @@ sort: by_weight
 班吉斯	ban ji si	1
 班集体	ban ji ti	19715
 半机械化	ban ji xie hua	1665
+斑姬啄木鸟	ban ji zhuo mu niao	1
 搬家	ban jia	100680
 半价	ban jia	23465
 板甲	ban jia	1260
@@ -14493,6 +14521,7 @@ sort: by_weight
 半透膜	ban tou mo	1285
 坂头社区	ban tou she qu	2
 半透性	ban tou xing	1
+斑头鸺鹠	ban tou xiu liu	1130
 斑头雁	ban tou yan	1130
 版图	ban tu	33590
 半途	ban tu	9515
@@ -14808,7 +14837,7 @@ sort: by_weight
 # 坂仔	ban zai	0
 版载千秋	ban zai qian qiu	142
 板载显卡	ban zai xian ka	1200
-半藏	ban zang	15
+半藏	ban zang	3333
 半藏半汉	ban zang ban han	15
 班枣乡	ban zao xiang	1
 半泽	ban ze	111
@@ -20178,6 +20207,7 @@ sort: by_weight
 贝壳	bei ke	73490
 备课	bei ke	59135
 碑刻	bei ke	15240
+背壳	bei ke	111
 鹎科	bei ke	2
 贝克	bei ke	1
 备课笔记	bei ke bi ji	157
@@ -23425,6 +23455,7 @@ sort: by_weight
 逼近	bi jin	54460
 必尽	bi jin	2770
 逼近的	bi jin de	3825
+臂金龟	bi jin gui	1
 逼近了	bi jin le	3240
 彼进我退	bi jin wo tui	30
 毕竟	bi jing	500286
@@ -27955,6 +27986,8 @@ sort: by_weight
 瘪了	bie le	3380
 憋了	bie le	1111
 别类分门	bie lei fen men	1
+别累着	bie lei zhe	1111
+别累着了	bie lei zhe le	1111
 别离	bie li	29025
 别理	bie li	5570
 别利察	bie li cha	178
@@ -28244,6 +28277,7 @@ sort: by_weight
 别涨价	bie zhang jia	333
 别涨了	bie zhang le	333
 别张一军	bie zhang yi jun	1
+别找	bie zhao	3333
 别着急	bie zhao ji	10315
 别找了	bie zhao le	640
 别找我	bie zhao wo	1540
@@ -28328,7 +28362,6 @@ sort: by_weight
 宾馆路	bin guan lu	2
 宾馆南道	bin guan nan dao	2
 宾馆西路	bin guan xi lu	5
-宾馆在线	bin guan zai xian	220
 滨海	bin hai	7617
 濒海	bin hai	1960
 滨海道	bin hai dao	5
@@ -28680,6 +28713,7 @@ sort: by_weight
 秉持	bing chi	16850
 屏斥	bing chi	105
 秉持着	bing chi zhe	3400
+病虫	bing chong	111
 病虫害	bing chong hai	68530
 并处	bing chu	285845
 并出	bing chu	18540
@@ -30952,7 +30986,7 @@ sort: by_weight
 波切蒂诺	bo qie di nuo	128
 泊秦淮	bo qin huai	1035
 薄情	bo qing	3445
-博球网	bo qiu wang	17
+薄鳅	bo qiu	1
 博取	bo qu	12035
 剥去	bo qu	9725
 剥取	bo qu	9199
@@ -31151,6 +31185,7 @@ sort: by_weight
 博文	bo wen	21110
 博闻	bo wen	2905
 博闻辩言	bo wen bian yan	1
+波纹唇鱼	bo wen chun yu	1
 波纹管	bo wen guan	12840
 波纹壳蛞蝓	bo wen ke kuo yu	1
 博文路	bo wen lu	62
@@ -35459,7 +35494,6 @@ sort: by_weight
 不赔不赚	bu pei bu zhuan	540
 不配得到	bu pei de dao	590
 不配合	bu pei he	10265
-不配合强奸	bu pei he qiang jian	1
 不配怀念	bu pei huai nian	144
 不陪你	bu pei ni	64
 不配套	bu pei tao	8765
@@ -40116,12 +40150,14 @@ sort: by_weight
 采捞	cai lao	145
 踩了	cai le	11020
 采了	cai le	4815
+裁了	cai le	333
 猜了	cai le	222
 菜了	cai le	111
 踩了个空	cai le ge kong	160
 踩雷	cai lei	9999
 财力	cai li	125580
 彩礼	cai li	6515
+菜里	cai li	111
 才力	cai li	3
 # 财礼	cai li	0
 才离开	cai li kai	6625
@@ -42080,7 +42116,6 @@ sort: by_weight
 仓山区	cang shan qu	8030
 苍山县	cang shan xian	1990
 苍山雪绿	cang shan xue lv	14
-仓山影院	cang shan ying yuan	4
 仓山镇政府	cang shan zhen zheng fu	2
 仓上	cang shang	54
 苍上村	cang shang cun	3
@@ -42155,6 +42190,7 @@ sort: by_weight
 沧县	cang xian	4155
 仓巷	cang xiang	79
 仓箱可期	cang xiang ke qi	1
+仓鸮	cang xiao	1
 藏小大有宜	cang xiao da you yi	1
 藏心鱼圆	cang xin yu yuan	11
 苍姓	cang xing	55
@@ -42666,7 +42702,8 @@ sort: by_weight
 操券而取	cao quan er qu	1
 草裙舞	cao qun wu	1290
 曹仁	cao ren	7260
-草人	cao ren	2720
+糙人	cao ren	1111
+草人	cao ren	272
 草忍	cao ren	11
 曹仁虎	cao ren hu	1
 糙仁排骨粥	cao ren pai gu zhou	1
@@ -42800,6 +42837,7 @@ sort: by_weight
 # 曹湘	cao xiang	0
 曹祥泰	cao xiang tai	21
 草香园	cao xiang yuan	9
+草鸮	cao xiao	1
 草鞋	cao xie	14165
 草写	cao xie	385
 草鞋蚧	cao xie jie	1
@@ -44575,6 +44613,7 @@ sort: by_weight
 叉尾卷尾	cha wei juan wei	1
 差慰人意	cha wei ren yi	1
 查韦斯	cha wei si	7030
+叉尾太阳鸟	cha wei tai yang niao	1
 叉尾鹰鱼	cha wei ying yu	1
 叉尾圆颌针鱼	cha wei yuan he zhen yu	1
 叉尾侏霸鹟	cha wei zhu ba weng	1
@@ -45868,6 +45907,7 @@ sort: by_weight
 长鼻粗吻海龙	chang bi cu wen hai long	1
 常庇分布曲线	chang bi fen bu qu xian	1
 长臂管辖权	chang bi guan xia quan	18
+长臂金龟	chang bi jin gui	1
 长臂蛮	chang bi man	1
 长鼻皮琛海豚	chang bi pi chen hai tun	1
 场比赛	chang bi sai	39220
@@ -47690,6 +47730,7 @@ sort: by_weight
 常微分	chang wei fen	145
 常微分方程	chang wei fen fang cheng	3530
 常微分方程次数	chang wei fen fang cheng ci shu	5
+长尾缝叶莺	chang wei feng ye ying	1
 长尾副平牙鰕虎鱼	chang wei fu ping ya xia hu yu	1
 长尾高眉鳝	chang wei gao mei shan	1
 长尾鹮	chang wei huan	1
@@ -47733,6 +47774,7 @@ sort: by_weight
 常问	chang wen	5065
 长吻长尾鳕	chang wen chang wei xue	1
 常温超导	chang wen chao dao	151
+长吻虫	chang wen chong	1
 长吻袋貂	chang wen dai diao	2
 长文档	chang wen dang	12
 长吻多棘牛尾鱼	chang wen duo ji niu wei yu	1
@@ -47929,6 +47971,7 @@ sort: by_weight
 # 畅言	chang yan	0
 # 长堰	chang yan	0
 常言道	chang yan dao	12140
+长阎甲	chang yan jia	1
 长烟落日孤城闭	chang yan luo ri gu cheng bi	1180
 肠炎宁胶囊	chang yan ning jiao nang	8
 肠炎宁颗粒	chang yan ning ke li	7
@@ -48479,6 +48522,7 @@ sort: by_weight
 超顶	chao ding	3333
 朝顶	chao ding	210
 朝东	chao dong	10770
+嘲鸫	chao dong	1
 朝东北	chao dong bei	380
 朝东的	chao dong de	980
 朝东方	chao dong fang	320
@@ -49826,6 +49870,7 @@ sort: by_weight
 车行	che hang	37875
 车号	che hao	11170
 车好	che hao	4050
+砗蚝	che hao	1
 车号牌	che hao pai	1610
 车河管理区	che he guan li qu	1
 车后	che hou	31805
@@ -51001,7 +51046,6 @@ sort: by_weight
 陈慕华	chen mu hua	1350
 瞋目裂眦	chen mu lie zi	1
 瞋目切齿	chen mu qie chi	1
-# 嗔目切齿	chen mu qie chi	0
 陈木胜	chen mu sheng	125
 瞋目视项王	chen mu shi xiang wang	1
 瞋目张胆	chen mu zhang dan	1
@@ -53109,6 +53153,7 @@ sort: by_weight
 # 程荣	cheng rong	0
 蛏肉干	cheng rou gan	1
 诚如	cheng ru	13710
+盛入	cheng ru	1111
 成如容易却艰辛	cheng ru rong yi que jian xin	59
 程瑞声	cheng rui sheng	31
 撑伞	cheng san	4130
@@ -54995,6 +55040,7 @@ sort: by_weight
 吃龙虾	chi long xia	1005
 赤露	chi lu	565
 齿录	chi lu	75
+池鹭	chi lu	2
 斥卤	chi lu	1
 赤鹿	chi lu	1
 持禄保位	chi lu bao wei	1
@@ -55043,6 +55089,7 @@ sort: by_weight
 耻毛	chi mao	1465
 持矛	chi mao	700
 吃猫鼠	chi mao shu	279
+吃么	chi me	3333
 赤眉	chi mei	2550
 魑魅	chi mei	2250
 迟眉钝眼	chi mei dun yan	1
@@ -55349,6 +55396,7 @@ sort: by_weight
 赤兔	chi tu	4725
 赤土	chi tu	2105
 驰突	chi tu	350
+齿突蟾	chi tu chan	1
 赤土村	chi tu cun	13
 赤兔镫	chi tu deng	3
 赤兔马	chi tu ma	3510
@@ -55913,6 +55961,7 @@ sort: by_weight
 充电	chong dian	170375
 充点	chong dian	835
 充电宝	chong dian bao	9999
+虫电宝	chong dian bao	2
 充电电池	chong dian dian chi	20905
 充电电流	chong dian dian liu	4905
 充电电路	chong dian dian lu	920
@@ -58473,6 +58522,7 @@ sort: by_weight
 初进	chu jin	4780
 储金	chu jin	3345
 除尽	chu jin	3005
+出金	chu jin	111
 触禁犯忌	chu jin fan ji	1
 出尽风头	chu jin feng tou	2760
 出金率	chu jin lv	180
@@ -59358,6 +59408,7 @@ sort: by_weight
 出书	chu shu	26605
 除数	chu shu	5845
 处暑	chu shu	1880
+楮树	chu shu	1
 处暑节气	chu shu jie qi	193
 除霜	chu shuang	7490
 初霜	chu shuang	2
@@ -62797,6 +62848,7 @@ sort: by_weight
 纯铁	chun tie	2855
 春铁大厦	chun tie da sha	2
 椿庭	chun ting	9999
+春蜓	chun ting	1
 椿庭萱室	chun ting xuan shi	1
 椿庭萱堂	chun ting xuan tang	1
 春庭雪	chun ting xue	168
@@ -63321,6 +63373,7 @@ sort: by_weight
 此恨绵绵	ci hen mian mian	345
 此恨绵绵无绝期	ci hen mian mian wu jue qi	1200
 此恨无穷	ci hen wu qiong	225
+刺魟	ci hong	1
 此后	ci hou	249220
 伺候	ci hou	37015
 此后汉所以倾颓也	ci hou han suo yi qing tui ye	5
@@ -64043,6 +64096,7 @@ sort: by_weight
 此药	ci yao	11520
 瓷窑	ci yao	3510
 磁窑	ci yao	145
+刺鳐	ci yao	1
 次要的	ci yao de	12745
 次要方面	ci yao fang mian	1260
 次要矛盾	ci yao mao dun	2185
@@ -66927,8 +66981,7 @@ sort: by_weight
 大班椅	da ban yi	2380
 大阪樱花	da ban ying hua	133
 大阪直美	da ban zhi mei	183
-大斑啄本鸟	da ban zhuo ben niao	1
-大斑啄木	da ban zhuo mu	37
+大斑啄木鸟	da ban zhuo mu niao	38
 打板子	da ban zi	4530
 搭班子	da ban zi	560
 打扮自己	da ban zi ji	5015
@@ -67378,6 +67431,7 @@ sort: by_weight
 大车轮	da che lun	255
 打车去	da che qu	2340
 搭车去	da che qu	890
+大砗磲	da che qu	1
 打车软件	da che ruan jian	144
 大车驷马	da che si ma	1
 大撤退	da che tui	160
@@ -67770,6 +67824,9 @@ sort: by_weight
 大地春回	da di chun hui	28
 大地磁盘	da di ci pan	1
 大敌当前	da di dang qian	2520
+打滴滴	da di di	444
+打弟弟	da di di	3
+大弟弟	da di di	2
 打地洞	da di dong	185
 打底稿	da di gao	150
 大地构造	da di gou zao	1630
@@ -68809,6 +68866,7 @@ sort: by_weight
 大红灯笼	da hong deng long	3000
 大红灯笼高高挂	da hong deng long gao gao gua	3615
 大红沟乡	da hong gou xiang	8
+大红鹳	da hong guan	1
 大红花	da hong hua	2845
 大红剪绒	da hong jian rong	1
 大宏立	da hong li	132
@@ -69081,8 +69139,6 @@ sort: by_weight
 搭机	da ji	2460
 大蓟	da ji	1
 打几把	da ji ba	2210
-大鸡巴	da ji ba	1540
-打鸡巴	da ji ba	154
 打击报复	da ji bao fu	25815
 打击报复举报人	da ji bao fu ju bao ren	1875
 大级别	da ji bie	1425
@@ -69179,7 +69235,6 @@ sort: by_weight
 大家伙儿	da jia huo er	1295
 打家劫盗	da jia jie dao	1
 打家劫舍	da jia jie she	2000
-打家截舍	da jia jie she	111
 大家举止	da jia ju zhi	3
 大家开始	da jia kai shi	7225
 大家可以	da jia ke yi	92
@@ -72357,7 +72412,6 @@ sort: by_weight
 大型货车	da xing huo che	7100
 大型活动	da xing huo dong	32915
 大型机	da xing ji	8905
-大兴集	da xing ji	8
 大型集会	da xing ji hui	1795
 大型计算机	da xing ji suan ji	2305
 大型轿车	da xing jiao che	910
@@ -73527,6 +73581,7 @@ sort: by_weight
 大嘴巴	da zui ba	5025
 打嘴巴	da zui ba	260
 打嘴炮	da zui pao	1234
+大嘴乌鸦	da zui wu ya	1
 打嘴仗	da zui zhang	635
 大罪状	da zui zhuang	205
 打坐	da zuo	19130
@@ -82535,6 +82590,7 @@ sort: by_weight
 滴管	di guan	4670
 笛管	di guan	460
 骶管裂孔	di guan lie kong	1
+地官赦罪	di guan she zui	1
 地广	di guang	3440
 地光	di guang	965
 地广民稀	di guang min xi	3
@@ -82542,6 +82598,7 @@ sort: by_weight
 地广人稀	di guang ren xi	4510
 地广人众	di guang ren zhong	15
 递归	di gui	91824
+地龟	di gui	1
 递归遍历	di gui bian li	2267
 递归查询	di gui cha xun	1207
 递归调用	di gui diao yong	13748
@@ -85641,6 +85698,7 @@ sort: by_weight
 地心说	di xin shuo	800
 低心下意	di xin xia yi	1
 地形	di xing	143765
+帝星	di xing	1
 狄姓	di xing	1
 地形测量	di xing ce liang	169
 递兴递废	di xing di fei	1
@@ -86829,6 +86887,7 @@ sort: by_weight
 电波干扰	dian bo gan rao	270
 电博会	dian bo hui	1000
 点播系统	dian bo xi tong	12750
+点不	dian bu	2222
 垫步	dian bu	1035
 垫布	dian bu	955
 点补	dian bu	760
@@ -92905,6 +92964,7 @@ sort: by_weight
 东茅街	dong mao jie	18
 冬毛老鼠	dong mao lao shu	17
 东茅岭街道	dong mao ling jie dao	19
+懂么	dong me	3333
 冬梅	dong mei	21350
 # 东梅	dong mei	0
 # 东美	dong mei	0
@@ -94685,6 +94745,7 @@ sort: by_weight
 都跟我	dou gen wo	65
 都跟着	dou gen zhe	6380
 豆羹	dou geng	33
+都更	dou geng	0
 都更多	dou geng duo	333
 都更好	dou geng hao	333
 都更换	dou geng huan	333
@@ -95339,6 +95400,7 @@ sort: by_weight
 豆芽子	dou ya zi	188
 斗艳	dou yan	2175
 斗眼	dou yan	130
+豆雁	dou yan	1
 # 窦燕	dou yan	0
 豆眼白	dou yan bai	1
 斗艳争妍	dou yan zheng yan	3
@@ -95780,6 +95842,7 @@ sort: by_weight
 赌对了	du dui le	1111
 都铎	du duo	1
 毒蛾	du e	1085
+度厄	du e	1
 毒饵	du er	8855
 堵耳	du er	5555
 杜尔伯特	du er bo te	2275
@@ -95824,6 +95887,7 @@ sort: by_weight
 杜夫人	du fu ren	164
 毒赋剩敛	du fu sheng lian	1
 杜父石狗公	du fu shi gou gong	1
+杜父鱼	du fu yu	1
 杜父鱼亚目	du fu yu ya mu	1
 毒副作用	du fu zuo yong	19125
 # 杜纲	du gang	0
@@ -95838,7 +95902,6 @@ sort: by_weight
 堵格乡	du ge xiang	8
 读给	du gei	4390
 都更	du geng	111
-# 都更	du geng	0
 渡工	du gong	1090
 督工	du gong	650
 杜工部集	du gong bu ji	230
@@ -104908,8 +104971,7 @@ sort: by_weight
 法官	fa guan	295320
 法官大人	fa guan da ren	865
 法官法	fa guan fa	3590
-法官告诉您怎样打交通肇事官司	fa guan gao su nin zen yang da jiao tong zhao shi guan si	9
-法官告诉您怎样打消费维权官司	fa guan gao su nin zen yang da xiao fei wei quan guan si	2
+发冠卷尾	fa guan juan wei	1
 法官袍	fa guan pao	95
 法官行为与职业伦理	fa guan xing wei yu zhi ye lun li	3
 法官员额制	fa guan yuan e zhi	75
@@ -107948,6 +108010,7 @@ sort: by_weight
 反射炉	fan she lu	1000
 反射率	fan she lv	6495
 反射面	fan she mian	1360
+反舌鸟	fan she niao	1
 反射器	fan she qi	3225
 反射伤害	fan she shang hai	15
 反射式	fan she shi	5695
@@ -116982,6 +117045,7 @@ sort: by_weight
 凤头绿咬鹃	feng tou lv yao juan	1
 凤头麦鸡	feng tou mai ji	145
 凤头䴙䴘	feng tou pi ti	20
+凤头潜鸭	feng tou qian ya	1
 风头如刀面如割	feng tou ru dao mian ru ge	3
 奉头鼠窜	feng tou shu cuan	1
 凤头眼斑雉	feng tou yan ban zhi	1
@@ -117366,6 +117430,7 @@ sort: by_weight
 风也温柔	feng ye wen rou	178
 枫叶小镇	feng ye xiao zhen	178
 枫叶新都市	feng ye xin du shi	64
+缝叶莺	feng ye ying	1
 枫叶欲残看愈好	feng ye yu can kan yu hao	1
 枫叶苑	feng ye yuan	11
 风衣	feng yi	31590
@@ -120372,6 +120437,7 @@ sort: by_weight
 妇女杂志	fu nv za zhi	665
 妇女专座	fu nv zhuan zuo	15
 妇女组织	fu nv zu zhi	6510
+浮鸥	fu ou	40
 复排	fu pai	9999
 复牌	fu pai	7855
 副牌	fu pai	7490
@@ -123840,7 +123906,9 @@ sort: by_weight
 该着	gai zhao	1305
 盖罩大蜗牛	gai zhao da wo niu	23
 盖着	gai zhe	13590
+改着	gai zhe	333
 改辙	gai zhe	215
+改着改着	gai zhe gai zhe	333
 盖着呢	gai zhe ne	10
 该镇	gai zhen	39485
 该帧	gai zhen	1235
@@ -124267,6 +124335,7 @@ sort: by_weight
 干点	gan dian	10830
 赶点	gan dian	330
 干电池	gan dian chi	10265
+干点儿	gan dian er	350
 赶点儿	gan dian er	35
 干点正事	gan dian zheng shi	115
 干掉	gan diao	48800
@@ -127277,10 +127346,10 @@ sort: by_weight
 搞活市场	gao huo shi chang	1070
 高级	gao ji	500602
 告急	gao ji	13075
-搞基	gao ji	9999
+搞基	gao ji	5000
 膏剂	gao ji	4700
 搞机	gao ji	54
-高技	gao ji	4
+# 高技	gao ji	0
 高级安卓	gao ji an zhuo	21
 搞几把	gao ji ba	75
 高级白领	gao ji bai ling	5420
@@ -127797,6 +127866,7 @@ sort: by_weight
 搞毛	gao mao	9999
 高帽	gao mao	3290
 高帽子	gao mao zi	2230
+搞么	gao me	3333
 高门	gao men	2770
 高门大屋	gao men da wu	5
 高门大宅	gao men da zhai	3
@@ -128880,6 +128950,7 @@ sort: by_weight
 高原露	gao yuan lu	61
 高原期	gao yuan qi	850
 高原气候	gao yuan qi hou	3320
+高原鳅	gao yuan qiu	1
 高原适应不全症	gao yuan shi ying bu quan zheng	3
 高院推广	gao yuan tui guang	68
 高原性心脏病	gao yuan xing xin zang bing	33
@@ -129618,7 +129689,7 @@ sort: by_weight
 歌技	ge ji	365
 葛记	ge ji	224
 格机	ge ji	1
-个鸡巴	ge ji ba	9999
+各级把	ge ji ba	1
 各级党委	ge ji dang wei	65980
 各级党委和政府	ge ji dang wei he zheng fu	16815
 各级党组	ge ji dang zu	216
@@ -136335,6 +136406,7 @@ sort: by_weight
 购车族	gou che zu	700
 勾陈	gou chen	5905
 钩沉	gou chen	2490
+勾陈一	gou chen yi	1
 构成	gou cheng	500429
 钩秤	gou cheng	1
 构成部分	gou cheng bu fen	3860
@@ -136644,6 +136716,7 @@ sort: by_weight
 够忙	gou mang	740
 钩毛	gou mao	1
 狗猫鼠	gou mao shu	118
+够么	gou me	3333
 够没	gou mei	9999
 够美	gou mei	1111
 沟门	gou men	34
@@ -136770,6 +136843,7 @@ sort: by_weight
 钩手指	gou shou zhi	123
 购书	gou shu	43090
 够数	gou shu	1020
+构树	gou shu	1
 狗鼠不食其余	gou shu bu shi qi yu	1
 购书费	gou shu fei	275
 购书款	gou shu kuan	720
@@ -138909,6 +138983,7 @@ sort: by_weight
 股数	gu shu	15845
 鼓书	gu shu	9
 故书	gu shu	1
+榖树	gu shu	1
 孤树不成林	gu shu bu cheng lin	3
 古蜀国	gu shu guo	161
 孤束核	gu shu he	110
@@ -139149,6 +139224,7 @@ sort: by_weight
 古昔	gu xi	925
 故习	gu xi	305
 痼习	gu xi	55
+姑洗	gu xi	1
 # 谷溪	gu xi	0
 骨细胞	gu xi bao	3220
 顾锡畴	gu xi chou	2
@@ -142074,6 +142150,7 @@ sort: by_weight
 关于法	guan yu fa	123
 观隅反三	guan yu fan san	1
 关于公司	guan yu gong si	21755
+冠鱼狗	guan yu gou	1
 关于股权	guan yu gu quan	1320
 关于贯彻	guan yu guan che	20690
 观于海者难为水	guan yu hai zhe nan wei shui	20
@@ -142550,6 +142627,7 @@ sort: by_weight
 广岛	guang dao	12410
 光导	guang dao	2765
 光刀	guang dao	999
+逛到	guang dao	111
 广岛三箭	guang dao san jian	183
 光导体	guang dao ti	575
 光导纤维	guang dao xian wei	3390
@@ -154855,6 +154933,7 @@ sort: by_weight
 好爽	hao shuang	5045
 豪爽	hao shuang	2827
 好爽啊	hao shuang a	1420
+好水	hao shui	9000
 耗水	hao shui	8925
 好睡	hao shui	6340
 耗水量	hao shui liang	5240
@@ -155247,13 +155326,14 @@ sort: by_weight
 好与名山作主人	hao yu ming shan zuo zhu ren	1
 好语如珠	hao yu ru zhu	1
 好雨知时节	hao yu zhi shi jie	865
-号院	hao yuan	29010
 好远	hao yuan	12650
-豪园	hao yuan	7700
-浩源	hao yuan	1665
+好圆	hao yuan	8100
 号源	hao yuan	915
-好圆	hao yuan	810
+号院	hao yuan	290
+# 浩源	hao yuan	0
+# 豪园	hao yuan	0
 好远啊	hao yuan a	500
+好圆啊	hao yuan a	400
 号院社区	hao yuan she qu	26
 皓月	hao yue	14445
 皓月大路	hao yue da lu	131
@@ -155836,6 +155916,7 @@ sort: by_weight
 褐翅雀	he chi que	1
 河池市	he chi shi	8325
 河池县	he chi xian	3
+褐翅鸦鹃	he chi ya juan	1
 褐翅燕鸥	he chi yan ou	14
 褐翅叶蝉	he chi ye chan	1
 合齿鱼亚目	he chi yu ya mu	1
@@ -156984,6 +157065,7 @@ sort: by_weight
 河漫滩	he man tan	945
 何满子	he man zi	1035
 喝茅台	he mao tai	137
+喝么	he me	3333
 和美	he mei	41105
 褐煤	he mei	3170
 核酶	he mei	735
@@ -157916,6 +157998,7 @@ sort: by_weight
 合同自体法	he tong zi ti fa	16
 合同自由	he tong zi you	1600
 # 河头	he tou	0
+褐头鹪莺	he tou jiao ying	1
 禾头生耳	he tou sheng er	1
 河头源	he tou yuan	5
 喝吐	he tu	4444
@@ -158892,6 +158975,7 @@ sort: by_weight
 黑翅牡丹鹦鹉	hei chi mu dan ying wu	1
 黑翅拟皱膝蝗	hei chi ni zhou xi huang	1
 黑翅鹟鵙	hei chi weng ju	1
+黑翅鸢	hei chi yuan	1
 黑翅皱膝蝗	hei chi zhou xi huang	1
 黑船	hei chuan	1111
 黑川	hei chuan	57
@@ -158936,7 +159020,10 @@ sort: by_weight
 黑点棘鳞鱼	hei dian ji lin yu	1
 黑典型	hei dian xing	15
 黑貂	hei diao	645
-黑屌	hei diao	1
+黑掉	hei diao	66
+黑雕	hei diao	1
+黑鲷	hei diao	1
+# 黑屌	hei diao	0
 黑貂之裘	hei diao zhi qiu	3
 黑顶蛙嘴夜鹰	hei ding wa zui ye ying	1
 黑顶侏霸鹟	hei ding zhu ba weng	1
@@ -158954,11 +159041,12 @@ sort: by_weight
 黑度	hei du	2605
 黑肚黑魔鲸	hei du hei mo jing	1
 黑端白小灰蝶	hei duan bai xiao hui die	1
+黑短脚鹎	hei duan jiao bei	1
 黑端榕蛾	hei duan rong e	1
 黑盾粗股肖叶甲	hei dun cu gu xiao ye jia	1
-黑盾防火墙	hei dun fang huo qiang	87
-黑盾数据库安全	hei dun shu ju ku an quan	87
-黑盾数据库安全审计系统	hei dun shu ju ku an quan shen ji xi tong	87
+# 黑盾防火墙	hei dun fang huo qiang	0
+# 黑盾数据库安全	hei dun shu ju ku an quan	0
+# 黑盾数据库安全审计系统	hei dun shu ju ku an quan shen ji xi tong	0
 黑恶	hei e	1245
 黑额地霸鹟	hei e di ba weng	1
 黑额盔萤金花虫	hei e kui ying jin hua chong	1
@@ -159178,6 +159266,7 @@ sort: by_weight
 黑颈喷毒眼镜蛇	hei jing pen du yan jing she	2
 黑睛破损	hei jing po sun	1
 黑镜头	hei jing tou	1065
+黑卷尾	hei juan wei	1
 黑骏马	hei jun ma	1170
 黑菌蘑菇汤	hei jun mo gu tang	9
 黑鲪鱼	hei jun yu	6
@@ -159222,10 +159311,12 @@ sort: by_weight
 黑里透红	hei li tou hong	500
 黑脸	hei lian	13705
 黑鲢	hei lian	100
+黑脸噪鹛	hei lian zao mei	1
 黑亮	hei liang	6895
 黑料	hei liao	9999
 黑领结	hei ling jie	133
 黑领阶层	hei ling jie ceng	5
+黑领椋鸟	hei ling liang niao	1
 黑瘤	hei liu	150
 黑溜溜	hei liu liu	9999
 黑龙	hei long	41930
@@ -159488,6 +159579,7 @@ sort: by_weight
 黑山寨	hei shan zhai	17
 黑山嘴乡	hei shan zui xiang	4
 黑哨	hei shao	4405
+黑麝	hei she	1
 黑社会	hei she hui	60280
 黑社会组织	hei she hui zu zhi	2505
 黑神话	hei shen hua	134
@@ -159610,13 +159702,16 @@ sort: by_weight
 黑网	hei wang	1440
 黑网吧	hei wang ba	9355
 黑尾长扁步行虫	hei wei chang bian bu xing chong	1
+黑尾塍鹬	hei wei cheng yu	1
 黑苇鳽	hei wei jian	1
 黑尾酱	hei wei jiang	119
 黑尾金粉蝇	hei wei jin fen ying	1
 黑尾近红𬶋	hei wei jin hong ju	1
 黑尾阔脚袋鼩	hei wei kuo jiao dai qu	1
+黑尾蜡嘴雀	hei wei la zui que	1
 黑尾梅花雀	hei wei mei hua que	1
 黑尾牛羚	hei wei niu ling	10
+黑尾鸥	hei wei ou	1
 黑伪瓢拟步行虫	hei wei piao ni bu xing chong	1
 黑尾突吻糯鳗	hei wei tu wen nuo man	1
 黑尾小沙丁鱼	hei wei xiao sha ding yu	1
@@ -159777,6 +159872,7 @@ sort: by_weight
 黑玉米饮料	hei yu mi yin liao	1
 黑鱼泡	hei yu pao	4
 黑鱼子酱	hei yu zi jiang	21
+黑鸢	hei yuan	1
 黑缘白枣灰蝶	hei yuan bai zao hui die	1
 黑缘橙粉蝶	hei yuan cheng fen die	1
 黑缘刺鲨	hei yuan ci sha	1
@@ -161564,6 +161660,7 @@ sort: by_weight
 鸿恩寺森林公园	hong en si sen lin gong yuan	79
 宏恩医院	hong en yi yuan	35
 洪恩在线	hong en zai xian	28
+红耳鹎	hong er bei	1
 虹二村	hong er cun	5
 红发	hong fa	10945
 弘法	hong fa	111
@@ -161675,6 +161772,7 @@ sort: by_weight
 宏观	hong guan	124415
 红馆	hong guan	4470
 红冠	hong guan	660
+红鹳	hong guan	1
 宏观财政政策	hong guan cai zheng zheng ce	96
 宏观分析	hong guan fen xi	1800
 宏观管理	hong guan guan li	22560
@@ -161900,6 +161998,7 @@ sort: by_weight
 红角娇鹟	hong jiao jiao weng	1
 红脚苦恶鸟	hong jiao ku e niao	17
 红椒酿肉	hong jiao niang rou	51
+红脚隼	hong jiao sun	1
 红角鸮	hong jiao xiao	6
 红角洲管理处	hong jiao zhou guan li chu	9
 红姐	hong jie	2875
@@ -162331,7 +162430,6 @@ sort: by_weight
 红旗大队	hong qi da dui	45
 红旗党	hong qi dang	520
 红旗电缆	hong qi dian lan	17
-红旗电影院	hong qi dian ying yuan	7
 红旗东路	hong qi dong lu	97
 洪七公	hong qi gong	10785
 红旗河沟	hong qi he gou	1028
@@ -162726,6 +162824,7 @@ sort: by_weight
 红酥手	hong su shou	1260
 红髓	hong sui	1
 红碎茶	hong sui cha	1636
+红隼	hong sun	1
 哄他	hong ta	3333
 哄她	hong ta	2222
 红塔	hong ta	141
@@ -162784,6 +162883,7 @@ sort: by_weight
 红透	hong tou	7545
 红头	hong tou	5055
 红头阿三	hong tou a san	185
+红头长尾山雀	hong tou chang wei shan que	1
 红头发	hong tou fa	1665
 红头帽	hong tou mao	22
 红头毛室茧蜂	hong tou mao shi jian feng	1
@@ -162872,6 +162972,7 @@ sort: by_weight
 # 红卫	hong wei	0
 红尾鵖	hong wei bi	1
 红卫兵	hong wei bing	17785
+红尾伯劳	hong wei bo lao	1
 宏伟的	hong wei de	20760
 宏微观	hong wei guan	1445
 红尾黑巴丹	hong wei hei ba dan	1
@@ -162889,9 +162990,11 @@ sort: by_weight
 红尾牛顿莺	hong wei niu dun ying	1
 红卫桥	hong wei qiao	49
 宏伟区	hong wei qu	610
+红尾鸲	hong wei qu	1
 红尾蚺	hong wei ran	87
 红尾扇尾鹟	hong wei shan wei weng	1
 宏伟事业	hong wei shi ye	2095
+红尾水鸲	hong wei shui qu	1
 红尾旋木嘲鸫	hong wei xuan mu chao dong	1
 红尾岩鵖	hong wei yan bi	1
 红尾印度鳉	hong wei yin du jiang	1
@@ -162983,6 +163086,7 @@ sort: by_weight
 红胁鱥	hong xie gui	1
 红胁蓝尾鸲	hong xie lan wei qu	18
 红胁吸蜜鹦鹉	hong xie xi mi ying wu	1
+红胁绣眼鸟	hong xie xiu yan niao	1
 红楔异盲蝽	hong xie yi mang chun	1
 红鞋子	hong xie zi	745
 红心	hong xin	25460
@@ -163049,6 +163153,7 @@ sort: by_weight
 红胸黑瓢虫	hong xiong hei piao chong	1
 红胸蓝金花天牛	hong xiong lan jin hua tian niu	1
 红胸小步行虫	hong xiong xiao bu xing chong	1
+红胸啄花鸟	hong xiong zhuo hua niao	1
 红袖	hong xiu	23780
 洪秀全	hong xiu quan	9405
 红袖添香	hong xiu tian xiang	5260
@@ -163407,6 +163512,7 @@ sort: by_weight
 红嘴牛椋鸟	hong zui niu liang niao	1
 红嘴鸥	hong zui ou	2420
 红嘴鵎鵼	hong zui tuo kong	1
+红嘴相思鸟	hong zui xiang si niao	1
 虹鳟	hong zun	1245
 虹鳟人工繁殖法	hong zun ren gong fan zhi fa	1
 虹鳟鱼	hong zun yu	2820
@@ -164700,6 +164806,7 @@ sort: by_weight
 护板	hu ban	6775
 虎斑	hu ban	2
 # 胡班	hu ban	0
+虎斑宝贝	hu ban bao bei	1
 虎斑玳瑁凤蝶	hu ban dai mao feng die	1
 虎斑猫	hu ban mao	315
 虎斑毛伪蜻	hu ban mao wei qing	1
@@ -165781,9 +165888,9 @@ sort: by_weight
 胡虏	hu lu	2420
 胡噜	hu lu	111
 葫芦案	hu lu an	9999
-葫芦巴	hu lu ba	465
-葫芦巴碱	hu lu ba jian	13
-葫芦巴胶	hu lu ba jiao	19
+胡芦巴	hu lu ba	465
+胡芦巴碱	hu lu ba jian	13
+胡芦巴胶	hu lu ba jiao	19
 葫芦茶	hu lu cha	4
 葫芦大吉翅子	hu lu da ji chi zi	15
 葫芦岛	hu lu dao	28520
@@ -166584,6 +166691,7 @@ sort: by_weight
 互文	hu wen	1
 # 胡文	hu wen	0
 忽闻岸上踏歌声	hu wen an shang ta ge sheng	1180
+虎纹伯劳	hu wen bo lao	1
 虎纹倒吊鱼	hu wen dao diao yu	1
 忽闻歌古调	hu wen ge gu diao	1
 忽闻海上有仙山	hu wen hai shang you xian shan	7
@@ -166596,6 +166704,7 @@ sort: by_weight
 虎卧龙跳	hu wo long tiao	1
 互无	hu wu	490
 呼武公路	hu wu gong lu	2
+胡兀鹫	hu wu jiu	1
 忽吾行此流沙兮	hu wu xing ci liu sha xi	1
 呼吸	hu xi	378165
 护膝	hu xi	5125
@@ -167814,6 +167923,7 @@ sort: by_weight
 华贵	hua gui	29595
 划归	hua gui	28595
 滑轨	hua gui	8035
+花龟	hua gui	1
 华贵路	hua gui lu	133
 华贵路口	hua gui lu kou	7
 画鬼容易画人难	hua gui rong yi hua ren nan	7
@@ -169134,6 +169244,7 @@ sort: by_weight
 话务员	hua wu yuan	14265
 华西	hua xi	53110
 花息	hua xi	85
+滑蜥	hua xi	1
 # 花溪	hua xi	0
 华西村	hua xi cun	8040
 花媳妇	hua xi fu	110
@@ -172104,6 +172215,7 @@ sort: by_weight
 黄蜂蝇	huang feng ying	1
 皇甫	huang fu	14920
 黄跗斑眼蚜蝇	huang fu ban yan ya ying	1
+黄腹鹪莺	huang fu jiao ying	1
 黄福林	huang fu lin	15
 黄跗毛瘤胸叶甲	huang fu mao liu xiong ye jia	1
 皇甫谧	huang fu mi	103
@@ -172292,12 +172404,14 @@ sort: by_weight
 黄盒子	huang he zi	122
 煌黑龙	huang hei long	125
 黄宏	huang hong	111
+黄魟	huang hong	1
 # 黄泓	huang hong	0
 黄鸿升	huang hong sheng	125
 皇后	huang hou	133320
 皇后大道	huang hou da dao	3305
 皇后店北站	huang hou dian bei zhan	1
 皇后店西站	huang hou dian xi zhan	6
+黄喉蜂虎	huang hou feng hu	1
 黄喉歌鵖	huang hou ge bi	1
 皇后双皮奶	huang hou shuang pi nai	21
 黄喉纹胁林莺	huang hou wen xie lin ying	1
@@ -172858,6 +172972,7 @@ sort: by_weight
 黄梅调	huang mei diao	570
 黄玫瑰	huang mei gui	5085
 黄美丽	huang mei li	230
+黄眉柳莺	huang mei liu ying	1
 黄眉绿鹎	huang mei lv bei	1
 黄眉沙鹀	huang mei sha wu	1
 黄梅时节	huang mei shi jie	395
@@ -173426,6 +173541,7 @@ sort: by_weight
 黄土窝	huang tu wo	1
 黄推	huang tui	3333
 晃腿	huang tui	1111
+黄臀鹎	huang tun bei	1
 黄臀灯蛾	huang tun deng e	1
 黄臀啄木鸟	huang tun zhuo mu niao	1
 黄坨子	huang tuo zi	4
@@ -173777,7 +173893,7 @@ sort: by_weight
 黄种	huang zhong	2375
 荒冢	huang zhong	1410
 黄钟	huang zhong	46
-# 湟中	huang zhong	0
+湟中	huang zhong	1
 # 黄衷	huang zhong	0
 黄钟大吕	huang zhong da lv	1890
 黄忠弓	huang zhong gong	10
@@ -173923,6 +174039,7 @@ sort: by_weight
 灰背长尾伯劳	hui bei chang wei bo lao	1
 回北村	hui bei cun	1
 灰背大鼯鼠	hui bei da wu shu	1
+灰背鸫	hui bei dong	1
 灰背多斑霸鹟	hui bei duo ban ba weng	1
 灰背缝叶莺	hui bei feng ye ying	1
 灰背唧霸鹟	hui bei ji ba weng	1
@@ -174838,6 +174955,7 @@ sort: by_weight
 汇集了	hui ji le	38820
 灰姬猎蝽	hui ji lie chun	1
 回吉林	hui ji lin	775
+灰鹡鸰	hui ji ling	1
 惠济路	hui ji lu	213
 回记绿豆糕	hui ji lv dou gao	10
 惠及民生	hui ji min sheng	167
@@ -175030,6 +175148,7 @@ sort: by_weight
 汇款系统	hui kuan xi tong	50
 汇款信	hui kuan xin	2960
 汇款银行	hui kuan yin hang	47625
+灰眶雀鹛	hui kuang que mei	1
 回馈	hui kui	59875
 回馈日	hui kui ri	182
 恢廓	hui kuo	245
@@ -175590,6 +175709,7 @@ sort: by_weight
 回赎	hui shu	111
 灰树花保健饮料	hui shu hua bao jian yin liao	2
 灰鼠皮	hui shu pi	140
+灰树鹊	hui shu que	1
 讳树数马	hui shu shu ma	1
 回霜收电	hui shuang shou dian	1
 回水	hui shui	6225
@@ -175709,6 +175829,7 @@ sort: by_weight
 灰头林鸽	hui tou lin ge	1
 回头路	hui tou lu	4020
 回头率	hui tou lv	8380
+灰头绿啄木鸟	hui tou lv zhuo mu niao	1
 回头人	hui tou ren	125
 回头是岸	hui tou shi an	4525
 回头太难	hui tou tai nan	435
@@ -175936,6 +176057,7 @@ sort: by_weight
 灰胸长尾霸鹟	hui xiong chang wei ba weng	1
 灰胸刀翅蜂鸟	hui xiong dao chi feng niao	1
 灰熊队	hui xiong dui	2360
+灰胸竹鸡	hui xiong zhu ji	1
 回修	hui xiu	520
 回叙	hui xu	220
 惠徐保	hui xu bao	124
@@ -175975,6 +176097,7 @@ sort: by_weight
 讳言	hui yan	7810
 会演	hui yan	7290
 会厌	hui yan	1895
+灰雁	hui yan	1
 回延安	hui yan an	925
 灰眼斑瓢虫	hui yan ban piao chong	1
 慧眼独具	hui yan du ju	1195
@@ -176126,6 +176249,7 @@ sort: by_weight
 秽语	hui yu	1720
 𫚔鱼	hui yu	111
 虺蜮	hui yu	20
+茴鱼	hui yu	1
 # 惠屿	hui yu	0
 # 汇宇	hui yu	0
 毁誉不一	hui yu bu yi	25
@@ -179232,8 +179356,8 @@ sort: by_weight
 吉奥夫	ji ao fu	11
 吉奥汽车	ji ao qi che	36
 吉奥帅驰	ji ao shuai chi	3
-鸡巴	ji ba	4444
 几把	ji ba	3550
+鸡巴	ji ba	2500
 即把	ji ba	2328
 击靶	ji ba	1111
 # 吉坝	ji ba	0
@@ -181106,6 +181230,7 @@ sort: by_weight
 鸡骇乍开笼	ji hai zha kai long	5
 饥寒	ji han	5780
 极寒	ji han	1111
+季汉	ji han	1
 # 嵇含	ji han	0
 极寒冰霜	ji han bing shuang	6
 既含睇兮又宜笑	ji han di xi you yi xiao	2
@@ -182060,6 +182185,7 @@ sort: by_weight
 蒺藜	ji li	341
 肌力	ji li	118
 计利	ji li	55
+季历	ji li	1
 # 集里	ji li	0
 基里艾洛德	ji li ai luo de	109
 基里艾洛德人	ji li ai luo de ren	195
@@ -183051,7 +183177,6 @@ sort: by_weight
 激情图片	ji qing tu pian	9625
 激情无限	ji qing wu xian	1090
 激情戏	ji qing xi	6520
-激情系列娃娃装	ji qing xi lie wa wa zhuang	1
 激情小说	ji qing xiao shuo	1430
 激情写真	ji qing xie zhen	3430
 激情秀	ji qing xiu	160
@@ -184257,8 +184382,8 @@ sort: by_weight
 计算智能	ji suan zhi neng	103
 计算中心	ji suan zhong xin	9780
 计算字段	ji suan zi duan	245
-脊髓	ji sui	32350
 几岁	ji sui	24395
+脊髓	ji sui	12350
 击碎	ji sui	9200
 既遂	ji sui	2022
 脊髓动物	ji sui dong wu	14
@@ -185622,10 +185747,11 @@ sort: by_weight
 积怨	ji yuan	5835
 极远	ji yuan	2850
 吉原	ji yuan	1
+棘螈	ji yuan	1
+济源	ji yuan	1
 # 基元	ji yuan	0
 # 姬元	ji yuan	0
 # 季园	ji yuan	0
-# 济源	ji yuan	0
 # 纪远	ji yuan	0
 # 际元	ji yuan	0
 基圆隆突肩肖叶甲	ji yuan long tu jian xiao ye jia	1
@@ -187518,6 +187644,7 @@ sort: by_weight
 加玛帝国	jia ma di guo	105
 价码儿	jia ma er	15
 贾马尔	jia ma er	1
+家麻雀	jia ma que	1
 加马铁力克乡	jia ma tie li ke xiang	1
 加麻乡	jia ma xiang	4
 夹马营	jia ma ying	179
@@ -189104,12 +189231,13 @@ sort: by_weight
 加钟	jia zhong	5555
 家种	jia zhong	111
 甲种	jia zhong	2
+夹钟	jia zhong	1
 加重处罚	jia zhong chu fa	3435
 加重负担	jia zhong fu dan	660
 加重了	jia zhong le	24915
 价重连城	jia zhong lian cheng	3
 甲种射线	jia zhong she xian	10
-家种子	jia zhong zi	485
+# 家种子	jia zhong zi	0
 加州	jia zhou	45175
 甲胄	jia zhou	6555
 嘉州	jia zhou	3935
@@ -190473,6 +190601,7 @@ sort: by_weight
 监护	jian hu	66930
 建湖	jian hu	4575
 鉴湖	jian hu	4030
+睑虎	jian hu	1
 建湖道	jian hu dao	2
 涧户寂无人	jian hu ji wu ren	2
 建湖里	jian hu li	2
@@ -194397,6 +194526,7 @@ sort: by_weight
 将他	jiang ta	9999
 将她	jiang ta	7777
 将它	jiang ta	1111
+江獭	jiang ta	1
 将它们	jiang ta men	62
 讲台	jiang tai	37650
 将台堡	jiang tai bao	147
@@ -195237,6 +195367,7 @@ sort: by_weight
 绞缠	jiao chan	815
 搅缠	jiao chan	150
 角蝉	jiao chan	55
+角蟾	jiao chan	1
 角蝉科	jiao chan ke	6
 较长	jiao chang	159625
 校场	jiao chang	4665
@@ -197351,6 +197482,7 @@ sort: by_weight
 交银添利	jiao yin tian li	1
 较硬	jiao ying	12960
 交映	jiao ying	1685
+鹪莺	jiao ying	1
 角硬币	jiao ying bi	91
 嚼用	jiao yong	111
 交友	jiao you	182970
@@ -200230,6 +200362,7 @@ sort: by_weight
 接线子	jie xian zi	46
 街巷	jie xiang	18925
 结项	jie xiang	111
+结香	jie xiang	1
 # 解像	jie xiang	0
 街巷阡陌	jie xiang qian mo	1
 解襄相助	jie xiang xiang zhu	1
@@ -201517,6 +201650,7 @@ sort: by_weight
 金刚砂	jin gang sha	2555
 金刚山	jin gang shan	1745
 金刚石	jin gang shi	32810
+津港市	jin gang shi	2
 金刚石耳环	jin gang shi er huan	1
 金刚石工具	jin gang shi gong ju	1965
 金刚石婚	jin gang shi hun	9999
@@ -202422,6 +202556,7 @@ sort: by_weight
 进款	jin kuan	815
 金矿	jin kuang	40630
 近况	jin kuang	19195
+金眶鸻	jin kuang heng	1
 金矿石	jin kuang shi	1140
 金眶鹟莺	jin kuang weng ying	1
 金匮	jin kui	3615
@@ -202692,6 +202827,7 @@ sort: by_weight
 金盲眼灯鱼	jin mang yan deng yu	1
 金毛	jin mao	22245
 今貌	jin mao	115
+金猫	jin mao	1
 # 金茂	jin mao	0
 金毛长腹土蜂	jin mao chang fu tu feng	1
 金茂大厦	jin mao da sha	7690
@@ -202757,7 +202893,9 @@ sort: by_weight
 金苗宝	jin miao bao	160
 # 今敏	jin min	0
 晋愍帝	jin min di	7
+金玟庭	jin min ting	138
 金敏喜	jin min xi	189
+金玟哉	jin min zai	181
 金敏贞	jin min zhen	655
 金旼炡	jin min zheng	1
 金民钟	jin min zhong	450
@@ -203565,6 +203703,7 @@ sort: by_weight
 金尚钟	jin shang zhong	190
 金哨	jin shao	999
 金蛇	jin she	4345
+锦蛇	jin she	1
 金舌蔽口	jin she bi kou	6
 金蛇狂舞	jin she kuang wu	935
 进社区	jin she qu	27625
@@ -204229,9 +204368,7 @@ sort: by_weight
 金纹角翅舟蛾	jin wen jiao chi zhou e	1
 今文经学	jin wen jing xue	865
 今文尚书	jin wen shang shu	285
-金玟庭	jin wen ting	138
 金纹小潜细蛾	jin wen xiao qian xi e	1
-金玟哉	jin wen zai	181
 金瓮	jin weng	111
 紧握	jin wo	25150
 金沃	jin wo	140
@@ -204328,11 +204465,12 @@ sort: by_weight
 尽现	jin xian	6440
 进线	jin xian	6110
 进献	jin xian	3470
-金县	jin xian	1410
 尽先	jin xian	600
-晋县	jin xian	600
-锦县	jin xian	590
 近线	jin xian	137
+晋县	jin xian	1
+金县	jin xian	1
+锦县	jin xian	1
+金线鲃	jin xian ba	1
 进贤拔能	jin xian ba neng	1
 仅限本科	jin xian ben ke	117
 进贤黜恶	jin xian chu e	1
@@ -204710,6 +204848,7 @@ sort: by_weight
 金曜汉	jin yao han	181
 金腰楼	jin yao lou	1
 金钥匙	jin yao shi	19875
+金腰燕	jin yao yan	1
 金腰燕真缘吸虫	jin yao yan zhen yuan xi chong	1
 今夜	jin ye	69355
 津液	jin ye	13635
@@ -207077,6 +207216,7 @@ sort: by_weight
 警铃	jing ling	3945
 竟陵	jing ling	2920
 警龄	jing ling	170
+旌蛉	jing ling	1
 精灵奔驰	jing ling ben chi	1
 经岭村	jing ling cun	2
 精灵村庄	jing ling cun zhuang	12
@@ -213031,6 +213171,7 @@ sort: by_weight
 举前曳踵	ju qian ye zhong	1
 举枪	ju qiang	6265
 巨强	ju qiang	111
+巨蜣螂	ju qiang lang	1
 鞠桥	ju qiao	1
 钜桥镇	ju qiao zhen	172
 具亲和力	ju qin he li	117
@@ -213964,6 +214105,7 @@ sort: by_weight
 捐点儿	juan dian er	1830
 捐点款	juan dian kuan	183
 捐点钱	juan dian qian	183
+绢蝶	juan die	1
 卷动	juan dong	6600
 捐多少	juan duo shao	126
 卷二	juan er	22660
@@ -214011,6 +214153,7 @@ sort: by_weight
 捐金沉珠	juan jin chen zhu	1
 捐金抵璧	juan jin di bi	1
 捐精	juan jing	1510
+鹃鸠	juan jiu	1
 娟娟	juan juan	13975
 涓涓	juan juan	9410
 卷卷	juan juan	5380
@@ -215984,6 +216127,7 @@ sort: by_weight
 咖啡糖	ka fei tang	1077
 咖啡厅	ka fei ting	52475
 咖啡厅里	ka fei ting li	3265
+咖啡透翅天蛾	ka fei tou chi tian e	1
 咖啡王子	ka fei wang zi	471
 咖啡屋	ka fei wu	15215
 咖啡小镇	ka fei xiao zhen	17
@@ -225400,6 +225544,7 @@ sort: by_weight
 苦度	ku du	560
 苦短	ku duan	2140
 库缎	ku duan	1
+苦恶鸟	ku e niao	1
 库尔	ku er	222
 酷儿	ku er	111
 库尔楚园艺场	ku er chu yuan yi chang	12
@@ -228360,6 +228505,7 @@ sort: by_weight
 拉不动	la bu dong	1510
 拉不过来	la bu guo lai	66
 拉布机	la bu ji	285
+拉步甲	la bu jia	1
 拉不开栓	la bu kai shuan	9999
 拉不拉	la bu la	3333
 辣不辣	la bu la	2222
@@ -229080,6 +229226,7 @@ sort: by_weight
 拉走	la zou	9915
 拉奏乐器	la zou yue qi	20
 蜡嘴	la zui	455
+蜡嘴雀	la zui que	1
 拉佐姆	la zuo mu	1
 拉佐姆海岸	la zuo mu hai an	1
 来啊	lai a	44720
@@ -229194,7 +229341,6 @@ sort: by_weight
 来到深圳	lai dao shen zhen	3900
 来岛通总	lai dao tong zong	4
 来到我们	lai dao wo men	11155
-来到西	lai dao xi	3085
 来到现场	lai dao xian chang	6720
 来到学校	lai dao xue xiao	6155
 来到院	lai dao yuan	120
@@ -230019,6 +230165,7 @@ sort: by_weight
 蓝方安全岛	lan fang an quan dao	1
 览方外之荒忽兮	lan fang wai zhi huang hu xi	1
 # 兰飞	lan fei	0
+蓝翡翠	lan fei cui	1
 兰飞鸿	lan fei hong	187
 蓝菲琳	lan fei lin	130
 # 蓝枫	lan feng	0
@@ -230103,7 +230250,9 @@ sort: by_weight
 拦洪	lan hong	740
 拦洪坝	lan hong ba	9999
 懒猴	lan hou	530
+蓝喉蜂虎	lan hou feng hu	1
 烂喉痧	lan hou sha	1
+蓝喉太阳鸟	lan hou tai yang niao	1
 蓝厚缘肖叶甲	lan hou yuan xiao ye jia	1
 烂糊	lan hu	610
 # 兰湖	lan hu	0
@@ -230636,6 +230785,7 @@ sort: by_weight
 蓝星清洗	lan xing qing xi	945
 蓝星铁戒	lan xing tie jie	1
 蓝胸蜂虎	lan xiong feng hu	1
+蓝胸佛法僧	lan xiong fo fa seng	1
 蓝胸负泥虫	lan xiong fu ni chong	1
 拦蓄	lan xu	2050
 蓝须夜蜂虎	lan xu ye feng hu	2
@@ -233975,7 +234125,8 @@ sort: by_weight
 雷寨	lei zhai	7
 泪沾红抹胸	lei zhan hong mo xiong	2
 垒障	lei zhang	65
-累着了	lei zhe le	3530
+累着	lei zhe	1111
+累着了	lei zhe le	1111
 累着呢	lei zhe ne	85
 雷阵	lei zhen	111
 # 雷震	lei zhen	0
@@ -234561,7 +234712,8 @@ sort: by_weight
 李白一斗诗百篇	li bai yi dou shi bai pian	6
 礼拜仪式	li bai yi shi	1045
 立邦	li bang	8875
-利邦	li bang	12
+丽蚌	li bang	1
+# 利邦	li bang	0
 李棒棒	li bang bang	194
 立邦漆	li bang qi	5095
 利傍倚刀	li bang yi dao	1
@@ -234580,6 +234732,7 @@ sort: by_weight
 立碑	li bei	7045
 笠贝	li bei	8
 # 李北	li bei	0
+栗背短脚鹎	li bei duan jiao bei	1
 力倍功半	li bei gong ban	1
 丽贝卡	li bei ka	925
 立本	li ben	3005
@@ -235429,6 +235582,7 @@ sort: by_weight
 利好	li hao	45145
 理好	li hao	11720
 立好	li hao	1285
+藜蒿	li hao	111
 # 李好	li hao	0
 # 李皓	li hao	0
 藜蒿炒腊肉	li hao chao la rou	170
@@ -235612,7 +235766,9 @@ sort: by_weight
 礼记	li ji	9680
 痢疾	li ji	6895
 利基	li ji	5555
+李𪟝	li ji	2
 粒级	li ji	2
+骊姬	li ji	1
 # 利记	li ji	0
 # 李季	li ji	0
 # 李济	li ji	0
@@ -236416,6 +236572,7 @@ sort: by_weight
 黎民表	li min biao	3
 黎民不饥不寒	li min bu ji bu han	2
 利民道	li min dao	4
+李玟娥	li min e	126
 李旻浩	li min hao	126
 黎民怀	li min huai	3
 利民街道	li min jie dao	13
@@ -236430,6 +236587,7 @@ sort: by_weight
 利民社区	li min she qu	40
 利民为本	li min wei ben	146
 利民苑	li min yuan	4
+李玟真	li min zhen	3
 利民之举	li min zhi ju	62
 黎明	li ming	106915
 李明	li ming	48520
@@ -236916,10 +237074,11 @@ sort: by_weight
 # 丽舍	li she	0
 礼奢宁简	li she ning jian	1
 立身	li shen	11035
-离身	li shen	6535
+李婶	li shen	3333
+离身	li shen	653
 利申	li shen	200
 李绅	li shen	2
-李屾	li shen	1
+# 李屾	li shen	0
 立身处世	li shen chu shi	1635
 利深祸速	li shen huo su	1
 立身行事	li shen xing shi	410
@@ -237524,7 +237683,6 @@ sort: by_weight
 粒纹大齿猛蚁	li wen da chi meng yi	1
 礼文岛	li wen dao	1
 礼文町	li wen ding	1
-李玟娥	li wen e	126
 丽文蛤	li wen ge	3
 李文耕	li wen geng	3
 李文瀚	li wen han	4
@@ -237542,7 +237700,6 @@ sort: by_weight
 李文勋	li wen xun	34
 李文藻	li wen zao	2
 李文炤	li wen zhao	1
-李玟真	li wen zhen	3
 李文忠	li wen zhong	396
 李文子	li wen zi	5
 笠翁	li weng	1125
@@ -240924,7 +241081,7 @@ sort: by_weight
 两幅	liang fu	18050
 两副	liang fu	7490
 量腹	liang fu	85
-梁甫	liang fu	6
+梁甫	liang fu	2
 量腹而食	liang fu er shi	5
 良附丸	liang fu wan	5
 两凫相倚睡秋江	liang fu xiang yi shui qiu jiang	1
@@ -240933,11 +241090,12 @@ sort: by_weight
 粮改	liang gai	1385
 晾干	liang gan	24550
 两杆	liang gan	2685
-良港	liang gang	4890
+两杠	liang gang	4890
 两纲	liang gang	2660
-量纲	liang gang	2430
 两港	liang gang	2350
-梁刚	liang gang	130
+量纲	liang gang	243
+# 梁刚	liang gang	0
+# 良港	liang gang	0
 两高	liang gao	6445
 凉糕	liang gao	1335
 两个	liang ge	501431
@@ -241255,8 +241413,8 @@ sort: by_weight
 量金买赋	liang jin mai fu	1
 两晋南北	liang jin nan bei	112
 两金一银	liang jin yi yin	192
-梁静	liang jing	4890
 凉井	liang jing	11
+# 梁静	liang jing	0
 亮晶晶	liang jing jing	12655
 梁靖琪	liang jing qi	1
 梁静茹	liang jing ru	17230
@@ -241276,11 +241434,12 @@ sort: by_weight
 两句诗	liang ju shi	4865
 两卷	liang juan	6600
 两军	liang jun	25345
-梁军	liang jun	4850
 良骏	liang jun	940
+梁军	liang jun	2
 亮菌甲素	liang jun jia su	7
 亮菌甲素注射液	liang jun jia su zhu she ye	17
-梁楷	liang kai	18
+亮开	liang kai	111
+梁楷	liang kai	2
 凉开水	liang kai shui	7160
 两颗	liang ke	51155
 两棵	liang ke	9510
@@ -241311,12 +241470,12 @@ sort: by_weight
 凉快去	liang kuai qu	155
 凉快一点	liang kuai yi dian	131
 两款	liang kuan	117515
-梁宽	liang kuan	1015
+# 梁宽	liang kuan	0
 亮蓝铝色淀	liang lan lv se dian	3
 亮蓝小钻	liang lan xiao zuan	1
 两廊振法鼓	liang lang zhen fa gu	1
-梁老	liang lao	6075
 两老	liang lao	4150
+梁老	liang lao	2
 亮了	liang le	45620
 凉了	liang le	19720
 量了	liang le	7890
@@ -241331,10 +241490,10 @@ sort: by_weight
 两粒	liang li	11230
 两例	liang li	5660
 量力	liang li	4255
-两利	liang li	2425
 两立	liang li	740
-良吏	liang li	705
-良立	liang li	135
+两利	liang li	24
+良吏	liang li	7
+# 良立	liang li	0
 亮丽道	liang li dao	1
 亮丽的风景线	liang li de feng jing xian	132
 两锂电池	liang li dian chi	193
@@ -241369,13 +241528,13 @@ sort: by_weight
 凉凉爽爽	liang liang shuang shuang	75
 亮亮相	liang liang xiang	535
 两列	liang lie	2222
-梁麟	liang lin	23
+# 梁麟	liang lin	0
 两林乡	liang lin xiang	51
 梁龙	liang long	1111
 两龙望标目如瞬	liang long wang biao mu ru shun	3
 两龙跃出浮水来	liang long yue chu fu shui lai	11
 两路	liang lu	34260
-梁璐	liang lu	24
+# 梁璐	liang lu	0
 两路精神	liang lu jing shen	116
 两路口	liang lu kou	1400
 两轮	liang lun	31215
@@ -241442,8 +241601,8 @@ sort: by_weight
 靓名尔	liang ming er	3
 粮秣	liang mo	860
 梁某	liang mou	111
-梁木	liang mu	1370
 良母	liang mu	650
+梁木	liang mu	137
 梁牧泽	liang mu ze	181
 梁乃鹏	liang nai peng	56
 两难	liang nan	31185
@@ -241523,7 +241682,7 @@ sort: by_weight
 两歧	liang qi	5555
 量器	liang qi	1870
 两讫	liang qi	270
-梁琦	liang qi	1
+# 梁琦	liang qi	0
 梁启超	liang qi chao	24915
 梁启超墓	liang qi chao mu	106
 两栖登陆	liang qi deng lu	845
@@ -241572,7 +241731,7 @@ sort: by_weight
 良禽择木	liang qin ze mu	1000
 两清	liang qing	9860
 两情	liang qing	1945
-良庆	liang qing	490
+# 良庆	liang qing	0
 梁清标	liang qing biao	19
 梁青路	liang qing lu	4
 两情缱绻	liang qing qian quan	285
@@ -241581,8 +241740,8 @@ sort: by_weight
 两情相悦	liang qing xiang yue	7775
 亮青小钻	liang qing xiao zuan	1
 两球	liang qiu	11300
-梁丘	liang qiu	980
-梁邱	liang qiu	4
+梁丘	liang qiu	2
+# 梁邱	liang qiu	0
 梁𨱇琚	liang qiu ju	3
 梁𨱇琚夫人幼儿园	liang qiu ju fu ren you er yuan	3
 梁𨱇琚中学	liang qiu ju zhong xue	2
@@ -241600,7 +241759,9 @@ sort: by_weight
 两权分离	liang quan fen li	2140
 两权分立	liang quan fen li	185
 两全其美	liang quan qi mei	9595
-梁群	liang qun	54
+两群	liang qun	54
+# 梁群	liang qun	0
+两群人	liang qun ren	54
 两人	liang ren	500488
 良人	liang ren	5785
 两任	liang ren	3880
@@ -241656,7 +241817,7 @@ sort: by_weight
 良善	liang shan	6790
 靓衫	liang shan	690
 良山	liang shan	30
-粱山	liang shan	2
+# 粱山	liang shan	0
 凉山半细毛羊	liang shan ban xi mao yang	3
 梁山伯	liang shan bo	7640
 梁山伯与祝英台	liang shan bo yu zhu ying tai	4445
@@ -241759,8 +241920,8 @@ sort: by_weight
 两手抓	liang shou zhua	16370
 两束	liang shu	9999
 辆数	liang shu	1275
-凉薯	liang shu	1
-梁书	liang shu	1
+凉薯	liang shu	3
+梁书	liang shu	2
 # 梁枢	liang shu	0
 梁漱溟	liang shu ming	8930
 梁淑贞	liang shu zhen	3
@@ -241783,8 +241944,9 @@ sort: by_weight
 两水苗族乡	liang shui miao zu xiang	9
 凉水泉	liang shui quan	2
 凉水澡	liang shui zao	790
-良斯	liang si	1060
+亮丝	liang si	111
 亮私	liang si	25
+# 良斯	liang si	0
 梁思成	liang si cheng	5580
 两寺渡	liang si du	25
 梁思礼	liang si li	136
@@ -241817,8 +241979,8 @@ sort: by_weight
 量体重	liang ti zhong	830
 两天	liang tian	266580
 良田	liang tian	15885
-梁天	liang tian	3305
 粮田	liang tian	2580
+# 梁天	liang tian	0
 两天班	liang tian ban	289
 良田不如心田好	liang tian bu ru xin tian hao	1
 量天尺	liang tian chi	154
@@ -241843,10 +242005,10 @@ sort: by_weight
 凉亭坳乡	liang ting ao xiang	45
 梁廷楠	liang ting nan	3
 凉亭垭	liang ting ya	2
-量筒	liang tong	4505
-两通	liang tong	2200
 两桶	liang tong	2145
-良桐	liang tong	20
+两通	liang tong	220
+量筒	liang tong	45
+# 良桐	liang tong	0
 两头	liang tou	56355
 凉透	liang tou	1715
 梁头	liang tou	25
@@ -241893,9 +242055,10 @@ sort: by_weight
 梁武帝	liang wu di	5990
 凉席	liang xi	8495
 两席	liang xi	1270
-梁溪	liang xi	44
-梁希	liang xi	35
-梁熙	liang xi	5
+两膝	liang xi	111
+# 梁希	liang xi	0
+# 梁溪	liang xi	0
+# 梁熙	liang xi	0
 梁西村	liang xi cun	3
 梁溪大桥	liang xi da qiao	14
 梁溪路	liang xi lu	15
@@ -241903,7 +242066,8 @@ sort: by_weight
 梁希贤	liang xi xian	1
 两下	liang xia	43115
 凉虾	liang xia	2306
-梁霞	liang xia	25
+亮瞎	liang xia	111
+# 梁霞	liang xia	0
 两下里	liang xia li	885
 两下子	liang xia zi	3960
 两线	liang xian	1111
@@ -242092,10 +242256,11 @@ sort: by_weight
 凉忆岘山巅	liang yi xian shan dian	1
 两仪心法	liang yi xin fa	3
 良医院	liang yi yuan	20
-梁寅	liang yin	4
+凉饮	liang yin	111
+# 梁寅	liang yin	0
 良音荠	liang yin ji	6666
-梁瑛	liang ying	42
 椋鹰	liang ying	1
+# 梁瑛	liang ying	0
 两英番薯粥	liang ying fan shu zhou	4
 梁英记裹蒸粽	liang ying ji guo zheng zong	10
 两用	liang yong	9999
@@ -242133,10 +242298,10 @@ sort: by_weight
 两元	liang yuan	9050
 良缘	liang yuan	6680
 粮源	liang yuan	3785
-梁园	liang yuan	2985
 两员	liang yuan	2440
 两圆	liang yuan	2115
-梁缘	liang yuan	1
+# 梁园	liang yuan	0
+# 梁缘	liang yuan	0
 两员大将	liang yuan da jiang	925
 梁园区	liang yuan qu	1530
 梁园日暮乱飞鸦	liang yuan ri mu luan fei ya	1
@@ -242743,6 +242908,7 @@ sort: by_weight
 疗效观察	liao xiao guan cha	4385
 疗效显著	liao xiao xian zhu	9045
 聊逍遥兮容与	liao xiao yao xi rong yu	1
+聊些	liao xie	1111
 廖新波	liao xin bo	1191
 聊性	liao xing	360
 廖姓	liao xing	325
@@ -243139,6 +243305,7 @@ sort: by_weight
 烈属	lie shu	2990
 列数字	lie shu zi	140
 列斯	lie si	8420
+猎隼	lie sun	1
 烈太乡	lie tai xiang	6
 裂蹄峭壁	lie ti qiao bi	1
 裂体生殖	lie ti sheng zhi	20
@@ -243563,6 +243730,7 @@ sort: by_weight
 临高县	lin gao xian	3350
 林皋乡	lin gao xiang	2
 林格	lin ge	5710
+林鸽	lin ge	1
 林歌神殿	lin ge shen dian	1
 林格氏液	lin ge shi ye	2
 林格庄	lin ge zhuang	1
@@ -244054,6 +244222,7 @@ sort: by_weight
 林少华	lin shao hua	157
 林少猫	lin shao mao	10
 邻舍	lin she	3645
+林麝	lin she	1
 林申	lin shen	27
 林深见鹿	lin shen jian lu	159
 临深履尾	lin shen lv wei	1
@@ -244229,6 +244398,7 @@ sort: by_weight
 淋透	lin tou	1065
 林头村	lin tou cun	11
 林头市场	lin tou shi chang	1
+林蛙	lin wa	1
 林外登高楼	lin wai deng gao lou	1
 林湾村	lin wan cun	14
 林湾公交站	lin wan gong jiao zhan	7
@@ -244271,6 +244441,7 @@ sort: by_weight
 林文俊	lin wen jun	14
 林文卿	lin wen qing	6
 林文英	lin wen ying	12
+林鹟	lin weng	1
 临武	lin wu	2045
 林屋	lin wu	25
 林务官	lin wu guan	80
@@ -244549,6 +244720,7 @@ sort: by_weight
 林芝中院	lin zhi zhong yuan	87
 临终	lin zhong	21640
 林中	lin zhong	501
+林钟	lin zhong	1
 磷中毒	lin zhong du	17
 临终关怀	lin zhong guan huai	4410
 林中居民	lin zhong ju min	1
@@ -244628,7 +244800,7 @@ sort: by_weight
 凌波	ling bo	8950
 凌波不过横塘路	ling bo bu guo heng tang lu	2
 凌波护手	ling bo hu shou	1
-凌波丽	ling bo li	510
+绫波丽	ling bo li	510
 凌波门	ling bo men	177
 凌博士	ling bo shi	149
 凌波微步	ling bo wei bu	4080
@@ -244829,6 +245001,7 @@ sort: by_weight
 翎儿	ling er	815
 零儿	ling er	515
 铃儿响叮当	ling er xiang ding dang	1575
+领罚	ling fa	1111
 灵泛	ling fan	230
 灵幡	ling fan	215
 另方面	ling fang mian	5050
@@ -248848,6 +249021,7 @@ sort: by_weight
 刘迎	liu ying	34
 刘盈	liu ying	21
 刘婴	liu ying	3
+柳莺	liu ying	1
 流莺百转	liu ying bai zhuan	1
 流萤飞复息	liu ying fei fu xi	1
 刘英红	liu ying hong	156
@@ -250092,6 +250266,7 @@ sort: by_weight
 龙系	long xi	111
 陇西	long xi	2
 龙溪	long xi	2
+龙蜥	long xi	1
 # 隆西	long xi	0
 # 龙西	long xi	0
 龙溪北路	long xi bei lu	3
@@ -250549,9 +250724,6 @@ sort: by_weight
 漏点	lou dian	3690
 # 楼店	lou dian	0
 漏电保护	lou dian bao hu	109
-露点图	lou dian tu	795
-露点图片	lou dian tu pian	855
-露点写真	lou dian xie zhen	375
 漏掉	lou diao	17105
 楼顶	lou ding	42745
 露顶	lou ding	190
@@ -250585,9 +250757,9 @@ sort: by_weight
 漏防冻液	lou fang dong ye	345
 楼房化	lou fang hua	290
 漏风	lou feng	4675
-楼凤	lou feng	1335
 漏缝	lou feng	690
 露风	lou feng	525
+楼凤	lou feng	1
 # 楼冯	lou feng	0
 娄葑镇	lou feng zhen	45
 露富	lou fu	1715
@@ -251019,7 +251191,9 @@ sort: by_weight
 鸬鹚	lu ci	4495
 露从今夜白	lu cong jin ye bai	1180
 鹿村	lu cun	5
+禄存	lu cun	1
 路村村	lu cun cun	3
+禄存星	lu cun xing	1
 路村营	lu cun ying	133
 卢厝	lu cuo	4
 鲁达	lu da	5240
@@ -251253,7 +251427,7 @@ sort: by_weight
 路过	lu guo	164860
 鲁国	lu guo	1111
 录过	lu guo	790
-撸过	lu guo	111
+撸过	lu guo	1
 卢锅巴	lu guo ba	198
 鲁国公	lu guo gong	142
 芦蝈蝈	lu guo guo	18
@@ -251271,7 +251445,7 @@ sort: by_weight
 陆航	lu hang	3325
 录好	lu hao	2090
 芦蒿	lu hao	1690
-陆灏	lu hao	10
+# 陆灏	lu hao	0
 芦蒿炒香干	lu hao chao xiang gan	147
 陆皓东	lu hao dong	88
 六合	lu he	2
@@ -251550,7 +251724,7 @@ sort: by_weight
 鹿栏	lu lan	18
 路老	lu lao	1595
 录了	lu le	15555
-撸了	lu le	9999
+撸了	lu le	91
 路乐	lu le	4
 胪雷村	lu lei cun	26
 胪雷亭	lu lei ting	1
@@ -251559,6 +251733,7 @@ sort: by_weight
 勠力	lu li	1390
 陆离	lu li	3
 甪里	lu li	2
+鲈鲤	lu li	1
 鹿力大仙	lu li da xian	119
 路立交桥	lu li jiao qiao	165
 甪里街	lu li jie	7
@@ -251629,7 +251804,7 @@ sort: by_weight
 卢伦	lu lun	1
 卢伦真小鲤	lu lun zhen xiao li	1
 掳掠	lu lve	4695
-撸吗	lu ma	9999
+撸吗	lu ma	1
 鹿马村	lu ma cun	7
 鹿马登乡	lu ma deng xiang	10
 陆马蜂	lu ma feng	2
@@ -252020,9 +252195,9 @@ sort: by_weight
 露水姻缘	lu shui yin yuan	335
 露水珠	lu shui zhu	125
 露丝	lu si	3425
-撸死	lu si	1111
 鹭鸶	lu si	284
 卢斯	lu si	1
+撸死	lu si	1
 鹿斯巴达	lu si ba da	106
 鲁斯伯小雷氏鲶	lu si bo xiao lei shi nian	1
 鹿死不择音	lu si bu ze yin	111
@@ -252447,7 +252622,6 @@ sort: by_weight
 卢永祥	lu yong xiang	26
 路由	lu you	148635
 陆游	lu you	21110
-撸友	lu you	111
 # 陆友	lu you	0
 路由表	lu you biao	14395
 路有冻死骨	lu you dong si gu	1030
@@ -252529,7 +252703,7 @@ sort: by_weight
 卢照邻	lu zhao lin	31
 卢照龄	lu zhao ling	2
 录着	lu zhe	5555
-撸着	lu zhe	2222
+撸着	lu zhe	1
 录着呢	lu zhe ne	10
 陆詟水栗	lu zhe shui li	1
 陆贞	lu zhen	111
@@ -254836,6 +255010,8 @@ sort: by_weight
 洛峪镇	luo yu zhen	4
 骆玉珠	luo yu zhu	185
 罗源	luo yuan	3075
+瘰螈	luo yuan	1
+裸猿	luo yuan	1
 罗源湾	luo yuan wan	1430
 罗源湾开发区	luo yuan wan kai fa qu	8
 罗源县	luo yuan xian	2200
@@ -255334,6 +255510,7 @@ sort: by_weight
 滤镜效果	lv jing xiao guo	773
 绿景小区	lv jing xiao qu	10
 绿景苑	lv jing yuan	52
+绿鸠	lv jiu	1
 绿酒初尝人易醉	lv jiu chu chang ren yi zui	1
 绿酒一杯歌一遍	lv jiu yi bei ge yi bian	4
 旅居	lv ju	10050
@@ -255403,6 +255580,7 @@ sort: by_weight
 绿柳朱轮走钿车	lv liu zhu lun zou dian che	5
 绿龙	lv long	3255
 吕隆	lv long	1
+绿鹭	lv lu	1
 绿芦蜂	lv lu feng	1
 绿芦笋罐头	lv lu sun guan tou	2
 氯纶	lv lun	1111
@@ -258492,7 +258670,6 @@ sort: by_weight
 脉管系统	mai guan xi tong	6
 脉管炎	mai guan yan	3410
 卖官鬻爵	mai guan yu jue	1060
-买官鬻爵	mai guan yu jue	111
 卖关子	mai guan zi	3330
 卖光	mai guang	4955
 买光	mai guang	740
@@ -260251,6 +260428,7 @@ sort: by_weight
 忙事情	mang shi qing	85
 芒氏硬头鱼	mang shi ying tou yu	1
 忙手忙脚	mang shou mang jiao	150
+芒鼠	mang shu	1
 忙说	mang shuo	16440
 忙死	mang si	19080
 忙死了	mang si le	1080
@@ -262455,6 +262633,8 @@ sort: by_weight
 美好	mei hao	427090
 没好	mei hao	19730
 煤耗	mei hao	4960
+美好的	mei hao de	333
+没好的	mei hao de	1
 美好的日子	mei hao de ri zi	189
 美好的事情	mei hao de shi qing	194
 美好的祝福	mei hao de zhu fu	109
@@ -264404,7 +264584,6 @@ sort: by_weight
 美学	mei xue	133105
 没学	mei xue	10430
 美雪	mei xue	4725
-美穴	mei xue	111
 美雪艾莉丝	mei xue ai li si	6666
 美学观	mei xue guan	1420
 没学好	mei xue hao	1455
@@ -266179,6 +266358,7 @@ sort: by_weight
 锰酸盐	meng suan yan	345
 梦碎	meng sui	9999
 梦随风万里	meng sui feng wan li	3
+猛隼	meng sun	1
 蒙索托	meng suo tuo	1
 蒙塔里	meng ta li	142
 蒙塔娜	meng ta na	122
@@ -267926,6 +268106,7 @@ sort: by_weight
 棉服	mian fu	4740
 免付	mian fu	2585
 面缚	mian fu	255
+棉凫	mian fu	1
 免付邮资	mian fu you zi	30
 缅钢刀	mian gang dao	1
 面告	mian gao	9999
@@ -268895,7 +269076,7 @@ sort: by_weight
 庙头村	miao tou cun	53
 描图	miao tu	1770
 描图纸	miao tu zhi	915
-秒退	miao tui	1
+秒退	miao tui	1111
 庙湾	miao wan	67
 庙湾岛	miao wan dao	18
 渺万里层云	miao wan li ceng yun	4
@@ -268935,6 +269116,7 @@ sort: by_weight
 喵星球	miao xing qiu	999
 喵星人	miao xing ren	999
 苗绣	miao xiu	11
+秒选	miao xuan	3333
 苗芽	miao ya	330
 妙言	miao yan	985
 庙阳坡	miao yang po	1
@@ -272273,6 +272455,7 @@ sort: by_weight
 墨兰	mo lan	1180
 末栏	mo lan	10
 莫兰德	mo lan de	178
+魔狼	mo lang	111
 莫老爹鸽	mo lao die ge	1
 摸了	mo le	2252
 抹了	mo le	1591
@@ -272516,6 +272699,7 @@ sort: by_weight
 墨囊	mo nang	1
 膜囊尖锥虫	mo nang jian zhui chong	1
 魔脑传奇	mo nao chuan qi	15
+摸呢	mo ne	111
 莫内	mo nei	1075
 莫能	mo neng	10700
 莫能菌素	mo neng jun su	230
@@ -273137,6 +273321,7 @@ sort: by_weight
 没膝	mo xi	1185
 末席	mo xi	675
 魔蜥	mo xi	628
+妺喜	mo xi	1
 # 磨溪	mo xi	0
 # 磨西	mo xi	0
 莫西奥图尼亚瀑布	mo xi ao tu ni ya pu bu	25
@@ -276312,6 +276497,7 @@ sort: by_weight
 那些人	na xie ren	51645
 哪些人	na xie ren	17290
 那些日子	na xie ri zi	8220
+那些是	na xie shi	1000
 那些事情	na xie shi qing	4475
 哪些特点	na xie te dian	1705
 那些天	na xie tian	3830
@@ -280459,7 +280645,7 @@ sort: by_weight
 内伤	nei shang	16795
 内伤发热	nei shang fa re	315
 内设	nei she	58205
-内射	nei she	715
+内射	nei she	666
 # 内社	nei she	0
 内社村	nei she cun	1
 内射函数	nei she han shu	5
@@ -280635,7 +280821,7 @@ sort: by_weight
 内忧	nei you	1995
 内忧外患	nei you wai huan	6915
 内有效	nei you xiao	1415
-内娱	nei yu	1
+内娱	nei yu	1111
 内院	nei yuan	5465
 内源	nei yuan	4660
 内圆	nei yuan	2960
@@ -281818,7 +282004,7 @@ sort: by_weight
 你个	ni ge	9999
 你哥	ni ge	7695
 拟个	ni ge	333
-尼哥	ni ge	100
+# 尼哥	ni ge	0
 你哥哥	ni ge ge	5485
 尼格利陀地域人种	ni ge li tuo di yu ren zhong	1
 尼格罗黑	ni ge luo hei	5
@@ -283057,6 +283243,7 @@ sort: by_weight
 你要去	ni yao qu	4
 拟耀三刺角蝉	ni yao san ci jiao chan	1
 你要啥	ni yao sha	523
+你要是	ni yao shi	1000
 你要是有	ni yao shi you	219
 你要死啊	ni yao si a	260
 你要小心	ni yao xiao xin	3285
@@ -283372,6 +283559,7 @@ sort: by_weight
 你装饰了别人的梦	ni zhuang shi le bie ren de meng	49
 你追	ni zhui	1111
 你追我赶	ni zhui wo gan	6875
+拟啄木鸟	ni zhuo mu niao	1
 腻子	ni zi	25045
 妮子	ni zi	8725
 逆子	ni zi	2430
@@ -284883,6 +285071,7 @@ sort: by_weight
 凝露	ning lu	111
 宁玛派	ning ma pai	3950
 泞盲鳗	ning mang man	1
+狞猫	ning mao	1
 凝眉	ning mei	990
 宁媚于灶	ning mei yu zao	6
 柠檬	ning meng	216416
@@ -288288,6 +288477,7 @@ sort: by_weight
 欧亚集团	ou ya ji tuan	36
 欧亚金鸻	ou ya jin heng	1
 鸥亚科	ou ya ke	1
+欧亚鸲	ou ya qu	1
 欧亚犬	ou ya quan	2
 欧亚沙蜥	ou ya sha xi	1
 欧亚商都	ou ya shang dou	79
@@ -288482,8 +288672,9 @@ sort: by_weight
 趴到	pa dao	3333
 趴倒	pa dao	1130
 帕岛	pa dao	11
-爬得	pa de	5130
+怕的	pa de	5605
 怕得	pa de	4605
+爬得	pa de	3130
 啪的	pa de	2465
 趴的	pa de	1045
 爬得比	pa de bi	110
@@ -292311,6 +292502,7 @@ sort: by_weight
 鬅鬙	peng seng	1
 捧杀	peng sha	9999
 硼砂	peng sha	6325
+烹杀	peng sha	2
 硼砂甘油钾溶液	peng sha gan you jia rong ye	1
 彭山	peng shan	3815
 蓬山此去无多路	peng shan ci qu wu duo lu	5
@@ -292409,6 +292601,7 @@ sort: by_weight
 鹏欣丽都	peng xin li du	2
 捧心效西子	peng xin xiao xi zi	1
 彭姓	peng xing	295
+烹刑	peng xing	2
 鹏兴路	peng xing lu	19
 彭旭玮	peng xu wei	187
 彭雪枫	peng xue feng	310
@@ -293071,6 +293264,7 @@ sort: by_weight
 僻陋	pi lou	300
 披露	pi lu	1261363
 僻路	pi lu	165
+琵鹭	pi lu	1
 披露过	pi lu guo	267
 披露后	pi lu hou	3050
 劈颅巨魔	pi lu ju mo	1
@@ -293671,7 +293865,7 @@ sort: by_weight
 偏护	pian hu	240
 片花	pian hua	8105
 偏怀浅戆	pian huai qian gang	1
-偏黄	pian huang	1
+偏黄	pian huang	1111
 骗回	pian hui	1350
 骗汇	pian hui	765
 骗婚	pian hun	850
@@ -293746,7 +293940,7 @@ sort: by_weight
 偏岭	pian ling	31
 偏流	pian liu	620
 骗流量	pian liu liang	118
-偏绿	pian lv	1
+偏绿	pian lv	1111
 骗吗	pian ma	1111
 骗马	pian ma	1
 片麻岩	pian ma yan	1810
@@ -294127,7 +294321,6 @@ sort: by_weight
 票根	piao gen	2180
 飘过	piao guo	27250
 漂过	piao guo	2510
-嫖过	piao guo	111
 飘过来	piao guo lai	2515
 飘过去	piao guo qu	840
 朴海日	piao hai ri	7
@@ -296316,6 +296509,7 @@ sort: by_weight
 平胸	ping xiong	4930
 平胸超目	ping xiong chao mu	1
 平胸钝腹鲱	ping xiong dun fu fei	1
+平胸龟	ping xiong gui	1
 评叙	ping xu	55
 凭虚公子	ping xu gong zi	1
 冯虚御风	ping xu yu feng	175
@@ -297685,8 +297879,8 @@ sort: by_weight
 普米克都保	pu mi ke dou bao	2
 扑米酮	pu mi tong	2
 普米族	pu mi zu	3220
-铺面	pu mian	24485
 扑面	pu mian	8040
+铺面	pu mian	2448
 扑面而来	pu mian er lai	27035
 铺面房	pu mian fang	455
 扑灭	pu mie	30320
@@ -301212,6 +301406,7 @@ sort: by_weight
 气死我	qi si wo	1940
 气死我了	qi si wo le	8095
 其斯之谓与	qi si zhi wei yu	3
+起送	qi song	1111
 七艘	qi sou	7
 起诉	qi su	235700
 泣诉	qi su	1105
@@ -303580,6 +303775,7 @@ sort: by_weight
 谦和	qian he	14305
 千赫	qian he	9999
 嵌合	qian he	2280
+千鹤	qian he	111
 浅褐斑翅霸鹟	qian he ban chi ba weng	1
 乾和城	qian he cheng	139
 前河村	qian he cun	27
@@ -304620,6 +304816,7 @@ sort: by_weight
 浅色	qian se	39815
 千色	qian se	7995
 茜色	qian se	1
+铅色	qian se	1
 浅色床杜父鱼	qian se chuang du fu yu	1
 铅色顶小霸鹟	qian se ding xiao ba weng	1
 浅色竿鰕虎鱼	qian se gan xia hu yu	1
@@ -305290,6 +305487,7 @@ sort: by_weight
 前牙	qian ya	3870
 签押	qian ya	1195
 欠压	qian ya	686
+潜鸭	qian ya	1
 # 前崖	qian ya	0
 潜鸭刺缘吸虫	qian ya ci yuan xi chong	1
 潜鸭嗜眼吸虫	qian ya shi yan xi chong	1
@@ -306326,7 +306524,6 @@ sort: by_weight
 抢建	qiang jian	2185
 强间	qiang jian	18
 强奸案	qiang jian an	3345
-强奸处女	qiang jian chu nv	60
 强奸犯	qiang jian fan	3950
 强奸妇女	qiang jian fu nv	2385
 强奸妇女罪	qiang jian fu nv zui	124
@@ -310542,6 +310739,7 @@ sort: by_weight
 清交素友	qing jiao su you	1
 清教徒	qing jiao tu	5625
 请教下	qing jiao xia	1640
+青脚鹬	qing jiao yu	1
 青椒玉米	qing jiao yu mi	12
 情节	qing jie	500307
 清洁	qing jie	403250
@@ -311596,8 +311794,6 @@ sort: by_weight
 情色电影	qing se dian ying	5600
 情色片	qing se pian	4515
 青色素	qing se su	45
-情色天堂	qing se tian tang	280
-情色网	qing se wang	2050
 情色文学	qing se wen xue	845
 情色小说	qing se xiao shuo	1610
 清瑟怨遥夜	qing se yuan yao ye	2
@@ -312498,6 +312694,7 @@ sort: by_weight
 轻宣润燥	qing xuan run zao	1
 清宣统	qing xuan tong	1660
 请选择	qing xuan ze	252405
+清宣宗	qing xuan zong	1
 清雪	qing xue	3333
 请学	qing xue	1111
 清雪车	qing xue che	136
@@ -313169,6 +313366,7 @@ sort: by_weight
 穷理尽微	qiong li jin wei	1
 穷理尽性	qiong li jin xing	840
 穷里空舍	qiong li kong she	1
+蛩蠊	qiong lian	1
 琼林	qiong lin	48
 琼林玉树	qiong lin yu shu	10
 琼林玉枝	qiong lin yu zhi	1
@@ -314648,6 +314846,7 @@ sort: by_weight
 去极化	qu ji hua	940
 趋吉逃凶	qu ji tao xiong	1
 区纪委	qu ji wei	8505
+鸲姬鹟	qu ji weng	1
 去甲	qu jia	2680
 屈驾	qu jia	420
 曲家	qu jia	129
@@ -314885,6 +315084,7 @@ sort: by_weight
 去毛	qu mao	4675
 去毛刺	qu mao ci	865
 曲矛角蝉	qu mao jiao chan	1
+去么	qu me	3333
 去没	qu mei	3333
 祛魅	qu mei	2222
 曲霉	qu mei	224
@@ -317622,6 +317822,7 @@ sort: by_weight
 却称	que cheng	111
 确成股份	que cheng gu fen	339
 却迟迟	que chi chi	9925
+缺翅虫	que chi chong	1
 缺吃短穿	que chi duan chuan	1
 缺齿红丝线	que chi hong si xian	1
 缺翅目	que chi mu	23
@@ -317796,6 +317997,7 @@ sort: by_weight
 缺脉怒茧蜂	que mai nu jian feng	1
 炔螨特	que man te	141
 却没	que mei	82070
+雀鹛	que mei	1
 确美利	que mei li	1
 却没能	que mei neng	5145
 却没有	que mei you	198880
@@ -317831,6 +318033,7 @@ sort: by_weight
 确切证据	que qie zheng ju	3330
 缺勤	que qin	6185
 缺勤率	que qin lv	775
+鹊鸲	que qu	6
 确权	que quan	11055
 确确	que que	685
 确确实实	que que shi shi	11915
@@ -318633,7 +318836,6 @@ sort: by_weight
 让爱重生	rang ai chong sheng	8
 攘臂	rang bi	999
 攘臂瞋目	rang bi chen mu	1
-# 攘臂嗔目	rang bi chen mu	0
 攘臂切齿	rang bi qie chi	1
 攘臂一呼	rang bi yi hu	1
 让别人	rang bie ren	73720
@@ -320145,7 +320347,6 @@ sort: by_weight
 人工心肺设备	ren gong xin fei she bei	5
 人工选择	ren gong xuan ze	1075
 人工牙	ren gong ya	25
-人工养殖笋壳鱼技术	ren gong yang zhi sun ke yu ji shu	1
 人工阴道	ren gong yin dao	7
 人工阴茎	ren gong yin jing	9
 人工影响天气管理条例	ren gong ying xiang tian qi guan li tiao li	73
@@ -323338,6 +323539,7 @@ sort: by_weight
 日中必湲	ri zhong bi yuan	1
 日中必昃	ri zhong bi ze	1
 日中关系	ri zhong guan xi	3255
+日中花	ri zhong hua	1
 日中经济协会	ri zhong jing ji xie hui	385
 日中为市	ri zhong wei shi	375
 日中则移	ri zhong ze yi	3
@@ -323599,6 +323801,7 @@ sort: by_weight
 熔炉	rong lu	7745
 荣禄	rong lu	94
 熔炉芋螺	rong lu yu luo	1
+蝾螺	rong luo	1
 熔铝炉	rong lv lu	230
 戎马	rong ma	3135
 戎马关山	rong ma guan shan	21
@@ -324344,6 +324547,7 @@ sort: by_weight
 肉竹嘈杂	rou zhu cao za	3
 肉抓饭	rou zhua fan	15
 肉装	rou zhuang	111
+肉锥花	rou zhui hua	1
 肉孜节	rou zi jie	795
 柔姿纱	rou zi sha	35
 肉粽	rou zong	2605
@@ -324845,9 +325049,9 @@ sort: by_weight
 如将舞鹤管	ru jiang wu he guan	1
 入江直树	ru jiang zhi shu	1
 乳胶	ru jiao	22485
-乳交	ru jiao	20000
 儒教	ru jiao	18920
 入教	ru jiao	2690
+乳交	ru jiao	2000
 乳胶厂	ru jiao chang	890
 乳胶漆	ru jiao qi	38145
 如胶似漆	ru jiao si qi	4585
@@ -326142,6 +326346,7 @@ sort: by_weight
 瑞坂村	rui ban cun	1
 瑞宝	rui bao	3250
 瑞贝克	rui bei ke	26
+蕤宾	rui bin	1
 蕤宾铁响	rui bin tie xiang	1
 瑞博	rui bo	75
 锐步	rui bu	6385
@@ -326270,8 +326475,7 @@ sort: by_weight
 瑞南路	rui nan lu	11
 瑞脑消金兽	rui nao xiao jin shou	1
 睿频	rui pin	1111
-瑞萍	rui ping	1215
-锐评	rui ping	1
+锐评	rui ping	1111
 锐气	rui qi	16635
 瑞奇	rui qi	6720
 瑞气	rui qi	3220
@@ -326701,7 +326905,6 @@ sort: by_weight
 弱音	ruo yin	970
 弱音器	ruo yin qi	420
 若隐若现	ruo yin ruo xian	23435
-若隐若显	ruo yin ruo xian	111
 弱引用	ruo yin yong	10018
 若用	ruo yong	23460
 若有	ruo you	161995
@@ -327004,6 +327207,7 @@ sort: by_weight
 萨其玛	sa qi ma	574
 萨琪玛	sa qi ma	320
 萨其马桃	sa qi ma tao	2
+撒钱	sa qian	111
 萨切橙口榧螺	sa qie cheng kou fei luo	1
 撒切尔	sa qie er	2639
 撒切尔夫人	sa qie er fu ren	3855
@@ -327802,9 +328006,9 @@ sort: by_weight
 三差五错	san cha wu cuo	1
 三岔子	san cha zi	185
 三产	san chan	38150
-三场	san chang	19950
-三厂	san chang	10145
 散场	san chang	9140
+三场	san chang	1995
+三厂	san chang	3
 三长村	san chang cun	4
 散场的拥抱	san chang de yong bao	99
 三长两短	san chang liang duan	4375
@@ -330859,7 +331063,6 @@ sort: by_weight
 扫兴的事	sao xing de shi	595
 扫兴而回	sao xing er hui	3
 扫雪	sao xue	4320
-骚穴	sao xue	111
 扫雪车	sao xue che	116
 扫穴擒渠	sao xue qin qu	1
 瘙痒	sao yang	33510
@@ -330972,8 +331175,8 @@ sort: by_weight
 色浆	se jiang	5460
 色角斑花天牛	se jiao ban hua tian niu	1
 色阶	se jie	13635
-色界	se jie	8120
-色戒	se jie	1
+色戒	se jie	1111
+色界	se jie	2
 色界天	se jie tian	580
 色静深松里	se jing shen song li	2
 色觉	se jue	2690
@@ -331061,18 +331264,16 @@ sort: by_weight
 色弱	se ruo	5225
 色散	se san	14000
 色散力	se san li	105
-色色	se se	10720
+涩涩	se se	9548
 瑟瑟	se se	1427
-涩涩	se se	548
-色色的	se se de	4444
-涩涩的	se se de	560
+色色	se se	1
+涩涩的	se se de	8560
+色色的	se se de	1
 瑟瑟发抖	se se fa dou	8740
-色色方块	se se fang kuai	1
 瑟瑟谷中风	se se gu zhong feng	2
 色色俱全	se se ju quan	10
 瑟瑟缩缩	se se suo suo	16
 色色形形	se se xing xing	5
-色色传	se se zhuan	5
 色深	se shen	4525
 色是刮骨钢刀	se shi gua gu gang dao	1180
 瑟氏獛	se shi pu	1
@@ -331099,7 +331300,6 @@ sort: by_weight
 色条	se tiao	1735
 色图	se tu	1700
 色网	se wang	111
-色网大全	se wang da quan	14
 涩味	se wei	3985
 色位数	se wei shu	7350
 色威乡	se wei xiang	1
@@ -331311,11 +331511,9 @@ sort: by_weight
 傻屄吧	sha bi ba	1
 傻逼呗	sha bi bei	2
 傻屄呗	sha bi bei	1
-傻逼华为	sha bi hua wei	1
 沙比利	sha bi li	1760
 傻逼们	sha bi men	222
 傻屄们	sha bi men	1
-傻逼雀魂	sha bi que hun	2
 傻逼似的	sha bi shi de	2
 傻屄似的	sha bi shi de	1
 杀必死	sha bi si	123
@@ -331323,8 +331521,6 @@ sort: by_weight
 傻屄玩意	sha bi wan yi	1
 傻逼玩意儿	sha bi wan yi er	2
 傻屄玩意儿	sha bi wan yi er	1
-傻逼微信	sha bi wei xin	2
-傻屄微信	sha bi wei xin	1
 沙边	sha bian	53
 沙边待至今	sha bian dai zhi jin	1
 啥表情	sha biao qing	64
@@ -332264,6 +332460,7 @@ sort: by_weight
 沙勿来	sha wu lai	1
 杀无赦	sha wu she	5350
 沙溪	sha xi	989
+沙蜥	sha xi	1
 沙溪村	sha xi cun	102
 砂洗机	sha xi ji	670
 沙溪街道	sha xi jie dao	12
@@ -332573,6 +332770,7 @@ sort: by_weight
 山巴乡	shan ba xiang	9
 善败由己	shan bai you ji	1
 舢板	shan ban	2490
+山斑鸠	shan ban jiu	1
 扇斑异丽盲蝽	shan ban yi li mang chun	1
 讪谤	shan bang	390
 掸邦	shan bang	1
@@ -333025,6 +333223,7 @@ sort: by_weight
 煽风点火	shan feng dian huo	3565
 山峰林场	shan feng lin chang	3
 山腹	shan fu	3215
+闪付	shan fu	1111
 膳夫善治荐华堂	shan fu shan zhi jian hua tang	1
 山肤水豢	shan fu shui huan	1
 山复整妆	shan fu zheng zhuang	3
@@ -333403,6 +333602,7 @@ sort: by_weight
 山驴骨	shan lv gu	1
 删略	shan lve	290
 山麻杆	shan ma gan	1111
+山麻雀	shan ma que	1
 山脉	shan mai	70405
 山麦冬	shan mai dong	4
 山猫	shan mao	13655
@@ -334221,6 +334421,7 @@ sort: by_weight
 扇着	shan zhe	30510
 善者	shan zhe	9045
 善者不来	shan zhe bu lai	650
+山鹧鸪	shan zhe gu	1
 闪着光	shan zhe guang	1990
 山珍	shan zhen	10410
 山针	shan zhen	17
@@ -337645,7 +337846,7 @@ sort: by_weight
 少龙	shao long	18575
 烧录	shao lu	22940
 少撸	shao lu	1231
-少撸点	shao lu dian	123
+少撸点	shao lu dian	1231
 烧录机	shao lu ji	1645
 烧录卡	shao lu ka	1600
 烧录器	shao lu qi	2230
@@ -337825,6 +338026,7 @@ sort: by_weight
 少食	shao shi	1111
 邵氏	shao shi	706
 烧蚀	shao shi	317
+少师	shao shi	1
 绍式八珍糕	shao shi ba zhen gao	1
 绍式大夹沙	shao shi da jia sha	1
 少食多餐	shao shi duo can	3295
@@ -339375,6 +339577,7 @@ sort: by_weight
 蛇窝	she wo	58
 社务	she wu	1340
 社戏	she xi	2010
+蛇蜥	she xi	1
 设下	she xia	16065
 舌下	she xia	6530
 射下	she xia	3590
@@ -343515,6 +343718,7 @@ sort: by_weight
 省港	sheng gang	3095
 省港大罢工	sheng gang da ba gong	625
 升高	sheng gao	190730
+生稿	sheng gao	111
 省高级人民法院	sheng gao ji ren min fa yuan	4205
 声高一代	sheng gao yi dai	1
 省高院	sheng gao yuan	5450
@@ -352603,6 +352807,7 @@ sort: by_weight
 室温下	shi wen xia	66
 时闻下子声	shi wen xia zi sheng	1
 试问闲愁都几许	shi wen xian chou dou ji xu	1
+匙吻鲟	shi wen xun	1
 时闻折竹声	shi wen zhe zhu sheng	3
 失温症	shi wen zheng	179
 石瓮	shi weng	490
@@ -355611,6 +355816,7 @@ sort: by_weight
 收稿	shou gao	11610
 瘦高	shou gao	5785
 首告	shou gao	335
+熟稿	shou gao	111
 手高手低	shou gao shou di	1
 瘦高挑儿	shou gao tiao er	5
 首个	shou ge	79610
@@ -358083,11 +358289,11 @@ sort: by_weight
 舒服	shu fu	177025
 束缚	shu fu	127400
 叔父	shu fu	18175
-熟妇	shu fu	675
 疏附	shu fu	515
 束腹	shu fu	350
 数伏	shu fu	145
 暑伏	shu fu	99
+熟妇	shu fu	1
 舒福德	shu fu de	200
 舒服地躺	shu fu de tang	81
 舒服极了	shu fu ji le	1735
@@ -358120,7 +358326,8 @@ sort: by_weight
 疏港路	shu gang lu	85
 书稿	shu gao	17670
 树高	shu gao	8365
-舒高	shu gao	11
+熟稿	shu gao	111
+# 舒高	shu gao	0
 树高千尺	shu gao qian chi	181
 树高千丈	shu gao qian zhang	220
 孰高孰低	shu gao shu di	189
@@ -358957,6 +359164,7 @@ sort: by_weight
 树龄	shu ling	12005
 属灵	shu ling	7620
 淑玲	shu ling	3510
+树鹨	shu liu	1
 属龙	shu long	1040
 梳拢	shu long	530
 鼠龙	shu long	70
@@ -359017,6 +359225,7 @@ sort: by_weight
 数码录音	shu ma lu yin	6585
 数码屏	shu ma ping	65
 数码器	shu ma qi	5
+树麻雀	shu ma que	1
 数码商城	shu ma shang cheng	8470
 数码设备	shu ma she bei	22525
 数码摄像	shu ma she xiang	3740
@@ -359305,6 +359514,7 @@ sort: by_weight
 鼠曲果	shu qu guo	8
 暑去凉来	shu qu liang lai	101
 暑去秋来	shu qu qiu lai	159
+树鹊	shu que	1
 书缺简脱	shu que jian tuo	3
 书缺有间	shu que you jian	1
 鼠雀之辈	shu que zhi bei	1
@@ -359676,6 +359886,7 @@ sort: by_weight
 属兔	shu tu	1040
 熟土	shu tu	385
 树突	shu tu	35
+鼠兔	shu tu	1
 殊途同归	shu tu tong gui	7735
 殊途同致	shu tu tong zhi	1
 树突细胞	shu tu xi bao	54
@@ -359683,6 +359894,7 @@ sort: by_weight
 暑退寒袭	shu tui han xi	1
 疏脱	shu tuo	80
 蜀驼花天牛	shu tuo hua tian niu	1
+树蛙	shu wa	1
 暑袜街	shu wa jie	31
 书外	shu wai	4895
 数万	shu wan	55515
@@ -362953,6 +363165,7 @@ sort: by_weight
 水灵之主	shui ling zhi zhu	1
 水灵珠	shui ling zhu	174
 水流	shui liu	85985
+水鹨	shui liu	1
 水流村	shui liu cun	8
 水流花落	shui liu hua luo	7
 水流花谢	shui liu hua xie	20
@@ -363319,6 +363532,7 @@ sort: by_weight
 水区	shui qu	23945
 谁去	shui qu	15330
 水渠	shui qu	12785
+水鸲	shui qu	1
 水曲柳	shui qu liu	6070
 水去云回恨不胜	shui qu yun hui hen bu sheng	1
 水区政府	shui qu zheng fu	17
@@ -363578,6 +363792,7 @@ sort: by_weight
 水危机	shui wei ji	1940
 水尾水族乡	shui wei shui zu xiang	2
 水位线	shui wei xian	1675
+水委一	shui wei yi	1
 水为之而寒于水	shui wei zhi er han yu shui	4
 水温	shui wen	81995
 水文	shui wen	77985
@@ -363922,6 +364137,7 @@ sort: by_weight
 税制	shui zhi	34155
 水蛭	shui zhi	5620
 水制	shui zhi	24
+水雉	shui zhi	1
 水质标准	shui zhi biao zhun	9545
 谁知道	shui zhi dao	3333
 谁知道呢	shui zhi dao ne	3333
@@ -366057,6 +366273,7 @@ sort: by_weight
 丝光	si guang	1
 丝光处理	si guang chu li	570
 死光光	si guang guang	1250
+丝光椋鸟	si guang liang niao	1
 丝光棉	si guang mian	1255
 丝光绒	si guang rong	420
 死鬼	si gui	6185
@@ -368910,6 +369127,7 @@ sort: by_weight
 松江河	song jiang he	1270
 松江里	song jiang li	2
 松江路	song jiang lu	67
+松江鲈	song jiang lu	1
 松江鲈鱼	song jiang lu yu	635
 松江区	song jiang qu	18640
 松江县	song jiang xian	33
@@ -369401,6 +369619,7 @@ sort: by_weight
 松雪泰子	song xue tai zi	2
 宋学文	song xue wen	160
 松蕈	song xun	65
+松鸦	song ya	1
 送烟	song yan	5555
 送验	song yan	2222
 松烟	song yan	9
@@ -369669,6 +369888,7 @@ sort: by_weight
 搜奇	sou qi	3270
 搜奇猎艳	sou qi lie yan	5
 搜求	sou qiu	2120
+薮犬	sou quan	1
 薮犬亚科	sou quan ya ke	1
 搜人网	sou ren wang	3
 搜身	sou shen	5525
@@ -375139,6 +375359,7 @@ sort: by_weight
 太聪明	tai cong ming	2705
 太聪明了	tai cong ming le	2795
 太粗	tai cu	4085
+太簇	tai cu	1
 太粗糙了	tai cu cao le	435
 太粗了	tai cu le	605
 太粗了吧	tai cu le ba	605
@@ -376680,6 +376901,7 @@ sort: by_weight
 泰斯	tai si	5490
 苔丝	tai si	4605
 太死	tai si	2610
+太姒	tai si	1
 太死板了	tai si ban le	365
 胎死腹中	tai si fu zhong	3770
 泰斯拉	tai si la	103
@@ -379673,6 +379895,7 @@ sort: by_weight
 塘鱼	tang yu	1030
 唐钰	tang yu	33
 唐虞	tang yu	22
+唐鱼	tang yu	1
 唐与高句丽的战争	tang yu gao gou li de zhan zheng	1
 汤于翰	tang yu han	1
 糖芋苗	tang yu miao	117
@@ -379950,6 +380173,7 @@ sort: by_weight
 讨工钱	tao gong qian	800
 套购	tao gou	1465
 桃沟村	tao gou cun	4
+桃谷	tao gu	111
 桃谷绘里香	tao gu hui li xiang	6666
 陶谷新村	tao gu xin cun	15
 套管	tao guan	28910
@@ -383917,8 +384141,8 @@ sort: by_weight
 天机	tian ji	28930
 田鸡	tian ji	8300
 天极	tian ji	1111
+天玑	tian ji	1
 # 天基	tian ji	0
-# 天玑	tian ji	0
 # 天纪	tian ji	0
 天玑版	tian ji ban	137
 天机不可泄露	tian ji bu ke xie lou	715
@@ -384334,6 +384558,7 @@ sort: by_weight
 天灵盖	tian ling gai	1990
 天灵感至德	tian ling gan zhi de	1
 田柳	tian liu	8
+田鹨	tian liu	1
 田硫化氢	tian liu hua qing	87
 田柳镇	tian liu zhen	102
 天龙	tian long	62980
@@ -393783,6 +394008,7 @@ sort: by_weight
 吐酸水	tu suan shui	580
 吐穗	tu sui	150
 徒孙	tu sun	1615
+兔狲	tu sun	1
 土笋冻	tu sun dong	1041
 屠所牛羊	tu suo niu yang	1
 图他	tu ta	2222
@@ -394450,6 +394676,7 @@ sort: by_weight
 团团围住	tuan tuan wei zhu	10215
 团团圆圆	tuan tuan yuan yuan	3300
 团团转	tuan tuan zhuan	10680
+湍蛙	tuan wa	1
 团委	tuan wei	138880
 团委干部	tuan wei gan bu	400
 团委会	tuan wei hui	1950
@@ -395449,6 +395676,7 @@ sort: by_weight
 屯粮巷	tun liang xiang	1
 屯留	tun liu	1560
 屯留县	tun liu xian	710
+豚鹿	tun lu	1
 屯落	tun luo	70
 屯绿	tun lv	1073
 屯毛不辨	tun mao bu bian	1
@@ -397741,7 +397969,8 @@ sort: by_weight
 外游	wai you	4205
 外语	wai yu	356935
 外遇	wai yu	23400
-外域	wai yu	2210
+外域	wai yu	221
+外娱	wai yu	111
 外语成绩	wai yu cheng ji	2115
 外语大学社区	wai yu da xue she qu	1
 外语翻译	wai yu fan yi	3670
@@ -403785,9 +404014,9 @@ sort: by_weight
 蔚汾镇	wei fen zhen	5
 微分中值定理	wei fen zhong zhi ding li	285
 微分子	wei fen zi	955
-微风	wei feng	65225
 威风	wei feng	31695
-卫风	wei feng	1245
+微风	wei feng	6522
+卫风	wei feng	2
 威风八面	wei feng ba mian	3295
 微风吹	wei feng chui	1515
 微风吹拂	wei feng chui fu	1445
@@ -408750,6 +408979,7 @@ sort: by_weight
 问句	wen ju	9630
 文句	wen ju	8125
 温居	wen ju	90
+吻𬶋	wen ju	1
 稳居第一	wen ju di yi	117
 文具店	wen ju dian	4900
 文具行	wen ju hang	140
@@ -408779,6 +409009,7 @@ sort: by_weight
 闻君有他心	wen jun you ta xin	2
 问君知否	wen jun zhi fou	310
 文凯	wen kai	4310
+文楷	wen kai	100
 温开水	wen kai shui	15450
 文康	wen kang	2975
 文康活动	wen kang huo dong	110
@@ -410181,6 +410412,7 @@ sort: by_weight
 我比	wo bi	9999
 握笔	wo bi	3800
 我必	wo bi	111
+沃比	wo bi	100
 握笔法	wo bi fa	15
 我必犯人	wo bi fan ren	96
 我比较	wo bi jiao	7
@@ -413992,6 +414224,7 @@ sort: by_weight
 污点证人	wu dian zheng ren	182
 五点钟	wu dian zhong	3145
 吴店子	wu dian zi	2
+乌雕	wu diao	1
 舞蝶	wu die	2880
 屋顶	wu ding	103295
 无定	wu ding	10990
@@ -414029,6 +414262,7 @@ sort: by_weight
 武东	wu dong	1585
 勿动	wu dong	1525
 五洞	wu dong	695
+乌鸫	wu dong	6
 吾东	wu dong	2
 乌冬	wu dong	1
 雾洞茶	wu dong cha	2
@@ -420661,6 +420895,7 @@ sort: by_weight
 西房	xi fang	1490
 喜房	xi fang	265
 细纺	xi fang	170
+戏仿	xi fang	111
 西坊城镇	xi fang cheng zhen	8
 西方村	xi fang cun	6
 西方发达国家企业法律制度概观	xi fang fa da guo jia qi ye fa lv zhi du gai guan	1
@@ -421031,6 +421266,7 @@ sort: by_weight
 喜好	xi hao	108260
 习好	xi hao	13080
 洗好	xi hao	9805
+西镐	xi hao	111
 洗好了	xi hao le	935
 西豪丽景	xi hao li jing	109
 溪河	xi he	13655
@@ -422687,8 +422923,8 @@ sort: by_weight
 稀世之宝	xi shi zhi bao	1120
 西施脂玉	xi shi zhi yu	1
 西狮子巷	xi shi zi xiang	1
-洗手	xi shou	48190
 吸收	xi shou	40031
+洗手	xi shou	38190
 细瘦	xi shou	1430
 惜售	xi shou	109
 # 西首	xi shou	0
@@ -424043,6 +424279,7 @@ sort: by_weight
 细语	xi yu	9915
 西语	xi yu	5315
 习鱼	xi yu	164
+习语	xi yu	111
 喜雨	xi yu	13
 系狱	xi yu	2
 # 喜遇	xi yu	0
@@ -424368,6 +424605,7 @@ sort: by_weight
 细足钝额蟹	xi zu dun e xie	1
 细足关公蟹	xi zu guan gong xie	1
 吸嘴	xi zui	3040
+锡嘴雀	xi zui que	1
 习作	xi zuo	31845
 细作	xi zuo	3040
 习作簿	xi zuo bu	85
@@ -424474,6 +424712,7 @@ sort: by_weight
 虾兵蟹将	xia bing xie jiang	1695
 下拨	xia bo	13690
 夏播	xia bo	2815
+下播	xia bo	111
 夏伯和	xia bo he	3
 夏伯渝	xia bo yu	142
 下部	xia bu	55450
@@ -424961,9 +425200,10 @@ sort: by_weight
 夏侯玄	xia hou xuan	5
 夏侯渊	xia hou yuan	4880
 吓唬	xia hu	21580
-下护	xia hu	8420
 下户	xia hu	1520
-霞湖	xia hu	61
+虾虎	xia hu	2
+# 下护	xia hu	0
+# 霞湖	xia hu	0
 下护板	xia hu ban	1545
 柙虎樊熊	xia hu fan xiong	1
 瞎胡闹	xia hu nao	1175
@@ -427664,6 +427904,7 @@ sort: by_weight
 贤伉俪	xian kang li	660
 先考	xian kao	2815
 显考	xian kao	175
+现烤	xian kao	1
 先考试	xian kao shi	200
 先科	xian ke	4060
 仙客	xian ke	2110
@@ -428778,6 +429019,7 @@ sort: by_weight
 先问下	xian wen xia	65
 先问一下	xian wen yi xia	364
 仙翁	xian weng	5365
+仙鹟	xian weng	1
 嫌我	xian wo	12310
 闲卧	xian wo	315
 嫌恶	xian wu	4475
@@ -428808,6 +429050,7 @@ sort: by_weight
 鲜虾	xian xia	5850
 仙霞	xian xia	5180
 陷下	xian xia	2460
+掀下	xian xia	1
 鲜虾扒豆苗	xian xia ba dou miao	1
 鲜虾腐皮卷	xian xia fu pi juan	13
 线下观赛	xian xia guan sai	118
@@ -429230,6 +429473,7 @@ sort: by_weight
 现在	xian zai	503182
 先在	xian zai	85355
 陷在	xian zai	11535
+贤哉	xian zai	100
 现在啊	xian zai a	1535
 现在北京	xian zai bei jing	5350
 现在不行	xian zai bu xing	1315
@@ -431043,6 +431287,7 @@ sort: by_weight
 向量中断	xiang liang zhong duan	208
 相良宗介	xiang liang zong jie	62
 香料	xiang liao	76500
+详聊	xiang liao	111
 香料厂	xiang liao chang	1535
 香料店	xiang liao dian	195
 香料盒	xiang liao he	65
@@ -433691,6 +433936,7 @@ sort: by_weight
 小东庄	xiao dong zhuang	3
 小动作	xiao dong zuo	15630
 小豆	xiao dou	7285
+小豆长喙天蛾	xiao dou chang hui tian e	1
 小豆豆	xiao dou dou	8770
 小痘痘	xiao dou dou	2560
 小兜肥蛛	xiao dou fei zhu	1
@@ -434741,6 +434987,7 @@ sort: by_weight
 效绩	xiao ji	444
 枭姬	xiao ji	129
 小蓟	xiao ji	2
+小麂	xiao ji	1
 # 小季	xiao ji	0
 # 小矶	xiao ji	0
 # 小集	xiao ji	0
@@ -435142,8 +435389,10 @@ sort: by_weight
 小葵	xiao kui	3030
 萧岿	xiao kui	3
 小捆	xiao kun	550
+小困	xiao kun	1
 小昆虫	xiao kun chong	1530
 小困难	xiao kun nan	845
+笑啦	xiao la	1
 小喇叭	xiao la ba	8875
 小拉菲	xiao la fei	230
 小拉格	xiao la ge	192
@@ -435740,7 +435989,6 @@ sort: by_weight
 校内调剂	xiao nei tiao ji	157
 校内外	xiao nei wai	12815
 校内网上	xiao nei wang shang	66
-小嫩穴	xiao nen xue	615
 效能	xiao neng	137715
 效能监察	xiao neng jian cha	14200
 效能建设	xiao neng jian she	18045
@@ -435748,8 +435996,8 @@ sort: by_weight
 笑你	xiao ni	9999
 削你	xiao ni	3333
 小妮	xiao ni	865
+小鲵	xiao ni	3
 小倪	xiao ni	2
-# 小鲵	xiao ni	0
 小拟单栏虫	xiao ni dan lan chong	1
 小尼尔森	xiao ni er sen	7
 小拟海牛	xiao ni hai niu	1
@@ -438277,6 +438525,7 @@ sort: by_weight
 小嘴鸻	xiao zui heng	1
 小嘴鸻属	xiao zui heng shu	1
 小嘴拟霸鹟	xiao zui ni ba weng	1
+小嘴乌鸦	xiao zui wu ya	1
 小樽	xiao zun	1355
 小坐	xiao zuo	5150
 硝唑	xiao zuo	650
@@ -438586,6 +438835,7 @@ sort: by_weight
 写封信	xie feng xin	3745
 鞋服	xie fu	3333
 歇伏	xie fu	60
+谐赋	xie fu	1
 谢伏瞻	xie fu zhan	177
 谢富治	xie fu zhi	1280
 写福字	xie fu zi	171
@@ -439373,6 +439623,7 @@ sort: by_weight
 谢婉雯	xie wan wen	1
 些微	xie wei	9999
 写为	xie wei	5205
+楔尾伯劳	xie wei bo lao	1
 楔尾草鹀	xie wei cao wu	1
 楔尾草鹀属	xie wei cao wu shu	1
 楔尾刀翅蜂鸟	xie wei dao chi feng niao	1
@@ -439777,6 +440028,7 @@ sort: by_weight
 卸职	xie zhi	940
 歇枝	xie zhi	1
 獬豸	xie zhi	1
+血雉	xie zhi	1
 写直达	xie zhi da	32
 邪枝巨魔	xie zhi ju mo	1
 斜芝麻蜗牛	xie zhi ma wo niu	1
@@ -441729,8 +441981,8 @@ sort: by_weight
 新康泰克	xin kang tai ke	454
 新康园	xin kang yuan	19
 新烤的面包	xin kao de mian bao	1
-新课	xin ke	40730
-新科	xin ke	27150
+新课	xin ke	4073
+新科	xin ke	2
 新课标	xin ke biao	31860
 鑫科材料	xin ke cai liao	175
 新课程	xin ke cheng	144865
@@ -445102,13 +445354,13 @@ sort: by_weight
 姓耿	xing geng	250
 行宫	xing gong	18790
 兴工	xing gong	4600
-姓公	xing gong	315
 姓龚	xing gong	310
 姓宫	xing gong	115
-姓贡	xing gong	50
-行功	xing gong	50
 姓巩	xing gong	30
-姓弓	xing gong	25
+行功	xing gong	10
+# 姓公	xing gong	0
+# 姓弓	xing gong	0
+# 姓贡	xing gong	0
 星工场	xing gong chang	550
 行宫花园	xing gong hua yuan	2
 行宫见月伤心色	xing gong jian yue shang xin se	21
@@ -445137,6 +445389,7 @@ sort: by_weight
 行馆	xing guan	47500
 姓关	xing guan	700
 姓管	xing guan	215
+星官	xing guan	1
 兴关路街道	xing guan lu jie dao	1
 性观念	xing guan nian	10065
 性关系	xing guan xi	22700
@@ -445442,7 +445695,6 @@ sort: by_weight
 性交	xing jiao	141855
 行脚	xing jiao	3195
 姓焦	xing jiao	1275
-性交电影	xing jiao dian ying	1840
 性交关系	xing jiao guan xi	225
 性交过程	xing jiao guo cheng	1600
 性交后	xing jiao hou	7985
@@ -446507,6 +446759,7 @@ sort: by_weight
 兴头	xing tou	2780
 兴头儿上	xing tou er shang	9999
 兴头上	xing tou shang	2555
+星头啄木鸟	xing tou zhuo mu niao	1
 星图	xing tu	6750
 星途	xing tu	2
 姓屠	xing tu	1
@@ -446713,7 +446966,6 @@ sort: by_weight
 型血	xing xie	3
 姓谢	xing xie	2
 姓解	xing xie	1
-性写真	xing xie zhen	40
 型芯	xing xin	2225
 形心	xing xin	515
 姓辛	xing xin	1
@@ -446819,6 +447071,7 @@ sort: by_weight
 刑讯室	xing xun shi	235
 行呀	xing ya	5655
 兴亚	xing ya	2380
+星鸦	xing ya	1
 性压抑	xing ya yi	3175
 杏眼	xing yan	2965
 星眼	xing yan	910
@@ -447621,6 +447874,7 @@ sort: by_weight
 胸廓内动脉	xiong kuo nei dong mai	12
 胸肋关节	xiong lei guan jie	2
 凶戾	xiong li	500
+熊狸	xiong li	1
 熊脸	xiong lian	5555
 雄鹿	xiong lu	9540
 雄鹿队	xiong lu dui	141
@@ -450799,6 +451053,7 @@ sort: by_weight
 旋塞	xuan sai	1200
 旋塞阀	xuan sai fa	3435
 玄色	xuan se	2580
+选色	xuan se	111
 选色征歌	xuan se zheng ge	1
 悬赏	xuan shang	55265
 选上	xuan shang	15090
@@ -450807,6 +451062,7 @@ sort: by_weight
 悬赏广告	xuan shang guang gao	1620
 悬赏缉拿	xuan shang ji na	280
 悬赏金	xuan shang jin	1135
+悬设	xuan she	1
 选谁	xuan shei	9999
 玄参	xuan shen	250
 喧声	xuan sheng	625
@@ -452351,6 +452607,8 @@ sort: by_weight
 雪象村	xue xiang cun	9
 薛湘灵	xue xiang ling	135
 学校	xue xiao	523819
+雪鸮	xue xiao	6
+穴鸮	xue xiao	1
 学校啊	xue xiao a	2020
 学校办学	xue xiao ban xue	16540
 学校布局	xue xiao bu ju	4440
@@ -452588,6 +452846,7 @@ sort: by_weight
 削职	xue zhi	1999
 学智	xue zhi	1785
 穴植	xue zhi	70
+血雉	xue zhi	1
 学制度	xue zhi du	55
 学至乎没而后止也	xue zhi hu mei er hou zhi ye	1
 薛之谦	xue zhi qian	244
@@ -452983,6 +453242,7 @@ sort: by_weight
 寻流逐末	xun liu zhu mo	1
 寻龙	xun long	9999
 熏笼	xun long	370
+驯龙	xun long	1
 训龙记	xun long ji	1598
 驯鹿	xun lu	6805
 寻路	xun lu	3415
@@ -453854,6 +454114,7 @@ sort: by_weight
 哑剧字谜	ya ju zi mi	10
 亚娟	ya juan	2325
 压卷	ya juan	240
+鸦鹃	ya juan	1
 压卷之作	ya juan zhi zuo	315
 雅爵服饰	ya jue fu shi	1
 亚军	ya jun	65715
@@ -454876,6 +455137,7 @@ sort: by_weight
 眼斑潜鲆	yan ban qian ping	1
 眼斑腔吻鳕	yan ban qiang wen xue	1
 眼斑乳突天竺鲷	yan ban ru tu tian zhu diao	1
+眼斑水龟	yan ban shui gui	1
 眼斑吐绶鸡	yan ban tu shou ji	1
 眼斑线鳍鲆	yan ban xian qi ping	1
 眼斑星背丽鱼	yan ban xing bei li yu	1
@@ -454951,6 +455213,7 @@ sort: by_weight
 烟标	yan biao	8680
 言表	yan biao	6470
 彦彪	yan biao	115
+验镖	yan biao	1
 宴宾	yan bin	1275
 彦彬	yan bin	865
 延斌	yan bin	760
@@ -456559,7 +456822,7 @@ sort: by_weight
 眼目	yan mu	7100
 烟幕	yan mu	3335
 严母	yan mu	2222
-艳母	yan mu	111
+# 艳母	yan mu	0
 烟幕弹	yan mu dan	1900
 岩牡丹	yan mu dan	2
 言穆江	yan mu jiang	1
@@ -456904,7 +457167,7 @@ sort: by_weight
 延烧到	yan shao dao	360
 眼烧伤	yan shao shang	1
 衍射	yan she	12410
-颜射	yan she	2241
+颜射	yan she	666
 衍射现象	yan she xian xiang	1215
 衍射仪	yan she yi	64
 眼神	yan shen	343235
@@ -457326,6 +457589,7 @@ sort: by_weight
 芫荽	yan sui	2
 延髓背外侧综合征	yan sui bei wai ce zong he zheng	2
 延髓麻痹	yan sui ma bi	11
+燕隼	yan sun	1
 烟锁秦楼	yan suo qin lou	21
 雁塔	yan ta	6815
 岩塔	yan ta	4
@@ -459284,6 +459548,7 @@ sort: by_weight
 杨茂之	yang mao zhi	1
 杨梅	yang mei	28115
 扬眉	yang mei	6385
+央媒	yang mei	1
 # 扬美	yang mei	0
 # 洋美	yang mei	0
 杨梅疮	yang mei chuang	9999
@@ -461645,6 +461910,7 @@ sort: by_weight
 摇手	yao shou	7480
 咬手	yao shou	1590
 妖兽	yao shou	111
+夭寿	yao shou	1
 姚绶	yao shou	1
 摇手柄	yao shou bing	1180
 摇手触禁	yao shou chu jin	1
@@ -462171,6 +462437,7 @@ sort: by_weight
 遥远	yao yuan	78405
 要员	yao yuan	10490
 要远	yao yuan	1180
+瑶螈	yao yuan	1
 窑院村	yao yuan cun	1
 遥远的	yao yuan de	88275
 遥远的他	yao yuan de ta	345
@@ -462665,6 +462932,7 @@ sort: by_weight
 耶诞树珊瑚	ye dan shu shan hu	1
 也担心	ye dan xin	104
 也当	ye dang	15365
+野档	ye dang	1
 也到	ye dao	14685
 也倒	ye dao	1180
 噎到	ye dao	605
@@ -462775,6 +463043,7 @@ sort: by_weight
 夜蜂虎	ye feng hu	8
 野风信子	ye feng xin zi	9
 叶风优莉亚	ye feng you li ya	6666
+野服	ye fu	1
 叶甫盖尼	ye fu gai ni	470
 也符合	ye fu he	14795
 冶父山	ye fu shan	184
@@ -463229,7 +463498,8 @@ sort: by_weight
 夜路	ye lu	4000
 夜露	ye lu	1705
 野鹿	ye lu	1635
-叶鹿	ye lu	66
+夜鹭	ye lu	6
+叶鹿	ye lu	1
 耶鲁大学	ye lu da xue	15520
 耶路撒冷	ye lu sa leng	20370
 耶路撒冷地	ye lu sa leng di	189
@@ -464107,6 +464377,7 @@ sort: by_weight
 野性之心褶裙	ye xing zhi xin zhe qun	1
 夜行蜘蛛洞穴	ye xing zhi zhu dong xue	2
 野熊之	ye xiong zhi	4
+叶䗛	ye xiu	1
 叶锈病	ye xiu bing	570
 也许	ye xu	500653
 也需	ye xu	32745
@@ -465856,6 +466127,7 @@ sort: by_weight
 宜川	yi chuan	4700
 一传	yi chuan	4640
 伊川	yi chuan	4530
+一椽	yi chuan	1
 遗传背景	yi chuan bei jing	155
 遗传变异	yi chuan bian yi	1690
 遗传标记	yi chuan biao ji	81
@@ -468949,8 +469221,9 @@ sort: by_weight
 一将	yi jiang	6240
 易将	yi jiang	2400
 弋江	yi jiang	2005
-意匠	yi jiang	1670
-艺匠	yi jiang	1320
+意匠	yi jiang	1
+邑姜	yi jiang	1
+# 艺匠	yi jiang	0
 一江春水向东流	yi jiang chun shui xiang dong liu	4355
 一降到底	yi jiang dao di	148
 以降低	yi jiang di	24025
@@ -470274,11 +470547,11 @@ sort: by_weight
 遗漏主体	yi lou zhu ti	2
 遗漏罪	yi lou zui	149
 一路	yi lu	455090
-已撸	yi lu	99999
-一炉	yi lu	10595
 驿路	yi lu	4075
 一露	yi lu	1505
+已撸	yi lu	2
 夷戮	yi lu	1
+# 一炉	yi lu	0
 # 宜禄	yi lu	0
 # 移录	yi lu	0
 # 迻录	yi lu	0
@@ -472040,6 +472313,7 @@ sort: by_weight
 亦若是则已矣	yi ruo shi ze yi yi	3
 益若翼	yi ruo yi	1
 易若转圜	yi ruo zhuan huan	1
+以撒	yi sa	1
 溢洒	yi sa	1
 遗撒	yi sa	1
 遗洒	yi sa	1
@@ -472429,6 +472703,7 @@ sort: by_weight
 役使	yi shi	3640
 疑是	yi shi	1040
 伊势	yi shi	329
+蚁狮	yi shi	1
 # 义师	yi shi	0
 # 依实	yi shi	0
 # 依恃	yi shi	0
@@ -475430,6 +475705,7 @@ sort: by_weight
 一早上	yi zao shang	6
 一则	yi ze	78935
 易箦	yi ze	120
+夷则	yi ze	1
 益泽公园	yi ze gong yuan	2
 颐泽花园	yi ze hua yuan	165
 以泽量尸	yi ze liang shi	1
@@ -476122,7 +476398,8 @@ sort: by_weight
 易主	yi zhu	6055
 遗著	yi zhu	1905
 奕詝	yi zhu	1
-# 挹注	yi zhu	0
+挹注	yi zhu	1
+遗珠	yi zhu	1
 # 翼助	yi zhu	0
 遗珠沧海	yi zhu cang hai	1
 一注册	yi zhu ce	1180
@@ -476702,7 +476979,6 @@ sort: by_weight
 引导区	yin dao qu	7175
 引导扇区	yin dao shan qu	10995
 阴道松弛	yin dao song chi	35
-阴道特写	yin dao te xie	130
 阴道脱垂	yin dao tuo chui	5
 引导文件	yin dao wen jian	1975
 阴道洗涤器	yin dao xi di qi	2
@@ -477599,8 +477875,8 @@ sort: by_weight
 印卡机	yin ka ji	140
 银卡价	yin ka jia	1350
 引开	yin kai	7425
-阴刻	yin ke	4285
 印刻	yin ke	1900
+阴刻	yin ke	42
 银科大厦	yin ke da sha	660
 瘾科技	yin ke ji	43
 印刻效应	yin ke xiao ying	20
@@ -477850,6 +478126,7 @@ sort: by_weight
 因纽特犬	yin niu te quan	1
 淫女	yin nv	3880
 印欧	yin ou	1320
+银鸥	yin ou	1
 印欧语	yin ou yu	595
 印欧语系	yin ou yu xi	1500
 因怕	yin pa	9999
@@ -478680,7 +478957,6 @@ sort: by_weight
 阴虚阳亢	yin xu yang kang	39
 阴虚阳亢证	yin xu yang kang zheng	1
 饮血	yin xue	3045
-淫穴	yin xue	2222
 隐血	yin xue	1445
 # 阴穴	yin xue	0
 淫学邪说	yin xue xie shuo	1
@@ -481765,6 +482041,7 @@ sort: by_weight
 硬脂酰乳酸钠	ying zhi xian ru suan na	47
 营中	ying zhong	11340
 英中	ying zhong	4270
+应钟	ying zhong	1
 郢中白雪	ying zhong bai xue	2
 英种斑点兔	ying zhong ban dian tu	1
 硬中断	ying zhong duan	215
@@ -483567,6 +483844,7 @@ sort: by_weight
 有笔	you bi	2810
 疣鼻	you bi	1180
 诱逼	you bi	275
+右弼	you bi	1
 游臂颚虱属	you bi e shi shu	1
 有鄙夫问于我	you bi fu wen yu wo	1
 有比较	you bi jiao	31825
@@ -484022,6 +484300,7 @@ sort: by_weight
 又大	you da	38180
 又打	you da	26855
 犹大	you da	10855
+尤达	you da	1
 # 由打	you da	0
 有答案	you da an	5685
 由大变强	you da bian qiang	920
@@ -486511,6 +486790,7 @@ sort: by_weight
 幽梦	you meng	5185
 有梦	you meng	4444
 又猛	you meng	3210
+友盟	you meng	1
 # 优孟	you meng	0
 友盟分享	you meng fen xiang	402
 友盟统计	you meng tong ji	861
@@ -487731,6 +488011,7 @@ sort: by_weight
 幽邃	you sui	1935
 幼穗分化	you sui fen hua	440
 有损	you sun	43775
+游隼	you sun	1
 有损反转	you sun fan zhuan	1
 有损健康	you sun jian kang	2330
 有孙母未去	you sun mu wei qu	3
@@ -489480,7 +489761,8 @@ sort: by_weight
 游园	you yuan	14280
 幽远	you yuan	4425
 幼圆	you yuan	1075
-油园	you yuan	7
+疣螈	you yuan	1
+# 油园	you yuan	0
 幽怨不堪听	you yuan bu kan ting	1
 有原步美	you yuan bu mei	6666
 游园不值	you yuan bu zhi	685
@@ -490417,6 +490699,7 @@ sort: by_weight
 语带	yu dai	4935
 雨带	yu dai	2400
 玉带糕	yu dai gao	127
+玉带海雕	yu dai hai diao	1
 玉带胡同	yu dai hu tong	5
 玉代克力克乡	yu dai ke li ke xiang	8
 玉带路	yu dai lu	39
@@ -491534,6 +491817,7 @@ sort: by_weight
 预可研	yu ke yan	64
 榆科镇	yu ke zhen	4
 御空	yu kong	99
+域控	yu kong	1
 育空地区	yu kong di qu	410
 育空河	yu kong he	240
 与空间	yu kong jian	12145
@@ -491979,6 +492263,7 @@ sort: by_weight
 玉貌	yu mao	595
 毓茂	yu mao	95
 御猫	yu mao	74
+渔猫	yu mao	1
 羽毛笔	yu mao bi	875
 余茂春	yu mao chun	187
 与矛盾	yu mao dun	734
@@ -492281,6 +492566,7 @@ sort: by_weight
 玉女心经	yu nv xin jing	4790
 与女性	yu nv xing	10655
 与女友	yu nv you	5970
+渔鸥	yu ou	1
 与欧美	yu ou mei	8785
 与欧盟	yu ou meng	10770
 与欧洲	yu ou zhou	17575
@@ -492906,6 +493192,7 @@ sort: by_weight
 玉手	yu shou	11080
 欲售	yu shou	850
 驭手	yu shou	765
+御守	yu shou	1
 预售版	yu shou ban	630
 预售处	yu shou chu	125
 预售房	yu shou fang	1660
@@ -494134,8 +494421,9 @@ sort: by_weight
 余元	yu yuan	31650
 语源	yu yuan	9999
 豫园	yu yuan	7350
-御苑	yu yuan	3395
 迂远	yu yuan	205
+鱼螈	yu yuan	2
+御苑	yu yuan	1
 # 于渊	yu yuan	0
 # 喻园	yu yuan	0
 # 玉园	yu yuan	0
@@ -495918,6 +496206,7 @@ sort: by_weight
 远射	yuan she	15450
 原设	yuan she	12205
 远涉	yuan she	2970
+原麝	yuan she	1
 远射程	yuan she cheng	555
 远涉重洋	yuan she chong yang	1880
 远摄镜头	yuan she jing tou	850
@@ -497026,7 +497315,9 @@ sort: by_weight
 越绷越紧	yue beng yue jin	175
 月闭花羞	yue bi hua xiu	2
 越逼越近	yue bi yue jin	320
+越变	yue bian	111
 越编越	yue bian yue	180
+越变越	yue bian yue	111
 越变越白	yue bian yue bai	25
 越变越差	yue bian yue cha	195
 越变越大	yue bian yue da	940
@@ -498429,15 +498720,14 @@ sort: by_weight
 越女	yue nv	2525
 越女天下白	yue nv tian xia bai	1
 越怕	yue pa	5555
-约啪	yue pa	111
 越爬越	yue pa yue	175
 越爬越高	yue pa yue gao	340
 越拍越不	yue pai yue bu	5
 越排越长	yue pai yue chang	70
 越拍越烂	yue pai yue lan	15
 越胖越好	yue pang yue hao	105
-约炮	yue pao	9999
 月抛	yue pao	1111
+约炮	yue pao	1
 越庖代俎	yue pao dai zu	125
 越跑越	yue pao yue	840
 越跑越快	yue pao yue kuai	1035
@@ -499912,6 +500202,7 @@ sort: by_weight
 韵律研究	yun lv yan jiu	5
 云马林场	yun ma lin chang	3
 云漫湖	yun man hu	113
+云猫	yun mao	1
 运煤	yun mei	4615
 云美	yun mei	10
 运煤船	yun mei chuan	175
@@ -502634,6 +502925,7 @@ sort: by_weight
 灾难性	zai nan xing	7185
 在男子	zai nan zi	5615
 在脑后	zai nao hou	4250
+在呢	zai ne	1
 在呢么	zai ne me	1
 在内	zai nei	387710
 在内部	zai nei bu	22450
@@ -503492,7 +503784,6 @@ sort: by_weight
 在线观看	zai xian guan kan	48100
 再现还原	zai xian huan yuan	75
 在线回复	zai xian hui fu	1460
-在线激情	zai xian ji qing	585
 在线技术	zai xian ji shu	6695
 在险价值	zai xian jia zhi	96
 在线监测	zai xian jian ce	7735
@@ -504075,6 +504366,7 @@ sort: by_weight
 栽种	zai zhong	2470
 在中	zai zhong	1301
 再重	zai zhong	111
+崽种	zai zhong	1
 在中部	zai zhong bu	8350
 在中场	zai zhong chang	4085
 载重车	zai zhong che	2035
@@ -504924,6 +505216,7 @@ sort: by_weight
 灶具	zao ju	2660
 造句法	zao ju fa	120
 枣卷	zao juan	90
+噪鹃	zao juan	1
 灶君	zao jun	2095
 皂君	zao jun	220
 皂君东里	zao jun dong li	8
@@ -504998,6 +505291,7 @@ sort: by_weight
 糟毛豆	zao mao dou	112
 早没	zao mei	7777
 早梅	zao mei	1111
+噪鹛	zao mei	1
 灶美村	zao mei cun	1
 灶门	zao men	595
 灶门祢豆子	zao men mi dou zi	133
@@ -506457,6 +506751,8 @@ sort: by_weight
 炸出	zha chu	4715
 榨出	zha chu	2525
 榨出汁	zha chu zhi	435
+炸串	zha chuan	1111
+炸串儿	zha chuan er	1111
 栅床杜父鱼	zha chuang du fu yu	1
 炸春卷	zha chun juan	678
 # 柞村	zha cun	0
@@ -506475,6 +506771,7 @@ sort: by_weight
 炸弹开花	zha dan kai hua	25
 炸弹袭击	zha dan xi ji	3040
 炸弹鱼	zha dan yu	75
+炸档	zha dang	1
 扎到	zha dao	3710
 铡刀	zha dao	3005
 炸到	zha dao	1945
@@ -508097,6 +508394,7 @@ sort: by_weight
 旃檀	zhan tan	1
 粘弹性	zhan tan xing	15
 展堂	zhan tang	1635
+蘸糖	zhan tang	1
 粘体虫科	zhan ti chong ke	1
 粘体动物亚门	zhan ti dong wu ya men	1
 战天斗地	zhan tian dou di	1580
@@ -510545,8 +510843,10 @@ sort: by_weight
 赵戴文	zhao dai wen	7
 招待性	zhao dai xing	30
 招待员	zhao dai yuan	1080
-赵丹	zhao dan	3495
+照单	zhao dan	3495
+赵丹	zhao dan	2
 照单全收	zhao dan quan shou	4615
+照单全收了	zhao dan quan shou le	4615
 找到	zhao dao	500700
 招到	zhao dao	11070
 照到	zhao dao	9690
@@ -511870,6 +512170,7 @@ sort: by_weight
 沼泽鳄	zhao ze e	6
 沼泽化	zhao ze hua	745
 赵泽慧	zhao ze hui	161
+沼泽山雀	zhao ze shan que	1
 沼泽司塔卡拓士兵	zhao ze si ta ka tuo shi bing	1
 沼泽植物	zhao ze zhi wu	87
 啁哳	zhao zha	1
@@ -511890,6 +512191,7 @@ sort: by_weight
 昭昭	zhao zhao	4670
 赵赵	zhao zhao	60
 赵昭	zhao zhao	18
+爪爪	zhao zhao	1
 找找吧	zhao zhao ba	1045
 照照镜子	zhao zhao jing zi	4305
 找找看	zhao zhao kan	6185
@@ -513705,6 +514007,7 @@ sort: by_weight
 这样就	zhe yang jiu	190325
 这样看来	zhe yang kan lai	12305
 这样快	zhe yang kuai	2770
+这样吗	zhe yang ma	3333
 这样嘛	zhe yang ma	2604
 遮阳帽	zhe yang mao	4660
 这样能	zhe yang neng	18890
@@ -514628,8 +514931,8 @@ sort: by_weight
 真厚	zhen hou	500
 诊候	zhen hou	115
 真糊涂	zhen hu tu	370
-振华	zhen hua	45880
 真话	zhen hua	26445
+振华	zhen hua	2
 振华港机	zhen hua gang ji	18
 振华货栈	zhen hua huo zhan	102
 振华街道	zhen hua jie dao	1
@@ -521613,9 +521916,8 @@ sort: by_weight
 质木无文	zhi mu wu wen	7
 只拿	zhi na	9999
 滞纳	zhi na	5780
-支那	zhi na	175
+指哪	zhi na	10
 滞纳金	zhi na jin	33415
-支那人	zhi na ren	190
 滞纳税款	zhi na shui kuan	1425
 指南	zhi nan	366480
 直男	zhi nan	20000
@@ -523732,8 +524034,8 @@ sort: by_weight
 智勇	zhi yong	17195
 指用	zhi yong	12435
 支用	zhi yong	2925
+智永	zhi yong	1
 # 志勇	zhi yong	0
-# 智永	zhi yong	0
 # 致用	zhi yong	0
 只用来	zhi yong lai	2620
 只用了	zhi yong le	24965
@@ -524769,8 +525071,8 @@ sort: by_weight
 众筹	zhong chou	9999
 重酬	zhong chou	2160
 众筹平台	zhong chou ping tai	9999
-中出	zhong chu	1234
 种畜	zhong chu	827
+中出	zhong chu	666
 种畜场	zhong chu chang	2320
 钟楚红	zhong chu hong	92
 中矗集团	zhong chu ji tuan	87
@@ -527057,7 +527359,6 @@ sort: by_weight
 中华人民共和国主席令第六十五号	zhong hua ren min gong he guo zhu xi ling di liu shi wu hao	5
 中华人民共和国专利局	zhong hua ren min gong he guo zhuan li ju	148
 中华人民共和国资源税暂行条例实施细则	zhong hua ren min gong he guo zi yuan shui zan xing tiao li shi shi xi ze	34
-中华绒螯蟹生态养殖	zhong hua rong ao xie sheng tai yang zhi	7
 中华绒木蜂	zhong hua rong mu feng	1
 中华散尾鬼笔	zhong hua san wei gui bi	1
 种花色	zhong hua se	635
@@ -529647,6 +529948,7 @@ sort: by_weight
 中庸	zhong yong	38680
 忠勇	zhong yong	5325
 众涌	zhong yong	16
+仲雍	zhong yong	1
 中涌出	zhong yong chu	1480
 重用机制	zhong yong ji zhi	1159
 中庸离脉纹石蛾	zhong yong li mai wen shi e	1
@@ -530212,6 +530514,7 @@ sort: by_weight
 周方	zhou fang	109
 周防	zhou fang	5
 周昉	zhou fang	3
+周鲂	zhou fang	1
 轴封	zhou feng	2205
 骤风	zhou feng	320
 骤风暴雨	zhou feng bao yu	3
@@ -530691,6 +530994,7 @@ sort: by_weight
 周四	zhou si	103615
 宙斯	zhou si	21200
 轴丝	zhou si	160
+咒死	zhou si	1
 宙斯盾	zhou si dun	5200
 州司法局	zhou si fa ju	57
 周四沟	zhou si gou	1
@@ -530730,6 +531034,7 @@ sort: by_weight
 轴突运输	zhou tu yun shu	1
 周屯	zhou tun	4
 轴瓦	zhou wa	4940
+咒蛙	zhou wa	1
 肘外翻	zhou wai fan	23
 肘弯	zhou wan	1175
 粥碗	zhou wan	445
@@ -533649,6 +533954,7 @@ sort: by_weight
 猪头啊	zhu tou a	410
 竹头背	zhu tou bei	4
 珠投璧抵	zhu tou bi di	1
+柱头虫	zhu tou chong	1
 猪头方肉	zhu tou fang rou	2
 猪头肉	zhu tou rou	4040
 猪头三	zhu tou san	2015
@@ -534673,6 +534979,7 @@ sort: by_weight
 抓改革	zhua gai ge	138
 抓纲带目	zhua gang dai mu	4
 抓哏	zhua gen	135
+抓勾	zhua gou	111
 抓鬼	zhua gui	6666
 抓轨	zhua gui	196
 抓过	zhua guo	9820
@@ -534783,6 +535090,7 @@ sort: by_weight
 抓住时机	zhua zhu shi ji	8695
 抓住我	zhua zhu wo	4340
 抓抓	zhua zhua	3950
+爪爪	zhua zhua	1
 抓抓粉	zhua zhua fen	33
 抓抓乐	zhua zhua le	140
 抓壮丁	zhua zhuang ding	910
@@ -536464,6 +536772,7 @@ sort: by_weight
 庄稼院	zhuang jia yuan	275
 撞见	zhuang jian	14900
 壮健	zhuang jian	2040
+庄姜	zhuang jiang	1
 状胶	zhuang jiao	450
 桩脚	zhuang jiao	185
 状胶物质	zhuang jiao wu zhi	5
@@ -537757,6 +538066,7 @@ sort: by_weight
 拙朴	zhuo pu	1545
 浊气	zhuo qi	5590
 捉起	zhuo qi	1205
+着棋	zhuo qi	1
 浊气归心	zhuo qi gui xin	3
 桌前	zhuo qian	25315
 酌情	zhuo qing	64260
@@ -538160,6 +538470,7 @@ sort: by_weight
 自拆自建	zi chai zi jian	131
 资产	zi chan	500472
 自产	zi chan	26230
+髭蟾	zi chan	1
 资产保值增值	zi chan bao zhi zeng zhi	12597
 资产比率	zi chan bi lv	270
 资产编号	zi chan bian hao	200
@@ -541585,6 +541896,7 @@ sort: by_weight
 总保险金额	zong bao xian jin e	980
 总堡乡	zong bao xiang	5
 棕悲霸鹟	zong bei ba weng	1
+棕背伯劳	zong bei bo lao	1
 棕背川滇杜鹃	zong bei chuan dian du juan	1
 纵被春风吹作雪	zong bei chun feng chui zuo xue	2
 棕背鸫	zong bei dong	1
@@ -541816,6 +542128,7 @@ sort: by_weight
 棕腹平脊甲	zong fu ping ji jia	1
 棕腹前肛鳗	zong fu qian gang man	1
 总辐射	zong fu she	1520
+棕腹隼雕	zong fu sun diao	1
 棕腹鹟	zong fu weng	1
 总服务	zong fu wu	231
 总服务台	zong fu wu tai	4885
@@ -542582,6 +542895,7 @@ sort: by_weight
 总统制	zong tong zhi	1955
 总统职位	zong tong zhi wei	455
 总投入	zong tou ru	9665
+棕头鸦雀	zong tou ya que	1
 总投资	zong tou zi	180065
 总投资达	zong tou zi da	7585
 总投资额	zong tou zi e	14445
@@ -542704,6 +543018,7 @@ sort: by_weight
 粽叶飘香	zong ye piao xiang	197
 棕夜鹰	zong ye ying	1
 综艺	zong yi	46045
+总以	zong yi	3333
 宗义	zong yi	2595
 纵意	zong yi	600
 总遗产税制	zong yi chan shui zhi	170
@@ -543108,6 +543423,7 @@ sort: by_weight
 走马牙疳	zou ma ya gan	1
 走马之任	zou ma zhi ren	1
 走麦城	zou mai cheng	975
+走么	zou me	3333
 走没	zou mei	5555
 走门串户	zou men chuan hu	450
 走门路	zou men lu	180
@@ -546084,8 +546400,6 @@ sort: by_weight
 坐啊	zuo a	111
 做爱	zuo ai	167885
 做爱时	zuo ai shi	15630
-做爱贴图	zuo ai tie tu	140
-做爱图库	zuo ai tu ku	1000
 作案	zuo an	46820
 左岸	zuo an	25955
 左岸春天	zuo an chun tian	148
@@ -546343,6 +546657,7 @@ sort: by_weight
 做得	zuo de	233185
 坐的	zuo de	37320
 坐得	zuo de	12165
+佐德	zuo de	1
 做得比	zuo de bi	8905
 做得不够	zuo de bu gou	5360
 做得不好	zuo de bu hao	8345

@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2024-11-30"
+version: "2024-12-06"
 sort: by_weight
 ...
 # +_+
@@ -16215,6 +16215,7 @@ sort: by_weight
 搏出一个未来	bo chu yi ge wei lai	100
 波茨坦公告	bo ci tan gong gao	100
 拨打的	bo da de	100
+拨打的电话	bo da de dian hua	100
 拨打的号	bo da de hao	100
 拨打的号码	bo da de hao ma	100
 拨打号码	bo da hao ma	100
@@ -55305,6 +55306,7 @@ sort: by_weight
 低分段	di fen duan	100
 低分屏	di fen ping	100
 低丰度	di feng du	100
+地缝儿	di feng er	100
 地缝里	di feng li	100
 地缝里去	di feng li qu	100
 地风升	di feng sheng	100
@@ -95210,6 +95212,7 @@ sort: by_weight
 还得加多少钱	hai dei jia duo shao qian	100
 还得进	hai dei jin	100
 还得来	hai dei lai	100
+还得是	hai dei shi	100
 还得是靠我自己啊	hai dei shi kao wo zi ji a	100
 还得是你	hai dei shi ni	100
 还得是你啊	hai dei shi ni a	100
@@ -101924,6 +101927,7 @@ sort: by_weight
 合作基地	he zuo ji di	100
 合作节	he zuo jie	100
 合作联系	he zuo lian xi	100
+合作联系啊	he zuo lian xi a	100
 合作拿地	he zuo na di	100
 合作农场	he zuo nong chang	100
 合作起来	he zuo qi lai	100
@@ -114654,6 +114658,7 @@ sort: by_weight
 机械重复	ji xie chong fu	100
 机械传动系统	ji xie chuan dong xi tong	100
 机械传动装置	ji xie chuan dong zhuang zhi	100
+系鞋带儿	ji xie dai er	100
 机械等行业	ji xie deng hang ye	100
 机械翻译	ji xie fan yi	100
 机械飞升	ji xie fei sheng	100
@@ -114769,7 +114774,6 @@ sort: by_weight
 继续回落	ji xu hui luo	100
 继续继续	ji xu ji xu	100
 继续加大力度	ji xu jia da li du	100
-继续降	ji xu jiang	100
 继续僵持	ji xu jiang chi	100
 继续降低	ji xu jiang di	100
 继续教育基地	ji xu jiao yu ji di	100
@@ -132257,11 +132261,9 @@ sort: by_weight
 决赛了	jue sai le	100
 角色安排	jue se an pai	100
 角色版	jue se ban	100
-角色扮演单机游戏	jue se ban yan dan ji you xi	100
 角色扮演类	jue se ban yan lei	100
 角色扮演类型	jue se ban yan lei xing	100
 角色扮演类游戏	jue se ban yan lei you xi	100
-角色扮演手机游戏	jue se ban yan shou ji you xi	100
 角色扮演手游	jue se ban yan shou you	100
 角色扮演网游	jue se ban yan wang you	100
 角色扮演游戏	jue se ban yan you xi	100
@@ -135697,6 +135699,7 @@ sort: by_weight
 考察团一行	kao cha tuan yi xing	100
 考察学校	kao cha xue xiao	100
 考察一下	kao cha yi xia	100
+考查一下	kao cha yi xia	100
 考察重点	kao cha zhong dian	100
 考查重点	kao cha zhong dian	100
 考场见	kao chang jian	100
@@ -146111,6 +146114,7 @@ sort: by_weight
 立足地方	li zu di fang	100
 立足行业	li zu hang ye	100
 立足全省	li zu quan sheng	100
+李组长	li zu zhang	100
 俩都是	lia dou shi	100
 俩孩子	lia hai zi	100
 俩口子	lia kou zi	100
@@ -156314,7 +156318,6 @@ sort: by_weight
 妈妈错了	ma ma cuo le	100
 妈妈带着	ma ma dai zhe	100
 妈妈带着孩子	ma ma dai zhe hai zi	100
-妈妈的	ma ma de	100
 妈妈的感觉	ma ma de gan jue	100
 麻麻的感觉	ma ma de gan jue	100
 妈妈的话	ma ma de hua	100
@@ -169284,7 +169287,6 @@ sort: by_weight
 拿得到	na de dao	100
 拿得动	na de dong	100
 拿得多	na de duo	100
-纳德勒	na de le	100
 拿得起放不下	na de qi fang bu xia	100
 拿得起放得下	na de qi fang de xia	100
 拿得起来	na de qi lai	100
@@ -180096,7 +180098,6 @@ sort: by_weight
 跑滴滴啊	pao di di a	100
 跑滴滴去	pao di di qu	100
 跑地图	pao di tu	100
-跑掉了	pao diao le	100
 跑东跑西	pao dong pao xi	100
 跑动速度	pao dong su du	100
 跑都不敢跑	pao dou bu gan pao	100
@@ -189376,6 +189377,7 @@ sort: by_weight
 抢得到	qiang de dao	100
 强得过分	qiang de guo fen	100
 强得可怕	qiang de ke pa	100
+强得可怕啊	qiang de ke pa a	100
 抢得快	qiang de kuai	100
 强得离谱	qiang de li pu	100
 强得令人发指	qiang de ling ren fa zhi	100
@@ -219267,7 +219269,6 @@ sort: by_weight
 十一颗	shi yi ke	100
 十一块	shi yi kuai	100
 十一快乐	shi yi kuai le	100
-失忆了	shi yi le	100
 失忆了吧	shi yi le ba	100
 失忆了吗	shi yi le ma	100
 十一路	shi yi lu	100
@@ -246616,7 +246617,6 @@ sort: by_weight
 望着远方	wang zhe yuan fang	100
 望着月亮	wang zhe yue liang	100
 王者战歌	wang zhe zhan ge	100
-王者之风	wang zhe zhi feng	100
 王者之光	wang zhe zhi guang	100
 王者之击	wang zhe zhi ji	100
 王者之戒	wang zhe zhi jie	100
@@ -264532,6 +264532,7 @@ sort: by_weight
 弦月斩	xian yue zhan	100
 仙云缭绕	xian yun liao rao	100
 现在吧	xian zai ba	100
+现在拨打的电话	xian zai bo da de dian hua	100
 现在不方便	xian zai bu fang bian	100
 现在不忙了	xian zai bu mang le	100
 现在不是	xian zai bu shi	100
@@ -264618,6 +264619,7 @@ sort: by_weight
 现在拍下	xian zai pai xia	100
 现在其实	xian zai qi shi	100
 现在其实已经	xian zai qi shi yi jing	100
+现在强得可怕	xian zai qiang de ke pa	100
 现在去	xian zai qu	100
 现在去吧	xian zai qu ba	100
 现在去那呢	xian zai qu na ne	100
@@ -290729,8 +290731,6 @@ sort: by_weight
 易碎性	yi sui xing	100
 易损性	yi sun xing	100
 衣索比亚	yi suo bi ya	100
-已所不欲	yi suo bu yu	100
-已所不欲勿施于人	yi suo bu yu wu shi yu ren	100
 已锁定了	yi suo ding le	100
 一所高校	yi suo gao xiao	100
 一所国际学校	yi suo guo ji xue xiao	100
@@ -296180,8 +296180,6 @@ sort: by_weight
 英雄来自人民	ying xiong lai zi ren min	100
 英雄了	ying xiong le	100
 英雄连	ying xiong lian	100
-英雄联盟维护	ying xiong lian meng wei hu	100
-英雄联盟娱乐	ying xiong lian meng yu le	100
 英雄了得	ying xiong liao de	100
 英雄落幕	ying xiong luo mu	100
 英雄模范人物	ying xiong mo fan ren wu	100
@@ -309620,6 +309618,7 @@ sort: by_weight
 张基琦	zhang ji qi	100
 长记性	zhang ji xing	100
 长记性了	zhang ji xing le	100
+张家长李家短	zhang jia chang li jia duan	100
 张家川回族自治县	zhang jia chuan hui zu zi zhi xian	100
 涨价归公	zhang jia gui gong	100
 涨价行情	zhang jia hang qing	100
@@ -309635,8 +309634,6 @@ sort: by_weight
 张佳添	zhang jia tian	100
 张家玮	zhang jia wei	100
 张嘉雯	zhang jia wen	100
-张家长	zhang jia zhang	100
-张家长李家短	zhang jia zhang li jia duan	100
 仗剑红尘已是癫	zhang jian hong chen yi shi dian	100
 仗剑江湖为红颜	zhang jian jiang hu wei hong yan	100
 仗剑行	zhang jian xing	100
@@ -315609,6 +315606,7 @@ sort: by_weight
 正月头	zheng yue tou	100
 郑云灿	zheng yun can	100
 正在闭合	zheng zai bi he	100
+正在拨打的电话	zheng zai bo da de dian hua	100
 正在成长	zheng zai cheng zhang	100
 正在充能	zheng zai chong neng	100
 正在重启	zheng zai chong qi	100
@@ -325870,7 +325868,7 @@ sort: by_weight
 筑土墙	zhu tu qiang	100
 助推行业发展	zhu tui hang ye fa zhan	100
 驻屯重兵	zhu tun zhong bing	100
-祝鮀之佞	zhu tuo zhi ning	100
+祝𬶍之佞	zhu tuo zhi ning	100
 驻外大使	zhu wai da shi	100
 驻外记者	zhu wai ji zhe	100
 朱婉琪	zhu wan qi	100
@@ -334228,3 +334226,44 @@ sort: by_weight
 做做做	zuo zuo zuo	100
 嘬嘬嘬	zuo zuo zuo	100
 坐坐坐	zuo zuo zuo	100
+秀英体	xiu ying ti	100
+筑地体	zhu di ti	100
+勘亭流	kan ting liu	100
+勘亭流体	kan ting liu ti	100
+聚珍仿宋体	ju zhen fang song ti	100
+美华书馆	mei hua shu guan	100
+溶蚀湖	rong shi hu	100
+海迹湖	hai ji hu	100
+构造湖	gou zao hu	100
+赤𫚭角	chi lie jiao	100
+海坛岛	hai tan dao	100
+达濠岛	da hao dao	100
+舂陵水	chong ling shui	100
+舂陵江	chong ling jiang	100
+新兴江	xin xing jiang	100
+思贤滘	si xian jiao	100
+唐白河	tang bai he	100
+窟野河	ku ye he	100
+盘古河	pan gu he	100
+东淝河	dong fei he	100
+西淝河	xi fei he	100
+南汝河	nan ru he	100
+北汝河	bei ru he	100
+漴潼河	chong tong he	100
+㵲阳河	wu yang he	100
+呼玛河	hu ma he	100
+楚玛尔河	chu ma er he	100
+多雄藏布	duo xiong zang bu	100
+多雄藏布江	duo xiong zang bu jiang	100
+达濠街道	da hao jie dao	100
+𬶍莲街道	tuo lian jie dao	100
+含米特	han mi te	100
+含米特人	han mi te ren	100
+含米特语	han mi te yu	100
+乌拉尔语系	wu la er yu xi	100
+苗瑶语系	miao yao yu xi	100
+壮侗语系	zhuang dong yu xi	100
+侗傣语系	dong dai yu xi	100
+玛雅语系	ma ya yu xi	100
+毕竟几人真得鹿	bi jing ji ren zhen de lu	100
+不知终日梦为鱼	bu zhi zhong ri meng wei yu	100

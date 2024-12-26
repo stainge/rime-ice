@@ -1215,7 +1215,7 @@
 # 「心里安慰、心里学、心里感受、心里扭曲、心里承受能力、心里挣扎、心里斗争、心里暗示、心里素质」→「心理」
 # 「心里辅导、心里阴影、心里阴影面积、心里问题、心里防线、心里障碍、心里需求、心里疾病、心里活动」→「心理」
 # 「心里建设、心里压抑、心里平衡、心里恐惧、心里状态、心里疏导、心里负担」→「心理」
-# 「继木」→「檵木」
+# 「继木」「红花继木」→「檵木」「红花檵木」
 # 「滑手机」→「划手机」
 # 「科创版」→「科创板」
 # 「X副画」→「X幅画」
@@ -1971,19 +1971,36 @@
 # 「瞒天要价」→「漫天要价」
 # 「家长理短、家常里短」→「家长里短」
 # 「中规中距」→「中规中矩」
-# 「彭湖岛」→「澎湖岛」
+# 「彭湖岛」「彭湖县」→「澎湖岛」「澎湖县」P.S.「彭湖」为「彭蠡」别名
 # 「景阳岗」「井岗山」→「景阳冈」「井冈山」P.S.「景岗山」为一歌手
 # 「黄花冈」「黄花冈起义」「黄花冈七十二烈士」→「黄花岗」「黄花岗起义」「黄花岗七十二烈士」
 # 「花冈岩」「花冈石」→「花岗岩」「花岗石」
 # 「一掊土」→「一抔土」
 # 「褐去玛瑙螺」→「褐云玛瑙螺」
-# 「手指捏和」→「手指捏合」
+# 「手指捏和」→「手指捏合」，描述手势「🤌」应为「手指捏合」，「捏和huo」指加水揉混黏土、面粉的动作
 # 「佛洛伦萨」→「佛罗伦萨」
 # 「一股作气」→「一鼓作气」
+# 「年级轻轻」→「年纪轻轻」
+# 「竹荚鱼」→「竹䇲鱼」，「竹䇲」指筷子
+# 「龙利鱼」「龙俐鱼」「龙利叶」→「龙脷鱼」「龙脷叶」，「龙脷」即「龙的舌头」，形容状如长舌
+# 「婴粟壳」→「罂粟壳」
+# 「芸苔属」「芸苔子」「芸苔素」→「芸薹属」「芸薹子」「芸薹素」
+# 「贝赛尔曲线」→「贝塞尔曲线」
+# 「尤里西斯」→「尤利西斯」
+# 「苯丙芘」→「苯并芘」
+# 「恶唑啉」「恶唑烷酮」「磺胺甲恶唑」……→「𫫇唑啉」「𫫇唑烷酮」「磺胺甲𫫇唑」」……
+# 「白殿风」「白颠风」「白癫风」「白癜疯」「白癫疯」→「白癜风」P.S.「白癞lai风」不确定是讹写抑或是别名
+# 「深覆合」「深覆颌」「错颌畸形」→「深覆𬌗」「错𬌗畸形」，口腔医学中描述牙齿咬合关系时用「𬌗」，易与「颌」混淆
+# 「象徵性」「徵信社」「文徵明」→「象征性」「征信社」「文征明」，除了表示五音中的「徵」时，其他都简化为「征」
+# 「锦织芋螺」→「织锦芋螺」
+# 「重zhong铬酸盐」→「重chong铬酸盐」
+# 「杨家吊沪饼」→「杨家吊炉饼」
+# 「及裸靴」→「及踝靴」
+# 「背足足杨梅蟹」→「背足杨梅蟹」，多出的一个「足」应为衍字
 #///
 ---
 name: base
-version: "2024-12-19"
+version: "2024-12-23"
 sort: by_weight
 ...
 # +_+
@@ -2437,7 +2454,7 @@ sort: by_weight
 阿拉斯加刺狮子鱼	a la si jia ci shi zi yu	1
 阿拉斯加刺鱼	a la si jia ci yu	1
 阿拉斯加短吻狮子	a la si jia duan wen shi zi	1
-阿拉斯加马拉缪特狗	a la si jia ma la mou te gou	1
+阿拉斯加马拉缪特狗	a la si jia ma la miu te gou	1
 阿拉斯加深海鱼油	a la si jia shen hai yu you	5
 阿拉斯加四钩虫	a la si jia si gou chong	1
 阿拉斯加湾	a la si jia wan	75
@@ -20774,7 +20791,6 @@ sort: by_weight
 背若芒刺	bei ruo mang ci	6
 杯赛	bei sai	20805
 贝塞尔曲线	bei sai er qu xian	2807
-贝赛尔曲线	bei sai er qu xian	389
 杯赛冠军	bei sai guan jun	1960
 贝塞斯达	bei sai si da	176
 被塞住	bei sai zhu	195
@@ -21802,8 +21818,8 @@ sort: by_weight
 卑陬失色	bei zou shi se	3
 备足	bei zu	6545
 北组	bei zu	19
+背足杨梅蟹	bei zu yang mei xie	1
 被诅咒	bei zu zhou	4115
-背足足杨梅蟹	bei zu zu yang mei xie	1
 碑座	bei zuo	1540
 杯座	bei zuo	765
 被做成	bei zuo cheng	1460
@@ -56193,6 +56209,7 @@ sort: by_weight
 崇高威信	chong gao wei xin	16
 宠哥	chong ge	9999
 重铬酸钾	chong ge suan jia	1820
+重铬酸盐	chong ge suan yan	540
 崇各庄	chong ge zhuang	1
 重根	chong gen	740
 充公	chong gong	2750
@@ -83166,6 +83183,7 @@ sort: by_weight
 地栗粉	di li fen	15
 地理分布	di li fen bu	5445
 砥砺奋斗	di li fen dou	178
+砥砺奋进	di li fen jin	3333
 砥砺风节	di li feng jie	1
 地栗糕	di li gao	5
 地理环境	di li huan jing	32765
@@ -102036,7 +102054,7 @@ sort: by_weight
 恶作剧	e zuo ju	28020
 恶作剧者	e zuo ju zhe	305
 恶作剧之吻	e zuo ju zhi wen	2770
-恶唑烷酮	e zuo wan tong	2
+𫫇唑烷酮	e zuo wan tong	2
 嗯啊	en a	9999
 恩爱	en ai	27185
 恩爱夫妻	en ai fu qi	3860
@@ -118739,10 +118757,10 @@ sort: by_weight
 复方蛤青胶囊	fu fang ha qing jiao nang	2
 复方蒿甲醚	fu fang hao jia mi	21
 复方红豆杉胶囊	fu fang hong dou shan jiao nang	4
-复方磺胺甲恶唑	fu fang huang an jia e zuo	277
-复方磺胺甲恶唑分散片	fu fang huang an jia e zuo fen san pian	1
-复方磺胺甲恶唑片	fu fang huang an jia e zuo pian	3
-复方磺胺甲恶唑注射液	fu fang huang an jia e zuo zhu she ye	5
+复方磺胺甲𫫇唑	fu fang huang an jia e zuo	277
+复方磺胺甲𫫇唑分散片	fu fang huang an jia e zuo fen san pian	1
+复方磺胺甲𫫇唑片	fu fang huang an jia e zuo pian	3
+复方磺胺甲𫫇唑注射液	fu fang huang an jia e zuo zhu she ye	5
 复方黄柏液	fu fang huang bai ye	1
 复方黄连素片	fu fang huang lian su pian	14
 复方黄莲素片	fu fang huang lian su pian	1
@@ -161966,8 +161984,7 @@ sort: by_weight
 红花岗区	hong hua gang qu	1710
 红花黄	hong hua huang	446
 红花黄色素	hong hua huang se su	6
-红花继木	hong hua ji mu	300
-红花檵木	hong hua ji mu	1
+红花檵木	hong hua ji mu	100
 宏华集团	hong hua ji tuan	28
 红花口服液	hong hua kou fu ye	1
 红花绿叶	hong hua lv ye	1485
@@ -171842,7 +171859,7 @@ sort: by_weight
 磺胺多辛	huang an duo xin	8
 磺胺二甲基嘧啶	huang an er jia ji mi ding	2
 磺胺二甲嘧啶	huang an er jia mi ding	17
-磺胺甲恶唑	huang an jia e zuo	10
+磺胺甲𫫇唑	huang an jia e zuo	10
 磺胺间甲氧嘧啶	huang an jian jia yang mi ding	5
 黄𩽾𩾌头骨	huang an kang tou gu	1
 磺胺喹恶啉钠	huang an kui e lin na	5
@@ -171858,7 +171875,7 @@ sort: by_weight
 磺胺噻唑	huang an sai zuo	7
 黄安涛	huang an tao	1
 磺胺药	huang an yao	1410
-磺胺异恶唑	huang an yi e zuo	19
+磺胺异𫫇唑	huang an yi e zuo	19
 黄澳鵖	huang ao bi	1
 黄巴巴	huang ba ba	6
 黄白	huang bai	9575
@@ -205449,7 +205466,6 @@ sort: by_weight
 金志扬	jin zhi yang	920
 今之隐机者	jin zhi yin ji zhe	1
 禁止游泳	jin zhi you yong	445
-锦织芋螺	jin zhi yu luo	1
 金枝玉孽	jin zhi yu nie	48
 金枝玉叶	jin zhi yu ye	3760
 今之愚也诈而已矣	jin zhi yu ye zha er yi yi	1
@@ -206243,7 +206259,7 @@ sort: by_weight
 # 靖港	jing gang	0
 # 静冈	jing gang	0
 敬岗爱业	jing gang ai ye	575
-井岗翠绿	jing gang cui lv	23
+井冈翠绿	jing gang cui lv	23
 井冈碘泡虫	jing gang dian pao chong	1
 井冈脊蛇	jing gang ji she	1
 精钢剑	jing gang jian	66
@@ -210701,7 +210717,6 @@ sort: by_weight
 鸠眠高柳日方融	jiu mian gao liu ri fang rong	1
 就面临	jiu mian lin	4020
 九秒	jiu miao	340
-纠缪绳违	jiu miao sheng wei	1
 九秒钟	jiu miao zhong	55
 救民于水火	jiu min yu shui huo	545
 旧民主主义	jiu min zhu zhu yi	890
@@ -210716,6 +210731,7 @@ sort: by_weight
 救命粮	jiu ming liang	155
 就明确	jiu ming que	9320
 救命之恩	jiu ming zhi en	6340
+纠缪绳违	jiu miu sheng wei	1
 就摸	jiu mo	3333
 咎莫大于欲得	jiu mo da yu yu de	18
 就摸了	jiu mo le	1111
@@ -249884,8 +249900,9 @@ sort: by_weight
 龙里路	long li lu	6
 隆礼路胡同	long li lu hu tong	2
 龙里县	long li xian	1375
-龙俐鱼	long li yu	21
-龙利鱼片	long li yu pian	108
+龙脷鱼	long li yu	21
+龙脷鱼柳	long li yu liu	100
+龙脷鱼片	long li yu pian	108
 泷廉太郎	long lian tai lang	2
 龙鳞	long lin	8400
 隆林	long lin	1785
@@ -292406,7 +292423,7 @@ sort: by_weight
 蓬户桑枢	peng hu sang shu	1
 澎湖水道	peng hu shui dao	1
 澎湖湾	peng hu wan	1085
-彭湖县	peng hu xian	9
+澎湖县	peng hu xian	9
 澎湖县望安岛绿蠵龟产卵栖地保护区	peng hu xian wang an dao lv xi gui chan luan qi di bao hu qu	1
 捧花	peng hua	9999
 膨化	peng hua	993
@@ -340513,8 +340530,7 @@ sort: by_weight
 沈复	shen fu	995
 沈浮	shen fu	9
 申甫	shen fu	4
-深覆合	shen fu he	5
-深覆颌	shen fu he	3
+深覆𬌗	shen fu he	8
 沈抚路	shen fu lu	4
 神府煤田	shen fu mei tian	110
 深肤色	shen fu se	3333
@@ -350509,7 +350525,7 @@ sort: by_weight
 时命大谬也	shi ming da miu ye	1
 施命发号	shi ming fa hao	1
 使命感	shi ming gan	63905
-时命或大缪	shi ming huo da mou	1
+时命或大缪	shi ming huo da miu	1
 实名举报	shi ming ju bao	2230
 诗名满天下	shi ming man tian xia	1
 师命难违	shi ming nan wei	210
@@ -361588,6 +361604,7 @@ sort: by_weight
 霜甲术	shuang jia shu	10
 双肩	shuang jian	24865
 双剑	shuang jian	13190
+双减	shuang jian	9999
 双键	shuang jian	4270
 双建	shuang jian	2380
 双箭	shuang jian	1635
@@ -378092,6 +378109,7 @@ sort: by_weight
 潭村	tan cun	315
 谭村	tan cun	69
 檀村	tan cun	1
+碳达峰	tan da feng	3333
 贪大求全	tan da qiu quan	2030
 贪大求洋	tan da qiu yang	1355
 碳带	tan dai	26500
@@ -409296,6 +409314,7 @@ sort: by_weight
 文明号	wen ming hao	47290
 文明和谐	wen ming he xie	177
 文明户	wen ming hu	4060
+文明互鉴	wen ming hu jian	3333
 文明胡同	wen ming hu tong	1
 文明化	wen ming hua	1775
 文明祭扫	wen ming ji sao	194
@@ -459358,7 +459377,6 @@ sort: by_weight
 杨家埠	yang jia bu	150
 杨家埠村	yang jia bu cun	10
 杨家店村	yang jia dian cun	10
-杨家吊沪饼	yang jia diao hu bing	12
 杨家吊炉饼	yang jia diao lu bing	103
 杨家栋	yang jia dong	122
 杨家渡	yang jia du	37
@@ -481205,8 +481223,7 @@ sort: by_weight
 应诉管辖	ying su guan xia	22
 罂粟花	ying su hua	2570
 罂粟壳	ying su ke	871
-婴粟壳	ying su ke	1
-婴粟拟孔蜂	ying su ni kong feng	1
+罂粟拟孔蜂	ying su ni kong feng	1
 应诉欧共体反倾销律师业务	ying su ou gong ti fan qing xiao lv shi ye wu	13
 应诉通知书	ying su tong zhi shu	1305
 罂粟籽	ying su zi	164
@@ -509736,9 +509753,9 @@ sort: by_weight
 张连印	zhang lian yin	183
 丈量	zhang liang	13840
 张良	zhang liang	1774
+张量	zhang liang	8
 张亮	zhang liang	2
 # 张梁	zhang liang	0
-# 张量	zhang liang	0
 张亮基	zhang liang ji	5
 丈量面积	zhang liang mian ji	120
 张良是时从沛公	zhang liang shi shi cong pei gong	1
@@ -521250,6 +521267,7 @@ sort: by_weight
 至今已是	zhi jin yi shi	840
 至今已有	zhi jin yi you	26170
 只进游标	zhi jin you biao	10
+织锦芋螺	zhi jin yu luo	1
 至今欲食林甫肉	zhi jin yu shi lin fu rou	1
 直径	zhi jing	295170
 致敬	zhi jing	38210
@@ -525873,7 +525891,6 @@ sort: by_weight
 中格	zhong ge	760
 中膈	zhong ge	19
 中隔额角蛛	zhong ge e jiao zhu	1
-重铬酸盐	zhong ge suan yan	540
 中跟	zhong gen	4015
 中耕	zhong geng	12115
 中梗阻	zhong geng zu	600
@@ -532707,9 +532724,8 @@ sort: by_weight
 珠加乡	zhu jia xiang	1
 诸家乡	zhu jia xiang	1
 铸甲销戈	zhu jia xiao ge	1
-竹荚鱼	zhu jia yu	325
 朱家峪	zhu jia yu	149
-竹䇲鱼	zhu jia yu	27
+竹䇲鱼	zhu jia yu	100
 朱家院子	zhu jia yuan zi	3
 逐渐	zhu jian	500389
 主键	zhu jian	36266

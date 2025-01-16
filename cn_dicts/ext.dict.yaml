@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2025-01-08"
+version: "2025-01-14"
 sort: by_weight
 ...
 # +_+
@@ -10493,7 +10493,12 @@ sort: by_weight
 背对我	bei dui wo	100
 背对着背	bei dui zhe bei	100
 背对着镜头	bei dui zhe jing tou	100
+背对着你	bei dui zhe ni	100
+背对着你们	bei dui zhe ni men	100
+背对着他	bei dui zhe ta	100
+背对着他们	bei dui zhe ta men	100
 背对着我	bei dui zhe wo	100
+背对着我们	bei dui zhe wo men	100
 背对着夕阳	bei dui zhe xi yang	100
 背对自己	bei dui zi ji	100
 贝多芬传	bei duo fen zhuan	100
@@ -19537,8 +19542,6 @@ sort: by_weight
 不离身	bu li shen	100
 不离世间觉	bu li shi jian jue	100
 布里斯	bu li si	100
-布利斯班	bu li si ban	100
-布利斯班市	bu li si ban shi	100
 布里斯本	bu li si ben	100
 布里斯本河	bu li si ben he	100
 布里斯本市	bu li si ben shi	100
@@ -53998,6 +54001,8 @@ sort: by_weight
 的瞬间	de shun jian	100
 的私事	de si shi	100
 的速度	de su du	100
+得速来	de su lai	100
+得速来餐厅	de su lai can ting	100
 的素质	de su zhi	100
 的态度	de tai du	100
 得太好	de tai hao	100
@@ -55100,7 +55105,6 @@ sort: by_weight
 弟弟啊	di di a	100
 低地板	di di ban	100
 滴滴出行	di di chu xing	100
-滴滴出行总裁柳青	di di chu xing zong cai liu qing	100
 嘀嘀嗒	di di da	100
 滴滴打人	di di da ren	100
 嘀嘀嘀	di di di	100
@@ -57617,7 +57621,7 @@ sort: by_weight
 电光超人	dian guang chao ren	100
 电光冲锋	dian guang chong feng	100
 电广传媒	dian guang chuan mei	100
-电光火石间	dian guang huo shi jian	100
+电光石火间	dian guang shi huo jian	100
 电光调制器	dian guang tiao zhi qi	100
 电光舞	dian guang wu	100
 电光朝露	dian guang zhao lu	100
@@ -79566,6 +79570,7 @@ sort: by_weight
 复原模型	fu yuan mo xing	100
 复原期	fu yuan qi	100
 抚远三角洲	fu yuan san jiao zhou	100
+抚远市	fu yuan shi	100
 父元素	fu yuan su	100
 富源学校	fu yuan xue xiao	100
 福原遥	fu yuan yao	100
@@ -82152,9 +82157,7 @@ sort: by_weight
 刚正面	gang zheng mian	100
 刚知道	gang zhi dao	100
 刚知道呀	gang zhi dao ya	100
-钢之炼金术士	gang zhi lian jin shu shi	100
 钢之炼金术师	gang zhi lian jin shu shi	100
-钢之链金术师	gang zhi lian jin shu shi	100
 港制品	gang zhi pin	100
 刚直有守	gang zhi you shou	100
 缸中大脑	gang zhong da nao	100
@@ -84585,6 +84588,7 @@ sort: by_weight
 葛里芬	ge li fen	100
 格里高利历	ge li gao li li	100
 格里高利十三世	ge li gao li shi san shi	100
+哥厉害	ge li hai	100
 葛立恒数	ge li heng shu	100
 隔离几天	ge li ji tian	100
 格力家用空调	ge li jia yong kong tiao	100
@@ -89887,7 +89891,6 @@ sort: by_weight
 估算出	gu suan chu	100
 估算了	gu suan le	100
 估算了一下	gu suan le yi xia	100
-骨髓灰质炎	gu sui hui zhi yan	100
 古他那	gu ta na	100
 固态燃料	gu tai ran liao	100
 古台寺	gu tai si	100
@@ -93643,6 +93646,7 @@ sort: by_weight
 过府冲州	guo fu chong zhou	100
 国服第一系列	guo fu di yi xi lie	100
 国父纪念馆	guo fu ji nian guan	100
+果脯蜜饯	guo fu mi jian	100
 国富民丰	guo fu min feng	100
 国富民贫	guo fu min pin	100
 国富民穷	guo fu min qiong	100
@@ -96255,6 +96259,8 @@ sort: by_weight
 还能行	hai neng xing	100
 还能行吗	hai neng xing ma	100
 还能行么	hai neng xing me	100
+还能有谁	hai neng you shei	100
+还能有谁	hai neng you shui	100
 还能咋的	hai neng za di	100
 还能咋过	hai neng za guo	100
 还能在一起	hai neng zai yi qi	100
@@ -106985,7 +106991,6 @@ sort: by_weight
 画图纸	hua tu zhi	100
 花腿闲汉	hua tui xian han	100
 华佗再世	hua tuo zai shi	100
-华陀在世	hua tuo zai shi	100
 化外之地	hua wai zhi di	100
 画完了	hua wan le	100
 化完妆	hua wan zhuang	100
@@ -114160,6 +114165,7 @@ sort: by_weight
 挤破头	ji po tou	100
 记谱法	ji pu fa	100
 吉普莉尔	ji pu li er	100
+鸡脯肉	ji pu rou	100
 吉普塞人	ji pu sai ren	100
 吉普斯夸	ji pu si kua	100
 极其不尊重	ji qi bu zun zhong	100
@@ -114399,7 +114405,6 @@ sort: by_weight
 机身强度	ji shen qiang du	100
 机身温度	ji shen wen du	100
 极深研几	ji shen yan ji	100
-挤身于	ji shen yu	100
 机深智远	ji shen zhi yuan	100
 机身重	ji shen zhong	100
 机身重量	ji shen zhong liang	100
@@ -137762,6 +137767,8 @@ sort: by_weight
 可太多	ke tai duo	100
 可太多了	ke tai duo le	100
 可太好了	ke tai hao le	100
+可太便宜	ke tai pian yi	100
+可太便宜了	ke tai pian yi le	100
 可太奇怪	ke tai qi guai	100
 可太奇怪了	ke tai qi guai le	100
 可太喜欢	ke tai xi huan	100
@@ -145234,7 +145241,6 @@ sort: by_weight
 立即来报告	li ji lai bao gao	100
 立即联系	li ji lian xi	100
 立即落实	li ji luo shi	100
-里肌肉	li ji rou	100
 立即上传	li ji shang chuan	100
 立即使用	li ji shi yong	100
 立即投降	li ji tou xiang	100
@@ -154945,6 +154951,7 @@ sort: by_weight
 落成仪式	luo cheng yi shi	100
 罗池妹	luo chi mei	100
 落翅仔	luo chi zai	100
+落锤冲击	luo chui chong ji	100
 落锤冲击试验机	luo chui chong ji shi yan ji	100
 落槌价	luo chui jia	100
 罗纯正	luo chun zheng	100
@@ -165270,6 +165277,7 @@ sort: by_weight
 米家扫地机器人	mi jia sao di ji qi ren	100
 弥迦书	mi jia shu	100
 靡坚不摧	mi jian bu cui	100
+蜜饯果脯	mi jian guo fu	100
 蜜饯黄连	mi jian huang lian	100
 密接码	mi jie ma	100
 迷金醉纸	mi jin zui zhi	100
@@ -172269,6 +172277,8 @@ sort: by_weight
 南苑王	nan yuan wang	100
 南粤大地	nan yue da di	100
 南粤生活	nan yue sheng huo	100
+南越王	nan yue wang	100
+南越王赵佗	nan yue wang zhao tuo	100
 南粤银行	nan yue yin hang	100
 南站地区	nan zhan di qu	100
 难找到	nan zhao dao	100
@@ -184661,6 +184671,8 @@ sort: by_weight
 汽车传动系统	qi che chuan dong xi tong	100
 汽车传动轴	qi che chuan dong zhou	100
 汽车传感器	qi che chuan gan qi	100
+汽车穿梭	qi che chuan suo	100
+汽车穿梭餐厅	qi che chuan suo can ting	100
 汽车导航	qi che dao hang	100
 汽车的	qi che de	100
 汽车的速度	qi che de su du	100
@@ -188470,8 +188482,10 @@ sort: by_weight
 旗鱼目	qi yu mu	100
 起于青𬞟之末	qi yu qing pin zhi mo	100
 其余人	qi yu ren	100
+埼玉市	qi yu shi	100
 旗鱼属	qi yu shu	100
 奇遇舞章	qi yu wu zhang	100
+埼玉县	qi yu xian	100
 奇遇夜	qi yu ye	100
 起源地	qi yuan di	100
 祈愿纪	qi yuan ji	100
@@ -199919,6 +199933,7 @@ sort: by_weight
 柔佛海峡	rou fo hai xia	100
 柔佛州	rou fo zhou	100
 柔肤水	rou fu shui	100
+肉干肉脯	rou gan rou fu	100
 肉羹米粉	rou geng mi fen	100
 肉羹面	rou geng mian	100
 肉钩冷藏车	rou gou leng cang che	100
@@ -212330,7 +212345,6 @@ sort: by_weight
 深一点	shen yi dian	100
 深一度	shen yi du	100
 申一帆	shen yi fan	100
-神医华陀	shen yi hua tuo	100
 深一脚浅一脚	shen yi jiao qian yi jiao	100
 神怡气静	shen yi qi jing	100
 神怡气舒	shen yi qi shu	100
@@ -217283,6 +217297,7 @@ sort: by_weight
 事件的主角	shi jian de zhu jue	100
 时间地点人物	shi jian di dian ren wu	100
 时间地理	shi jian di li	100
+时间地理啊	shi jian di li a	100
 世间第一美女	shi jian di yi mei nv	100
 时间点	shi jian dian	100
 时间电价	shi jian dian jia	100
@@ -220920,6 +220935,7 @@ sort: by_weight
 是最重要的	shi zui zhong yao de	100
 试作澹月	shi zuo dan yue	100
 使作呕	shi zuo ou	100
+手扒肉	shou ba rou	100
 手把手传授	shou ba shou chuan shou	100
 手把手地	shou ba shou de	100
 手把手地教	shou ba shou de jiao	100
@@ -221927,7 +221943,6 @@ sort: by_weight
 首脑分子	shou nao fen zi	100
 首脑人物	shou nao ren wu	100
 受怕担惊	shou pa dan jing	100
-手扒肉	shou pa rou	100
 手捧着鲜花	shou peng zhe xian hua	100
 首批省级	shou pi sheng ji	100
 兽皮痣	shou pi zhi	100
@@ -236988,6 +237003,7 @@ sort: by_weight
 提振了信心	ti zhen le xin xin	100
 剃枝虫	ti zhi chong	100
 体脂肪	ti zhi fang	100
+提质降本	ti zhi jiang ben	100
 体脂率	ti zhi lv	100
 体制内	ti zhi nei	100
 体制内的	ti zhi nei de	100
@@ -237389,6 +237405,7 @@ sort: by_weight
 天地之大	tian di zhi da	100
 天地之大德	tian di zhi da de	100
 天地之道	tian di zhi dao	100
+天地之间还有真爱	tian di zhi jian hai you zhen ai	100
 天地之劫	tian di zhi jie	100
 天地之精华	tian di zhi jing hua	100
 天地志狼	tian di zhi lang	100
@@ -253470,6 +253487,7 @@ sort: by_weight
 握椠怀铅	wo qian huai qian	100
 我欠你的	wo qian ni de	100
 我抢不上	wo qiang bu shang	100
+我抢个	wo qiang ge	100
 我亲爱的	wo qin ai de	100
 我亲爱的爸爸	wo qin ai de ba ba	100
 我亲爱的宝贝	wo qin ai de bao bei	100
@@ -306322,8 +306340,8 @@ sort: by_weight
 再低些	zai di xie	100
 在地狱中	zai di yu zhong	100
 在地愿做连理枝	zai di yuan zuo lian li zhi	100
-在电光火石	zai dian guang huo shi	100
-在电光火石间	zai dian guang huo shi jian	100
+在电光石火	zai dian guang shi huo	100
+在电光石火间	zai dian guang shi huo jian	100
 再点下	zai dian xia	100
 在电线杆	zai dian xian gan	100
 在电线杆上	zai dian xian gan shang	100

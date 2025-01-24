@@ -1208,7 +1208,7 @@
 # 「作记号」→「做记号」
 # 「作贼心虚」→「做贼心虚」
 # 「涨知识」→「长知识」
-# 「白暨豚」→「白𬶨豚」
+# 「白暨豚」「白鳍豚」→「白𬶨豚」
 # 「倖存者」→「幸存者」
 # 「草雉」→「草薙京」
 # 「心里咨询、心里压力、心里准备、心里医生、心里变化、心里变态、心里健康、心里因素、心里测试」→「心理」
@@ -2069,10 +2069,21 @@
 # 「神州笔记本、神州电脑」→「神舟笔记本、神舟电脑」
 # 「啸天犬、笑天犬」→「哮天犬」
 # 「尽在咫尺」→「近在咫尺」
+# 「颠痫病」→「癫痫病」
+# 「澎蜞菊」→「蟛蜞菊」
+# 「碧萝春」→「碧螺春」
+# 「株州市」→「株洲市」
+# 「云岗石窟」→「云冈石窟」
+# 「路易斯安纳州」→「路易斯安那州」
+# 「马塞诸塞州」「麻塞诸塞州」「麻萨诸塞州」→「马萨诸塞州」
+# 「休仑湖」→「休伦湖」
+# 「阿姆斯特郎」→「阿姆斯特朗」
+# 「白袷蓝衫」→「白夹蓝衫」，「白袷」即白色夹衣，据《通规汉》，「袷jia」为「夹」的异体字，「袷qia」用于「袷袢」
+# 「白恰青衫」→「白帢青衫」，「帢」古代一种便帽
 #///
 ---
 name: base
-version: "2025-01-14"
+version: "2025-01-17"
 sort: by_weight
 ...
 # +_+
@@ -11003,6 +11014,7 @@ sort: by_weight
 百家汇	bai jia hui	61
 白颊灰卷尾	bai jia hui juan wei	1
 白家口	bai jia kou	158
+白夹蓝衫	bai jia lan shan	11
 白家楼	bai jia lou	52
 白家楼村	bai jia lou cun	8
 白家楼桥东	bai jia lou qiao dong	2
@@ -11705,9 +11717,7 @@ sort: by_weight
 摆起来	bai qi lai	270
 佰奇美	bai qi mei	1
 白气球	bai qi qiu	167
-白鳍豚	bai qi tun	3520
-白袷蓝衫	bai qia lan shan	1
-白恰青衫	bai qia qing shan	1
+白帢青衫	bai qia qing shan	11
 百千	bai qian	30095
 白前	bai qian	1
 白杄	bai qian	1
@@ -24008,7 +24018,6 @@ sort: by_weight
 # 薜萝	bi luo	0
 # 𮩛𫗩	bi luo	0
 碧螺春	bi luo chun	19041
-碧萝春	bi luo chun	8
 碧落黄泉	bi luo huang quan	800
 笔落惊风雨	bi luo jing feng yu	330
 吡咯啉	bi luo lin	6
@@ -24739,7 +24748,7 @@ sort: by_weight
 必须得	bi xu dei	15850
 必须提防	bi xu di fang	425
 必须懂得	bi xu dong de	3475
-必需对	bi xu dui	58
+必须对	bi xu dui	58
 必须服从	bi xu fu cong	11675
 必须符合	bi xu fu he	87395
 必须搞	bi xu gao	1180
@@ -93398,8 +93407,8 @@ sort: by_weight
 动如	dong ru	111
 # 洞入	dong ru	0
 # 董茹	dong ru	0
-动如参与商	dong ru can yu shang	11
 动如雷霆	dong ru lei ting	180
+动如参与商	dong ru shen yu shang	112
 动如脱兔	dong ru tuo tu	1410
 东汝乡	dong ru xiang	8
 东软	dong ruan	20590
@@ -111347,8 +111356,7 @@ sort: by_weight
 非笔墨	fei bi mo	505
 非闭其言而不出也	fei bi qi yan er bu chu ye	1
 非必须	fei bi xu	1655
-非必须氨基酸	fei bi xu an ji suan	82
-非必需氨基酸	fei bi xu an ji suan	17
+非必需氨基酸	fei bi xu an ji suan	177
 非必需区	fei bi xu qu	1
 非比寻常	fei bi xun chang	7910
 非必要	fei bi yao	3635
@@ -139518,8 +139526,7 @@ sort: by_weight
 古羊路	gu yang lu	1180
 顾养民	gu yang min	105
 固阳县	gu yang xian	765
-堌阳镇	gu yang zhen	20
-固阳镇	gu yang zhen	1
+堌阳镇	gu yang zhen	21
 顾耀东	gu yao dong	157
 姑爷	gu ye	5310
 古冶	gu ye	1050
@@ -169339,8 +169346,8 @@ sort: by_weight
 画图片	hua tu pian	613
 花图片	hua tu pian	75
 画图麒麟阁	hua tu qi lin ge	1
-画图省识春风面	hua tu sheng shi chun feng mian	1
 画图形	hua tu xing	380
+画图省识春风面	hua tu xing shi chun feng mian	112
 花团锦簇	hua tuan jin cu	7470
 花褪残红青杏小	hua tui can hong qing xing xiao	7
 华佗	hua tuo	13700
@@ -171375,7 +171382,7 @@ sort: by_weight
 还盘	huan pan	18
 环佩	huan pei	2990
 换配件	huan pei jian	143
-环佩空归月夜魂	huan pei kong gui yue ye hun	1
+环珮空归夜月魂	huan pei kong gui ye yue hun	113
 换盆	huan pen	111
 换皮	huan pi	9999
 换皮肤	huan pi fu	115
@@ -206847,7 +206854,6 @@ sort: by_weight
 经济技术合作	jing ji ji shu he zuo	8950
 经济技术合作协定	jing ji ji shu he zuo xie ding	934
 经济技术开发区	jing ji ji shu kai fa qu	101630
-经济技术开发区开发区	jing ji ji shu kai fa qu kai fa qu	4
 经济技术开发区通海路	jing ji ji shu kai fa qu tong hai lu	1
 经济技术开发区沿湖	jing ji ji shu kai fa qu yan hu	2
 经济技术指标	jing ji ji shu zhi biao	3765
@@ -233353,7 +233359,6 @@ sort: by_weight
 乐高	le gao	3145
 乐高乐园	le gao le yuan	110
 了个	le ge	9999
-了哥王	le ge wang	6
 了够	le gou	3333
 了狗	le gou	2222
 乐购	le gou	111
@@ -242761,7 +242766,6 @@ sort: by_weight
 聊得比	liao de bi	40
 料得到	liao de dao	405
 料得年年肠断处	liao de nian nian chang duan chu	1180
-料得年年断肠处	liao de nian nian duan chang chu	5
 聊得起劲	liao de qi jin	265
 料的一种	liao de yi zhong	116
 料敌	liao di	2222
@@ -242796,6 +242800,7 @@ sort: by_weight
 燎疳节	liao gan jie	117
 聊个	liao ge	15160
 鹩哥	liao ge	1
+了哥王	liao ge wang	6
 廖公庄	liao gong zhuang	10
 廖公庄东站	liao gong zhuang dong zhan	1
 廖桂永	liao gui yong	8
@@ -257956,7 +257961,6 @@ sort: by_weight
 玛塞斯特拉	ma sai si te la	1
 玛塞斯特拉废墟	ma sai si te la fei xu	1
 马赛鱼羹	ma sai yu geng	66
-马塞诸塞州	ma sai zhu sai zhou	109
 马三家	ma san jia	2085
 马三立	ma san li	3725
 马三娘	ma san niang	174
@@ -292774,8 +292778,7 @@ sort: by_weight
 蟛蜞	peng qi	415
 彭汽车网	peng qi che wang	1
 彭启丰	peng qi feng	1
-蟛蜞菊	peng qi ju	15
-澎蜞菊	peng qi ju	1
+蟛蜞菊	peng qi ju	16
 碰巧	peng qiao	23880
 碰巧遇见	peng qiao yu jian	320
 硼氢化	peng qing hua	825
@@ -334478,7 +334481,7 @@ sort: by_weight
 山西盂县南娄镇	shan xi yu xian nan lou zhen	1
 山西宇星客车有限公司	shan xi yu xing ke che you xian gong si	2
 山西运城	shan xi yun cheng	3410
-山西云岗石窟	shan xi yun gang shi ku	1
+山西云冈石窟	shan xi yun gang shi ku	1
 剡溪蕴秀异	shan xi yun xiu yi	2
 山西招生	shan xi zhao sheng	154
 山西招生考试	shan xi zhao sheng kao shi	196
@@ -503961,7 +503964,7 @@ sort: by_weight
 在天涯	zai tian ya	11155
 在田野	zai tian ye	2095
 在天有灵	zai tian you ling	107
-在天愿作比翼鸟	zai tian yuan zuo bi yi niao	74
+在天愿作比翼鸟	zai tian yuan zuo bi yi niao	174
 在天之灵	zai tian zhi ling	6165
 在条件	zai tiao jian	15005
 在挑选	zai tiao xuan	9260
@@ -513523,7 +513526,7 @@ sort: by_weight
 浙江三黄肉鸡	zhe jiang san huang rou ji	1
 浙江商人	zhe jiang shang ren	2065
 浙江上虞	zhe jiang shang yu	1680
-浙江上虞市崧厦镇	zhe jiang shang yu shi song sha zhen	2
+浙江上虞市崧厦镇	zhe jiang shang yu shi song xia zhen	2
 浙江绍兴	zhe jiang shao xing	13350
 浙江绍兴县福全镇	zhe jiang shao xing xian fu quan zhen	2
 浙江绍兴县富盛镇	zhe jiang shao xing xian fu sheng zhen	1
@@ -526498,7 +526501,6 @@ sort: by_weight
 中国管理传播网	zhong guo guan li chuan bo wang	1
 中国管理信息化	zhong guo guan li xin xi hua	13
 中国冠毛犬	zhong guo guan mao quan	374
-中国冠毛犬犬	zhong guo guan mao quan quan	1
 中国官员	zhong guo guan yuan	2645
 中国广播	zhong guo guang bo	12880
 中国光大银行	zhong guo guang da yin hang	5980
@@ -532186,7 +532188,7 @@ sort: by_weight
 珠窗网户	zhu chuang wang hu	1
 朱唇	zhu chun	5510
 朱唇榴齿	zhu chun liu chi	1
-朱唇一点桃花殷	zhu chun yi dian tao hua yin	1
+朱唇一点桃花殷	zhu chun yi dian tao hua yan	111
 朱唇玉面	zhu chun yu mian	2
 主次	zhu ci	18845
 祝词	zhu ci	6895
@@ -535254,7 +535256,6 @@ sort: by_weight
 # 竹洲	zhu zhou	0
 竹舟江苗族乡	zhu zhou jiang miao zu xiang	3
 株洲市	zhu zhou shi	22585
-株州市	zhu zhou shi	17
 株洲市第一医院	zhu zhou shi di yi yi yuan	1
 株洲什锦菜	zhu zhou shi jin cai	11
 株洲市中医院	zhu zhou shi zhong yi yuan	8

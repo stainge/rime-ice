@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2025-01-14"
+version: "2025-01-17"
 sort: by_weight
 ...
 # +_+
@@ -48031,7 +48031,7 @@ sort: by_weight
 大卫·芬奇	da wei fen qi	100
 大卫教	da wei jiao	100
 大位快速增长	da wei kuai su zeng zhang	100
-大卫路易斯	da wei lu yi si	100
+大卫·路易斯	da wei lu yi si	100
 大威少	da wei shao	100
 大卫社	da wei she	100
 大卫生大健康	da wei sheng da jian kang	100
@@ -53730,6 +53730,7 @@ sort: by_weight
 德莱斯罗兹国	de lai si luo zi guo	100
 德莱斯罗兹王国	de lai si luo zi wang guo	100
 得来速	de lai su	100
+得来速餐厅	de lai su can ting	100
 德莱文	de lai wen	100
 的来源	de lai yuan	100
 德朗热	de lang re	100
@@ -54001,8 +54002,6 @@ sort: by_weight
 的瞬间	de shun jian	100
 的私事	de si shi	100
 的速度	de su du	100
-得速来	de su lai	100
-得速来餐厅	de su lai can ting	100
 的素质	de su zhi	100
 的态度	de tai du	100
 得太好	de tai hao	100
@@ -81342,7 +81341,6 @@ sort: by_weight
 干你娘的	gan ni niang de	100
 干你娘的啊	gan ni niang de a	100
 干你丫的	gan ni ya de	100
-干年碑易拓	gan nian bei yi ta	100
 干农活	gan nong huo	100
 干奴才	gan nu cai	100
 干女婿	gan nv xu	100
@@ -148174,7 +148172,6 @@ sort: by_weight
 两情两愿	liang qing liang yuan	100
 梁晴晴	liang qing qing	100
 两情若是长久时	liang qing ruo shi chang jiu shi	100
-梁銶琚	liang qiu ju	100
 两球落后	liang qiu luo hou	100
 梁秋阳	liang qiu yang	100
 两驱车	liang qu che	100
@@ -154478,7 +154475,7 @@ sort: by_weight
 撸一管儿	lu yi guan er	100
 陆亦可	lu yi ke	100
 路易士	lu yi shi	100
-路易斯阿姆斯特郎	lu yi si a mu si te lang	100
+路易斯·阿姆斯特朗	lu yi si a mu si te lang	100
 橹咿呀	lu yi ya	100
 陆驿站	lu yi zhan	100
 路一直都在	lu yi zhi dou zai	100
@@ -157028,13 +157025,11 @@ sort: by_weight
 马如游龙	ma ru you long	100
 玛芮斯布鲁克丝	ma rui si bu lu ke si	100
 马若松	ma ruo song	100
-麻萨诸塞州	ma sa zhu sai zhou	100
 马赛回旋	ma sai hui xuan	100
 马赛进行曲	ma sai jin xing qu	100
 马赛克乐队	ma sai ke yue dui	100
 马塞卢	ma sai lu	100
 马赛人	ma sai ren	100
-麻塞诸塞州	ma sai zhu sai zhou	100
 马赛族	ma sai zu	100
 骂傻逼	ma sha bi	100
 马杀鸡	ma sha ji	100
@@ -164374,7 +164369,6 @@ sort: by_weight
 美元地位	mei yuan di wei	100
 美元兑	mei yuan dui	100
 美元兑人民币汇率	mei yuan dui ren min bi hui lv	100
-美元对人民币汇率	mei yuan dui ren min bi hui lv	100
 美元反弹	mei yuan fan tan	100
 没缘分	mei yuan fen	100
 美院附中	mei yuan fu zhong	100
@@ -182464,6 +182458,7 @@ sort: by_weight
 飘然而至	piao ran er zhi	100
 朴仁焕	piao ren huan	100
 飘散在	piao san zai	100
+朴山多拉	piao shan duo la	100
 朴善英	piao shan ying	100
 飘上去	piao shang qu	100
 朴社长	piao she zhang	100
@@ -184121,7 +184116,6 @@ sort: by_weight
 菩萨十地	pu sa shi di	100
 菩萨修行	pu sa xiu xing	100
 普桑轿车	pu sang jiao che	100
-朴山多拉	pu shan duo la	100
 谱上来	pu shang lai	100
 铺上来	pu shang lai	100
 谱上去	pu shang qu	100
@@ -184663,6 +184657,7 @@ sort: by_weight
 七扯八扯	qi che ba che	100
 汽车保值率	qi che bao zhi lv	100
 汽车备胎	qi che bei tai	100
+汽车餐厅	qi che can ting	100
 汽车操作系统	qi che cao zuo xi tong	100
 汽车产业基地	qi che chan ye ji di	100
 汽车称重仪	qi che cheng zhong yi	100
@@ -189403,6 +189398,7 @@ sort: by_weight
 欠你钱	qian ni qian	100
 欠你人情	qian ni ren qing	100
 千年艾	qian nian ai	100
+千年碑易拓	qian nian bei yi ta	100
 千年传承	qian nian chuan cheng	100
 千年传奇	qian nian chuan qi	100
 千年传统	qian nian chuan tong	100
@@ -198002,7 +197998,6 @@ sort: by_weight
 人民币啊	ren min bi a	100
 人民币的汇率	ren min bi de hui lv	100
 人民币兑美元汇率	ren min bi dui mei yuan hui lv	100
-人民币对美元汇率	ren min bi dui mei yuan hui lv	100
 人民币发行	ren min bi fa xing	100
 人民币汇率贬值	ren min bi hui lv bian zhi	100
 人民币汇率波动	ren min bi hui lv bo dong	100
@@ -250917,9 +250912,9 @@ sort: by_weight
 翁山苏姬	weng shan su ji	100
 瓮天蠡海	weng tian li hai	100
 翁同龢	weng tong he	100
+嗡嗡弹	weng weng dan	100
 嗡嗡地	weng weng de	100
 嗡嗡叫	weng weng jiao	100
-嗡嗡弹	weng weng tan	100
 翁英晖	weng ying hui	100
 瓮牖桑枢	weng you sang shu	100
 瓮牖绳枢	weng you sheng shu	100
@@ -276151,7 +276146,6 @@ sort: by_weight
 修炼系统	xiu lian xi tong	100
 修炼之地	xiu lian zhi di	100
 秀林乡	xiu lin xiang	100
-休仑湖	xiu lun hu	100
 修罗场	xiu luo chang	100
 修罗传说	xiu luo chuan shuo	100
 修罗地狱	xiu luo di yu	100
@@ -306930,7 +306924,6 @@ sort: by_weight
 在体内交汇	zai ti nei jiao hui	100
 再提醒你	zai ti xing ni	100
 再提醒你一下	zai ti xing ni yi xia	100
-在天愿做比翼鸟	zai tian yuan zuo bi yi niao	100
 再贴现额度	zai tie xian e du	100
 再贴现利率	zai tie xian li lv	100
 再贴现率	zai tie xian lv	100

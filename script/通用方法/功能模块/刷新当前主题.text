@@ -1,0 +1,15 @@
+--【【模块需要的参数】】〖〖()〗〗
+
+
+require "import"
+import "com.osfans.trime.*" --载入包
+
+
+local function 刷新当前主题()
+  local 主题实例=Config.get()
+  local 当前主题=tostring(主题实例.getTheme())
+  主题实例.setTheme(tostring(当前主题)) 
+  this.initKeyboard()
+  this.resetKeyboard() --重置键盘
+end
+return 刷新当前主题

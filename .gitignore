@@ -20,3 +20,11 @@ cn_dicts/temp.txt
 rime_console
 rime_deployer
 rime_patch
+
+clipboard.json
+data.json
+files.json
+phrase.json
+logs/
+*.ocd
+*.ocd2

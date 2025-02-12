@@ -19,8 +19,59 @@
 #
 # 最下面的英文是因为一些常用单词的第一候选项被纠错覆盖了，如 Amazon 被纠错为「a ma zong 阿妈粽」，期望的 Amazon 跑到第二个候选项了，所以这里给它固定死喽。
 #
-# version: "2024-03-12"
+# version: "2025-02-12"
 #
 # 此行之后不能写注释
 
+Apple	apple
+CSS	css
+Dropbox	dropbox
+GBK	gbk
 GitHub	gh
+Google Analytics	ga
+HTML	html
+IPTV	iptv
+IPv4	ipv
+IPv6	ipv
+JavaScript	js
+Linux	linux
+Mac	mac
+Mac App Store	mas
+MacBook	macbook
+MySQL	mysql
+OS X	osx
+Objective-C	ojbc
+OpenWrt	ow
+Python	py
+QQ邮箱	qqyx
+Quantumult	quan
+Rime	rime
+Ruby	ruby
+Rust	rust
+SQL	sql
+Swift	swift
+TypeScript	ts
+T恤	txu
+UTF-8	utfba
+U盘	upj
+WeChat	wechat
+Wi-Fi	wifi
+X-Ray	xray
+Xbox One	xbox
+YouTube	youtube
+Youku	youku
+iCloud	icloud
+iMac	imac
+iOS	ios
+iPad	ipad
+iPhone	iphone
+iPod	ipod
+iTunes	itunes
+jQuery	jquery
+macOS	macos
+markdown	md
+obsidian	ob
+⇧	shift
+⌃	ctl
+⌘	cmd
+⌥	opt

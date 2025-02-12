@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2025-02-05"
+version: "2025-02-09"
 sort: by_weight
 ...
 # +_+
@@ -249,7 +249,7 @@ sort: by_weight
 阿拉斯加大学	a la si jia da xue	100
 阿拉斯加地区	a la si jia di qu	100
 阿拉斯加狭鳕鱼堡	a la si jia xia xue yu bao	100
-阿拉斯加雪撬犬	a la si jia xue qiao quan	100
+阿拉斯加雪橇犬	a la si jia xue qiao quan	100
 阿拉斯托	a la si tuo	100
 阿拉斯猪	a la si zhu	100
 阿拉塔斯	a la ta si	100
@@ -797,7 +797,7 @@ sort: by_weight
 埃夫勒	ai fu le	100
 埃弗斯堡	ai fu si bao	100
 爱干净	ai gan jing	100
-矮杆品种	ai gan pin zhong	100
+矮秆品种	ai gan pin zhong	100
 哀感顽艳	ai gan wan yan	100
 矮秆作物	ai gan zuo wu	100
 哀告宾服	ai gao bin fu	100
@@ -7460,7 +7460,6 @@ sort: by_weight
 白沙工农区	bai sha gong nong qu	100
 拜啥年	bai sha nian	100
 白沙撒字	bai sha sa zi	100
-白沙糖	bai sha tang	100
 白沙乡	bai sha xiang	100
 白山地区	bai shan di qu	100
 白山派	bai shan pai	100
@@ -7880,8 +7879,8 @@ sort: by_weight
 半壁东南	ban bi dong nan	100
 半臂之劳	ban bi zhi lao	100
 半臂之力	ban bi zhi li	100
-半边烧鹅脾	ban bian shao e pi	100
-半边烧鹅脾式	ban bian shao e pi shi	100
+半边烧鹅髀	ban bian shao e bi	100
+半边烧鹅髀式	ban bian shao e bi shi	100
 半彪子	ban biao zi	100
 斑驳的家徽	ban bo de jia hui	100
 半波整流	ban bo zheng liu	100
@@ -9684,9 +9683,7 @@ sort: by_weight
 抱朴而长吟兮	bao pu er chang yin xi	100
 抱朴守拙	bao pu shou zhuo	100
 抱朴子	bao pu zi	100
-曝气槽	bao qi cao	100
 抱器怀才	bao qi huai cai	100
-曝气系统	bao qi xi tong	100
 抱歉啊	bao qian a	100
 抱歉抱歉	bao qian bao qian	100
 抱歉抱歉了	bao qian bao qian le	100
@@ -22928,7 +22925,6 @@ sort: by_weight
 不知年月	bu zhi nian yue	100
 不知疲倦地	bu zhi pi juan de	100
 不知疲倦地工作	bu zhi pi juan de gong zuo	100
-不知其几万里也	bu zhi qi ji wan li ye	100
 不值钱的	bu zhi qian de	100
 不知秋思落谁家	bu zhi qiu si luo shei jia	100
 不知秋思落谁家	bu zhi qiu si luo shui jia	100
@@ -45396,6 +45392,9 @@ sort: by_weight
 打草蛇惊	da cao she jing	100
 大册高文	da ce gao wen	100
 大差不差	da cha bu cha	100
+大𥻗子	da cha zi	100
+大𥻗子味	da cha zi wei	100
+大𥻗子粥	da cha zi zhou	100
 大柴旦行政区	da chai dan xing zheng qu	100
 大柴旦行政委员会	da chai dan xing zheng wei yuan hui	100
 大柴旦镇	da chai dan zhen	100
@@ -83228,6 +83227,7 @@ sort: by_weight
 高梁川	gao liang chuan	100
 高粱地	gao liang di	100
 高粱地里	gao liang di li	100
+高粱秆	gao liang gan	100
 高粱红了	gao liang hong le	100
 膏粱锦绣	gao liang jin xiu	100
 高梁市	gao liang shi	100
@@ -95978,6 +95978,7 @@ sort: by_weight
 海力士	hai li shi	100
 海里有鱼	hai li you yu	100
 海立云垂	hai li yun chui	100
+海蛎子味	hai li zi wei	100
 海鲢科	hai lian ke	100
 海鲢目	hai lian mu	100
 还连着两次	hai lian zhe liang ci	100
@@ -119128,7 +119129,6 @@ sort: by_weight
 减四十	jian si shi	100
 简丝数米	jian si shu mi	100
 简松意	jian song yi	100
-见素抱朴	jian su bao pu	100
 减速传动	jian su chuan dong	100
 减速度	jian su du	100
 减速机行业	jian su ji hang ye	100
@@ -154682,6 +154682,7 @@ sort: by_weight
 路网运行	lu wang yun xing	100
 露尾藏头	lu wei cang tou	100
 芦苇地	lu wei di	100
+芦苇秆	lu wei gan	100
 卢伟莉	lu wei li	100
 芦苇湿地	lu wei shi di	100
 芦苇属	lu wei shu	100
@@ -156990,6 +156991,8 @@ sort: by_weight
 马戛尔尼	ma ga er ni	100
 马戛尔尼使团	ma ga er ni shi tuan	100
 抹干净	ma gan jing	100
+麻秆身材	ma gan shen cai	100
+麻秆腿	ma gan tui	100
 妈个逼	ma ge bi	100
 妈个逼的	ma ge bi de	100
 马革盛尸	ma ge cheng shi	100
@@ -160357,7 +160360,6 @@ sort: by_weight
 没东西吃	mei dong xi chi	100
 没动心	mei dong xin	100
 没动作	mei dong zuo	100
-美都能源	mei dou neng yuan	100
 没抖音	mei dou yin	100
 没斗志	mei dou zhi	100
 美度表	mei du biao	100
@@ -160368,6 +160370,7 @@ sort: by_weight
 没读过大学	mei du guo da xue	100
 没读过什么书	mei du guo shen me shu	100
 没读过书	mei du guo shu	100
+美都能源	mei du neng yuan	100
 美杜莎的故事	mei du sha de gu shi	100
 美度手表	mei du shou biao	100
 没读书	mei du shu	100
@@ -184416,6 +184419,7 @@ sort: by_weight
 普普艺术	pu pu yi shu	100
 普普乐团	pu pu yue tuan	100
 噗噗猪	pu pu zhu	100
+曝气槽	pu qi cao	100
 曝气沉砂池	pu qi chen sha chi	100
 曝气风机	pu qi feng ji	100
 曝气高压风机	pu qi gao ya feng ji	100
@@ -184431,6 +184435,7 @@ sort: by_weight
 曝气设备	pu qi she bei	100
 曝气生物滤池	pu qi sheng wu lv chi	100
 曝气头	pu qi tou	100
+曝气系统	pu qi xi tong	100
 曝气增氧	pu qi zeng yang	100
 曝气装置	pu qi zhuang zhi	100
 菩萨低眉	pu sa di mei	100
@@ -191498,6 +191503,8 @@ sort: by_weight
 寝不成寐	qin bu cheng mei	100
 寝不遑安	qin bu huang an	100
 寝不能寐	qin bu neng mei	100
+芹菜秆	qin cai gan	100
+芹菜梗	qin cai geng	100
 芹菜汤	qin cai tang	100
 亲操井臼	qin cao jing jiu	100
 钦差大人	qin chai da ren	100
@@ -199588,7 +199595,7 @@ sort: by_weight
 日短夜长	ri duan ye chang	100
 日锻月炼	ri duan yue lian	100
 日耳曼部落	ri er man bu luo	100
-日尔曼民族	ri er man min zu	100
+日耳曼民族	ri er man min zu	100
 日泛儿	ri fan er	100
 日番谷	ri fan gu	100
 日防夜防	ri fang ye fang	100
@@ -205942,6 +205949,7 @@ sort: by_weight
 沙滩音乐节	sha tan yin yue jie	100
 砂糖粉	sha tang fen	100
 砂糖粉的	sha tang fen de	100
+砂糖橘	sha tang ju	100
 沙特阿拉伯人	sha te a la bo ren	100
 沙特国王萨勒曼	sha te guo wang sa le man	100
 沙特利雅得	sha te li ya de	100
@@ -208583,6 +208591,8 @@ sort: by_weight
 少点儿	shao dian er	100
 少点什么	shao dian shen me	100
 少典有琴	shao dian you qin	100
+烧鹅髀	shao e bi	100
+烧鹅腿	shao e tui	100
 少儿不宜了	shao er bu yi le	100
 少儿成长	shao er cheng zhang	100
 少儿馆	shao er guan	100
@@ -230934,10 +230944,7 @@ sort: by_weight
 苏梅市	su mei shi	100
 苏眉鱼	su mei yu	100
 苏门长啸	su men chang xiao	100
-苏门达腊	su men da la	100
-苏门达腊岛	su men da la dao	100
 苏门答腊虎	su men da la hu	100
-苏门达腊虎	su men da la hu	100
 苏门答腊省	su men da la sheng	100
 素门凡流	su men fan liu	100
 素描关系	su miao guan xi	100
@@ -234465,8 +234472,8 @@ sort: by_weight
 太原解封	tai yuan jie feng	100
 太原理工	tai yuan li gong	100
 太原盆地	tai yuan pen di	100
-太原市万柏林区	tai yuan shi wan bo lin qu	100
-太原万柏林区	tai yuan wan bo lin qu	100
+太原市万柏林区	tai yuan shi wan bai lin qu	100
+太原万柏林区	tai yuan wan bai lin qu	100
 太原武宿国际机场	tai yuan wu su guo ji ji chang	100
 太原武宿机场	tai yuan wu su ji chang	100
 太原之恋	tai yuan zhi lian	100
@@ -235176,8 +235183,8 @@ sort: by_weight
 汤宝如	tang bao ru	100
 汤杯赛	tang bei sai	100
 汤饼筵	tang bing yan	100
+唐蕃古道	tang bo gu dao	100
 唐伯虎点秋香	tang bo hu dian qiu xiang	100
-唐蕃会盟	tang bo hui meng	100
 堂伯叔	tang bo shu	100
 汤不热	tang bu re	100
 唐才育	tang cai yu	100
@@ -265625,6 +265632,7 @@ sort: by_weight
 险死还生后	xian si huan sheng hou	100
 咸丝丝	xian si si	100
 弦诵不辍	xian song bu chuo	100
+见素抱朴	xian su bao pu	100
 咸酥鸡	xian su ji	100
 限速行驶	xian su xing shi	100
 咸素媛	xian su yuan	100
@@ -284977,7 +284985,7 @@ sort: by_weight
 野人部落	ye ren bu luo	100
 野人花园	ye ren hua yuan	100
 野人参	ye ren shen	100
-野人献曝	ye ren xian bao	100
+野人献曝	ye ren xian pu	100
 野人族	ye ren zu	100
 冶容诲淫	ye rong hui yin	100
 夜柔吠陀	ye rou fei tuo	100
@@ -285090,13 +285098,11 @@ sort: by_weight
 也说不定	ye shuo bu ding	100
 也说不定都	ye shuo bu ding dou	100
 也说不清楚	ye shuo bu qing chu	100
-野叟曝言	ye sou bao yan	100
+野叟曝言	ye sou pu yan	100
 夜宿风波	ye su feng bo	100
 耶稣会	ye su hui	100
-耶酥会	ye su hui	100
 耶稣会传教士	ye su hui chuan jiao shi	100
 耶稣会士	ye su hui shi	100
-耶酥会士	ye su hui shi	100
 耶稣基督后期圣徒教会	ye su ji du hou qi sheng tu jiao hui	100
 耶稣基督末世圣徒教会	ye su ji du mo shi sheng tu jiao hui	100
 耶稣降临节	ye su jiang lin jie	100
@@ -291316,6 +291322,7 @@ sort: by_weight
 一日九迁	yi ri jiu qian	100
 一日排行	yi ri pai hang	100
 一日排行榜	yi ri pai hang bang	100
+一日曝十日寒	yi ri pu shi ri han	100
 一日千丈	yi ri qian zhang	100
 一日三复	yi ri san fu	100
 一日三秋	yi ri san qiu	100
@@ -303153,8 +303160,12 @@ sort: by_weight
 与孟尚书书	yu meng shang shu shu	100
 驭梦逐浪	yu meng zhu lang	100
 玉米杯	yu mi bei	100
+玉米𥻗	yu mi cha	100
+玉米𥻗子	yu mi cha zi	100
+玉米𥻗子粥	yu mi cha zi zhou	100
 玉米赤霉烯酮	yu mi chi mei xi tong	100
 玉米地里	yu mi di li	100
+玉米秆	yu mi gan	100
 玉米糕	yu mi gao	100
 玉米行情	yu mi hang qing	100
 玉米胡萝卜	yu mi hu luo bo	100

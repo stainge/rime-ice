@@ -9,3 +9,5 @@ patch:
     - {schema: t9}
     - {schema: hifumi}
     - {schema: rime_ice}
+  menu:
+    page_size: 7

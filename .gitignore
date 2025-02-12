@@ -28,3 +28,4 @@ phrase.json
 logs/
 *.ocd
 *.ocd2
+cloud.dict.yaml

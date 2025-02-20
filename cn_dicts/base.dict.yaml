@@ -2188,7 +2188,7 @@
 #///
 ---
 name: base
-version: "2025-02-09"
+version: "2025-02-14"
 sort: by_weight
 ...
 # +_+
@@ -27758,6 +27758,8 @@ sort: by_weight
 标志序列	biao zhi xu lie	23
 标枝野鹿	biao zhi ye lu	1
 标志着	biao zhi zhe	170605
+标志重捕	biao zhi zhong bu	121
+标志重捕法	biao zhi zhong bu fa	211
 表中表	biao zhong biao	23
 标注	biao zhu	577717
 标柱	biao zhu	220
@@ -106422,6 +106424,7 @@ sort: by_weight
 法网站	fa wang zhan	17
 乏味	fa wei	27480
 发威	fa wei	11565
+发微	fa wei	13
 乏味的	fa wei de	16545
 乏味的人	fa wei de ren	505
 罚未遂	fa wei sui	27
@@ -152826,6 +152829,7 @@ sort: by_weight
 汉桥村	han qiao cun	23
 汉桥街	han qiao jie	1
 韩乔生	han qiao sheng	2560
+旱芹	han qin	31
 韩擒虎	han qin hu	3
 旱情	han qing	16450
 含情	han qing	6505
@@ -196383,6 +196387,7 @@ sort: by_weight
 交集	jiao ji	15925
 交击	jiao ji	2222
 叫鸡	jiao ji	1085
+胶剂	jiao ji	16
 交寄	jiao ji	9
 狡计	jiao ji	9
 胶济	jiao ji	1
@@ -231221,6 +231226,7 @@ sort: by_weight
 岚漪镇	lan yi zhen	1
 滥饮	lan yin	4444
 蓝印	lan yin	631
+懒音	lan yin	101
 蓝银霸王枪	lan yin ba wang qiang	170
 兰因璧月	lan yin bi yue	197
 蓝营	lan ying	641
@@ -295216,8 +295222,9 @@ sort: by_weight
 拼读	pin du	6970
 频段	pin duan	59595
 颦儿	pin er	1385
-贫儿曝富	pin er bao fu	1
+贫儿	pin er	137
 贫而乐道	pin er le dao	5
+贫儿曝富	pin er pu fu	12
 贫乏	pin fa	30970
 频发	pin fa	20995
 拼法	pin fa	2550
@@ -307907,6 +307914,7 @@ sort: by_weight
 巧夺	qiao duo	875
 荞剁面	qiao duo mian	27
 巧夺天工	qiao duo tian gong	11050
+峭崿	qiao e	12
 乔恩	qiao en	8345
 巧儿	qiao er	24845
 乔尔	qiao er	4310
@@ -339063,6 +339071,7 @@ sort: by_weight
 赊店镇	she dian zhen	18
 射雕	she diao	21305
 舍掉	she diao	1255
+蛇雕	she diao	13
 设定	she ding	500364
 射钉	she ding	1415
 设定了	she ding le	33060
@@ -339695,6 +339704,7 @@ sort: by_weight
 射精后	she jing hou	5140
 蛇颈龙	she jing long	785
 射精障碍	she jing zhang ai	17
+蛇鹫	she jiu	31
 舍旧谋新	she jiu mou xin	1
 设酒杀鸡作食	she jiu sha ji zuo shi	5
 设局	she ju	3625
@@ -371332,6 +371342,7 @@ sort: by_weight
 苏叔阳	su shu yang	126
 骕骦	su shuang	2
 鹔鹴	su shuang	1
+涑水	su shui	16
 速水	su shui	3
 宿水餐风	su shui can feng	4
 速水重道	su shui zhong dao	1
@@ -379062,6 +379073,7 @@ sort: by_weight
 炭烧鱼串	tan shao yu chuan	1
 炭烧鱼段	tan shao yu duan	1
 弹射	tan she	9110
+弹舌	tan she	101
 弹射器	tan she qi	2095
 弹射世界	tan she shi jie	124
 贪蛇忘尾	tan she wang wei	1
@@ -380552,6 +380564,7 @@ sort: by_weight
 唐子婷	tang zi ting	163
 堂子巷	tang zi xiang	8
 塘子堰村	tang zi yan cun	12
+糖棕	tang zong	78
 唐纵	tang zong	5
 唐宗海	tang zong hai	4
 唐宗宋祖	tang zong song zu	1225
@@ -383327,6 +383340,7 @@ sort: by_weight
 剃眉毛	ti mei mao	130
 踢门	ti men	1170
 梯门	ti men	120
+稊米	ti mi	13
 提米克伦首领	ti mi ke lun shou ling	2
 替米沙坦	ti mi sha tan	17
 替米沙坦胶囊	ti mi sha tan jiao nang	1
@@ -399842,6 +399856,7 @@ sort: by_weight
 顽强拼搏	wan qiang pin bo	15365
 晚桥	wan qiao	3
 玩跷跷板	wan qiao qiao ban	140
+晚寝	wan qin	139
 晚清	wan qing	21090
 万顷	wan qing	8425
 晚晴	wan qing	4395
@@ -408999,6 +409014,7 @@ sort: by_weight
 温风至	wen feng zhi	124
 闻风坐相悦	wen feng zuo xiang yue	2
 温服	wen fu	5000
+文赋	wen fu	1693
 文甫	wen fu	695
 文复乡	wen fu xiang	2
 文稿	wen gao	45910
@@ -417608,6 +417624,7 @@ sort: by_weight
 五桥区	wu qiao qu	1
 午桥泉石	wu qiao quan shi	1
 吴桥县	wu qiao xian	1800
+午寝	wu qin	18
 吴芹	wu qin	8
 吴钦烈	wu qin lie	1
 五琴路	wu qin lu	54
@@ -455073,6 +455090,7 @@ sort: by_weight
 压迫着	ya po zhe	1985
 压迫者	ya po zhe	1340
 鸭蹼	ya pu	120
+鸭脯	ya pu	21
 亚齐	ya qi	5120
 氩气	ya qi	3945
 雅琪	ya qi	2525
@@ -456456,6 +456474,7 @@ sort: by_weight
 烟鸽子蛋	yan ge zi dan	15
 严格自律	yan ge zi lv	4705
 严格遵守	yan ge zun shou	77100
+烟梗	yan geng	31
 盐工	yan gong	810
 验工计价	yan gong ji jia	121
 晏公庙	yan gong miao	25
@@ -464715,6 +464734,7 @@ sort: by_weight
 也谈	ye tan	17380
 夜谈	ye tan	3545
 夜谭	ye tan	445
+椰糖	ye tang	51
 冶陶	ye tao	13
 叶洮	ye tao	13
 也忒	ye tei	9999
@@ -537263,6 +537283,7 @@ sort: by_weight
 撞沉	zhuang chen	780
 装成	zhuang cheng	13290
 撞成	zhuang cheng	1805
+装盛	zhuang cheng	18
 庄城	zhuang cheng	5
 妆成每被秋娘妒	zhuang cheng mei bei qiu niang du	1
 撞成重伤	zhuang cheng zhong shang	515
@@ -544028,6 +544049,7 @@ sort: by_weight
 邹靖	zou jing	4
 邹敬园	zou jing yuan	152
 走就走	zou jiu zou	3040
+走鹃	zou juan	13
 邹骏	zou jun	8
 走开	zou kai	44685
 奏凯	zou kai	1370

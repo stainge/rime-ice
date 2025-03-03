@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2025-02-14"
+version: "2025-02-21"
 sort: by_weight
 ...
 # +_+
@@ -693,8 +693,8 @@ sort: by_weight
 爱德华王子岛省	ai de hua wang zi dao sheng	100
 爱德华兹空军基地	ai de hua zi kong jun ji di	100
 爱德基金会	ai de ji jin hui	100
-埃德加爱伦坡	ai de jia ai lun po	100
-埃德加斯诺	ai de jia si nuo	100
+埃德加·爱伦·坡	ai de jia ai lun po	100
+埃德加·斯诺	ai de jia si nuo	100
 挨得近	ai de jin	100
 爱的就是你	ai de jiu shi ni	100
 艾德勒	ai de le	100
@@ -1017,7 +1017,8 @@ sort: by_weight
 艾路米哈区	ai lu mi ha qu	100
 艾伦夺还战	ai lun duo huan zhan	100
 爱伦奈维尔	ai lun nai wei er	100
-艾伦帕森斯	ai lun pa sen si	100
+艾伦·帕森斯	ai lun pa sen si	100
+爱伦·坡	ai lun po	100
 爱侣情深	ai lv qing shen	100
 爱旅行	ai lv xing	100
 爱玛夫人	ai ma fu ren	100
@@ -1983,6 +1984,7 @@ sort: by_weight
 安康社区	an kang she qu	100
 𩽾𩾌属	an kang shu	100
 安康幸福	an kang xing fu	100
+𩽾𩾌鱼	an kang yu	100
 安克拉	an ke la	100
 安克拉治	an ke la zhi	100
 安可曲	an ke qu	100
@@ -3034,10 +3036,6 @@ sort: by_weight
 懊丧起来	ao sang qi lai	100
 傲上矜下	ao shang jin xia	100
 澳式橄榄球	ao shi gan lan qiu	100
-傲世皇朝	ao shi huang chao	100
-傲视皇朝	ao shi huang chao	100
-傲世皇朝平台	ao shi huang chao ping tai	100
-傲世皇朝注册	ao shi huang chao zhu ce	100
 傲世九重天	ao shi jiu chong tian	100
 傲世轻物	ao shi qing wu	100
 傲视群芳	ao shi qun fang	100
@@ -16765,8 +16763,7 @@ sort: by_weight
 博物链	bo wu lian	100
 博物洽闻	bo wu qia wen	100
 博物通达	bo wu tong da	100
-波西米亚	bo xi mi ya	100
-波西米亚长裙	bo xi mi ya chang qun	100
+波希米亚长裙	bo xi mi ya chang qun	100
 波希米娅女子合唱团	bo xi mi ya nv zi he chang tuan	100
 玻纤行业	bo xian hang ye	100
 拨弦乐器	bo xian yue qi	100
@@ -22563,7 +22560,6 @@ sort: by_weight
 不在手上	bu zai shou shang	100
 不再说	bu zai shuo	100
 不再说了	bu zai shuo le	100
-不再宿舍	bu zai su she	100
 不在宿舍	bu zai su she	100
 不再玩	bu zai wan	100
 不再玩儿	bu zai wan er	100
@@ -25688,6 +25684,7 @@ sort: by_weight
 苍髯老贼	cang ran lao zei	100
 藏肉显瘦	cang rou xian shou	100
 藏色阁	cang se ge	100
+藏色散人	cang se san ren	100
 苍山洱海	cang shan er hai	100
 仓山校区	cang shan xiao qu	100
 藏身地	cang shen di	100
@@ -30933,7 +30930,6 @@ sort: by_weight
 朝北走	chao bei zou	100
 超笨的	chao ben de	100
 超本科线	chao ben ke xian	100
-朝比奈彩	chao bi nai cai	100
 炒比特币	chao bi te bi	100
 超变传奇	chao bian chuan qi	100
 超变传世	chao bian chuan shi	100
@@ -31166,7 +31162,6 @@ sort: by_weight
 超乎预计	chao hu yu ji	100
 超乎预计的	chao hu yu ji de	100
 超乎预计的惊喜	chao hu yu ji de jing xi	100
-朝华出版社	chao hua chu ban she	100
 炒花蛤	chao hua ge	100
 超坏星	chao huai xing	100
 超还原	chao huan yuan	100
@@ -31325,7 +31320,6 @@ sort: by_weight
 超可爱	chao ke ai	100
 超可耐	chao ke nai	100
 超坑的	chao keng de	100
-朝孔雀	chao kong que	100
 超口爱乐团	chao kou ai yue tuan	100
 超快的速度	chao kuai de su du	100
 超快速	chao kuai su	100
@@ -46590,7 +46584,6 @@ sort: by_weight
 大家参考	da jia can kao	100
 大家出来	da jia chu lai	100
 大家的	da jia de	100
-大家的始末	da jia de shi mo	100
 大家都别着急	da jia dou bie zhao ji	100
 大家都不会	da jia dou bu hui	100
 大家都高兴	da jia dou gao xing	100
@@ -48611,7 +48604,7 @@ sort: by_weight
 大禹褐石	da yu he shi	100
 大于零	da yu ling	100
 大禹岭	da yu ling	100
-打渔流	da yu liu	100
+打鱼流	da yu liu	100
 达与璐	da yu lu	100
 大玉螺旋丸	da yu luo xuan wan	100
 大峪南路	da yu nan lu	100
@@ -101202,7 +101195,7 @@ sort: by_weight
 赫尔曼德省	he er man de sheng	100
 荷尔蒙失调	he er meng shi tiao	100
 荷尔蒙旺盛	he er meng wang sheng	100
-赫尔穆特科尔	he er mu te ke er	100
+赫尔穆特·科尔	he er mu te ke er	100
 合而为一合唱团	he er wei yi he chang tuan	100
 核二院	he er yuan	100
 赫尔佐格	he er zuo ge	100
@@ -105067,7 +105060,7 @@ sort: by_weight
 侯万户	hou wan hu	100
 后望镜	hou wang jing	100
 厚味姣色	hou wei jiao se	100
-厚味腊毒	hou wei la du	100
+厚味腊毒	hou wei xi du	100
 后五个	hou wu ge	100
 后五行	hou wu hang	100
 后下来	hou xia lai	100
@@ -132070,7 +132063,6 @@ sort: by_weight
 橘色的狐狸	ju se de hu li	100
 橘色调	ju se diao	100
 橘色狐狸	ju se hu li	100
-聚色王朝	ju se wang chao	100
 橘色系	ju se xi	100
 居善地	ju shan di	100
 居山海	ju shan hai	100
@@ -142229,7 +142221,6 @@ sort: by_weight
 拉着袖子	la zhe xiu zi	100
 拉着走	la zhe zou	100
 拉着坐	la zhe zuo	100
-腊之以为饵	la zhi yi wei er	100
 蜡烛不点不亮	la zhu bu dian bu liang	100
 蜡烛堆	la zhu dui	100
 蜡烛机制	la zhu ji zhi	100
@@ -205503,7 +205494,6 @@ sort: by_weight
 色素沉着斑	se su chen zhuo ban	100
 色素体	se su ti	100
 瑟调琴弄	se tiao qin nong	100
-色王朝	se wang chao	100
 色温传感器	se wen chuan gan qi	100
 色温调节	se wen tiao jie	100
 色系搭配	se xi da pei	100
@@ -207442,7 +207432,7 @@ sort: by_weight
 上对花轿	shang dui hua jiao	100
 上顿没下顿	shang dun mei xia dun	100
 上颚骨	shang e gu	100
-上颚正门齿	shang e zheng men chi	100
+上腭正门齿	shang e zheng men chi	100
 上二本	shang er ben	100
 上二挡	shang er dang	100
 上二楼	shang er lou	100
@@ -246828,7 +246818,6 @@ sort: by_weight
 王朝系列	wang chao xi lie	100
 王朝兴衰	wang chao xing shuai	100
 王朝一	wang chao yi	100
-王朝云	wang chao yun	100
 王朝争霸	wang chao zheng ba	100
 王朝中	wang chao zhong	100
 望尘奔北	wang chen ben bei	100
@@ -248039,6 +248028,7 @@ sort: by_weight
 王长老	wang zhang lao	100
 王朝晖	wang zhao hui	100
 王朝霞	wang zhao xia	100
+王朝云	wang zhao yun	100
 王者杯	wang zhe bei	100
 王者传奇	wang zhe chuan qi	100
 望着窗外	wang zhe chuang wai	100
@@ -263030,6 +263020,7 @@ sort: by_weight
 西窑沟	xi yao gou	100
 系谣言	xi yao yan	100
 戏要演下去	xi yao yan xia qu	100
+腊叶标本	xi ye biao ben	100
 西野花	xi ye hua	100
 西野迦南	xi ye jia nan	100
 细叶脉	xi ye mai	100
@@ -263327,6 +263318,7 @@ sort: by_weight
 细致了解	xi zhi liao jie	100
 惜指失掌	xi zhi shi zhang	100
 矽质岩	xi zhi yan	100
+腊之以为饵	xi zhi yi wei er	100
 汐止镇	xi zhi zhen	100
 系中国	xi zhong guo	100
 戏中角色	xi zhong jue se	100
@@ -277198,6 +277190,7 @@ sort: by_weight
 续航时间长	xu hang shi jian chang	100
 续航时间更长	xu hang shi jian geng chang	100
 续航问题	xu hang wen ti	100
+徐行镇	xu hang zhen	100
 续航最长	xu hang zui chang	100
 徐浩峰	xu hao feng	100
 许豪升	xu hao sheng	100
@@ -277544,7 +277537,6 @@ sort: by_weight
 虚心下气	xu xin xia qi	100
 虚心下意	xu xin xia yi	100
 续行里程	xu xing li cheng	100
-徐行镇	xu xing zhen	100
 徐徐地	xu xu de	100
 徐徐的	xu xu de	100
 煦煦孑孑	xu xu jie jie	100
@@ -295290,7 +295282,6 @@ sort: by_weight
 银墩墩	yin dun dun	100
 喑恶叱咤	yin e chi zha	100
 龈腭音	yin e yin	100
-龈颚音	yin e yin	100
 隐而不现	yin er bu xian	100
 隐而不宣	yin er bu xuan	100
 因而得名	yin er de ming	100
@@ -308289,7 +308280,6 @@ sort: by_weight
 藏酋猴	zang qiu hou	100
 藏人行政中央	zang ren xing zheng zhong yang	100
 藏人自焚	zang ren zi fen	100
-藏色散人	zang se san ren	100
 葬身河底	zang shen he di	100
 藏式风格	zang shi feng ge	100
 藏式家具	zang shi jia ju	100
@@ -310587,7 +310577,7 @@ sort: by_weight
 站旁边	zhan pang bian	100
 沾皮带骨	zhan pi dai gu	100
 粘皮带骨	zhan pi dai gu	100
-粘皮着骨	zhan pi zhe gu	100
+粘皮着骨	zhan pi zhuo gu	100
 占便宜的是呆	zhan pian yi de shi dai	100
 占便宜的心理	zhan pian yi de xin li	100
 占平均	zhan ping jun	100
@@ -312112,6 +312102,7 @@ sort: by_weight
 找宝藏	zhao bao zang	100
 召必回	zhao bi hui	100
 朝避猛虎	zhao bi meng hu	100
+朝比奈彩	zhao bi nai cai	100
 赵璧隋珠	zhao bi sui zhu	100
 照毕业照	zhao bi ye zhao	100
 着边儿	zhao bian er	100
@@ -312394,6 +312385,7 @@ sort: by_weight
 昭和元禄落语心中	zhao he yuan lu luo yu xin zhong	100
 赵宏博	zhao hong bo	100
 招呼都不打	zhao hu dou bu da	100
+朝华出版社	zhao hua chu ban she	100
 赵华光	zhao hua guang	100
 招花惹草	zhao hua re cao	100
 朝华夕秀	zhao hua xi xiu	100
@@ -312489,6 +312481,7 @@ sort: by_weight
 找考场	zhao kao chang	100
 找客户	zhao ke hu	100
 赵科长	zhao ke zhang	100
+朝孔雀	zhao kong que	100
 找快乐	zhao kuai le	100
 兆宽带	zhao kuan dai	100
 赵奎灿	zhao kui can	100
@@ -327091,6 +327084,7 @@ sort: by_weight
 朱红灯	zhu hong deng	100
 朱洪武	zhu hong wu	100
 朱宏瑜	zhu hong yu	100
+柱侯酱	zhu hou jiang	100
 诸侯林立	zhu hou lin li	100
 住户部门杠杆率	zhu hu bu men gang gan lv	100
 住户大会	zhu hu da hui	100

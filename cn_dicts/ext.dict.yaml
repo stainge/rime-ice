@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2025-03-06"
+version: "2025-03-07"
 sort: by_weight
 ...
 # +_+
@@ -1637,7 +1637,7 @@ sort: by_weight
 安地斯	an di si	100
 安地斯山	an di si shan	100
 按地图	an di tu	100
-安迪威廉姆斯	an di wei lian mu si	100
+安迪·威廉姆斯	an di wei lian mu si	100
 暗底下	an di xia	100
 按地域	an di yu	100
 暗地主	an di zhu	100
@@ -2771,7 +2771,7 @@ sort: by_weight
 昂昂自若	ang ang zi ruo	100
 昂藏不凡	ang cang bu fan	100
 昂藏七尺	ang cang qi chi	100
-盎格鲁撒克逊	ang ge lu sa ke xun	100
+盎格鲁-撒克逊	ang ge lu sa ke xun	100
 盎格鲁萨克逊	ang ge lu sa ke xun	100
 盎格鲁萨克逊人	ang ge lu sa ke xun ren	100
 昂贵的	ang gui de	100
@@ -16688,6 +16688,7 @@ sort: by_weight
 薄弱学校	bo ruo xue xiao	100
 薄弱学校改造	bo ruo xue xiao gai zao	100
 播散着	bo san zhe	100
+玻色-爱因斯坦凝聚	bo se ai yin si tan ning ju	100
 玻色子	bo se zi	100
 波森莓	bo sen mei	100
 薄纱长裙	bo sha chang qun	100
@@ -36378,6 +36379,7 @@ sort: by_weight
 重归旧好	chong gui jiu hao	100
 冲规模	chong gui mu	100
 重规袭矩	chong gui xi ju	100
+重过磷酸钙	chong guo lin suan gai	100
 重合部分	chong he bu fen	100
 重合点	chong he dian	100
 重合度	chong he du	100
@@ -36516,6 +36518,7 @@ sort: by_weight
 冲进了	chong jin le	100
 憧憬着美好的未来	chong jing zhe mei hao de wei lai	100
 憧憬着未来	chong jing zhe wei lai	100
+重酒石酸	chong jiu shi suan	100
 冲就完事	chong jiu wan shi	100
 重聚首	chong ju shou	100
 冲决堤防	chong jue di fang	100
@@ -37529,6 +37532,8 @@ sort: by_weight
 重塑自我	chong su zi wo	100
 宠他一辈子	chong ta yi bei zi	100
 宠她一辈子	chong ta yi bei zi	100
+重碳酸钙	chong tan suan gai	100
+重碳酸钠	chong tan suan na	100
 冲田三叶	chong tian san ye	100
 冲天香阵透长安	chong tian xiang zhen tou chang an	100
 充填因数	chong tian yin shu	100
@@ -90003,6 +90008,7 @@ sort: by_weight
 鼓山区	gu shan qu	100
 孤善于千里袭人	gu shan yu qian li xi ren	100
 孤山寨	gu shan zhai	100
+谷山-志村猜想	gu shan zhi cun cai xiang	100
 骨伤病	gu shang bing	100
 故上兵伐谋	gu shang bing fa mou	100
 鼓舌摇唇	gu she yao chun	100
@@ -103900,8 +103906,6 @@ sort: by_weight
 狠抓政策落实	hen zhua zheng ce luo shi	100
 狠抓整改落实	hen zhua zheng gai luo shi	100
 狠抓重点	hen zhua zhong dian	100
-很拽啊	hen zhuai a	100
-很拽啊你	hen zhuai a ni	100
 很壮实	hen zhuang shi	100
 很庄重	hen zhuang zhong	100
 很准啊	hen zhun a	100
@@ -133730,6 +133734,8 @@ sort: by_weight
 咔咔一顿操作	ka ka yi dun cao zuo	100
 卡口系统	ka kou xi tong	100
 卡拉比拉	ka la bi la	100
+卡拉比-丘空间	ka la bi qiu kong jian	100
+卡拉比-丘流形	ka la bi qiu liu xing	100
 卡拉布里亚	ka la bu li ya	100
 喀拉蚩	ka la chi	100
 喀拉汗国	ka la han guo	100
@@ -134550,12 +134556,12 @@ sort: by_weight
 凯瑞亚	kai rui ya	100
 凯撒酱	kai sa jiang	100
 凯撒肋雅	kai sa lei ya	100
-凯萨林威廉斯	kai sa lin wei lian si	100
 开三次方	kai san ci fang	100
 开三显一	kai san xian yi	100
 凯瑟琳	kai se lin	100
 凯瑟琳·霍华德	kai se lin huo hua de	100
-凯瑟琳普罗德摩尔	kai se lin pu luo de mo er	100
+凯瑟琳·普罗德摩尔	kai se lin pu luo de mo er	100
+凯瑟琳·威廉斯	kai se lin wei lian si	100
 开山立派	kai shan li pai	100
 开山之祖	kai shan zhi zu	100
 开上去	kai shang qu	100
@@ -137775,6 +137781,7 @@ sort: by_weight
 克伦奇	ke lun qi	100
 克罗埃	ke luo ai	100
 克罗德	ke luo de	100
+克洛德·列维-斯特劳斯	ke luo de lie wei si te lao si	100
 可落地	ke luo di	100
 克罗地亚队	ke luo di ya dui	100
 克罗地亚国家队	ke luo di ya guo jia dui	100
@@ -149429,6 +149436,7 @@ sort: by_weight
 列王记下	lie wang ji xia	100
 列为被执行人	lie wei bei zhi xing ren	100
 列为失信被执行人	lie wei shi xin bei zhi xing ren	100
+列维-斯特劳斯	lie wei si te lao si	100
 列为重点	lie wei zhong dian	100
 猎物也是猎人	lie wu ye shi lie ren	100
 烈性传染病	lie xing chuan ran bing	100
@@ -155270,7 +155278,7 @@ sort: by_weight
 罗比尼奥	luo bi ni ao	100
 落笔千言	luo bi qian yan	100
 落笔生花	luo bi sheng hua	100
-罗比威廉斯	luo bi wei lian si	100
+罗比·威廉斯	luo bi wei lian si	100
 裸臂揎拳	luo bi xuan quan	100
 萝卜啊	luo bo a	100
 萝卜白菜	luo bo bai cai	100
@@ -157241,6 +157249,8 @@ sort: by_weight
 马拉威	ma la wei	100
 麻辣鱼	ma la yu	100
 麻辣鱼鳞	ma la yu lin	100
+马来-波利尼西亚	ma lai bo li ni xi ya	100
+马来-波利尼西亚语族	ma lai bo li ni xi ya yu zu	100
 马莱部队	ma lai bu dui	100
 马莱帝国	ma lai di guo	100
 马莱帝国军	ma lai di guo jun	100
@@ -167758,6 +167768,7 @@ sort: by_weight
 名校长工作室	ming xiao zhang gong zuo shi	100
 名校招生	ming xiao zhao sheng	100
 名校资源	ming xiao zi yuan	100
+明孝宗朱祐樘	ming xiao zong zhu you cheng	100
 鸣谢碑	ming xie bei	100
 铭谢惠顾	ming xie hui gu	100
 明新工专	ming xin gong zhuan	100
@@ -175164,8 +175175,6 @@ sort: by_weight
 你狠喜欢	ni hen xi huan	100
 你很优秀	ni hen you xiu	100
 你很重要	ni hen zhong yao	100
-你很拽	ni hen zhuai	100
-你很拽啊	ni hen zhuai a	100
 霓红灯	ni hong deng	100
 霓虹鱼	ni hong yu	100
 你后悔了吗	ni hou hui le ma	100
@@ -193401,6 +193410,7 @@ sort: by_weight
 请问在吗	qing wen zai ma	100
 请问这是	qing wen zhe shi	100
 轻文重武	qing wen zhong wu	100
+清文宗奕𬣞	qing wen zong yi zhu	100
 请问尊姓	qing wen zun xing	100
 请问尊姓大名	qing wen zun xing da ming	100
 请我吃饭	qing wo chi fan	100
@@ -197334,6 +197344,8 @@ sort: by_weight
 让我坐下	rang wo zuo xia	100
 让贤与能	rang xian yu neng	100
 让心灵去旅行	rang xin ling qu lv xing	100
+让-雅克·阿诺	rang ya ke a nuo	100
+让-雅克·卢梭	rang ya ke lu suo	100
 让逸竞劳	rang yi jing lao	100
 让一追三	rang yi zhui san	100
 让一追四	rang yi zhui si	100
@@ -234744,8 +234756,6 @@ sort: by_weight
 泰州通	tai zhou tong	100
 台州银行	tai zhou yin hang	100
 太注重	tai zhu zhong	100
-太拽了	tai zhuai le	100
-太拽了吧	tai zhuai le ba	100
 太装逼	tai zhuang bi	100
 台装货	tai zhuang huo	100
 太子长琴	tai zi chang qin	100
@@ -249246,13 +249256,13 @@ sort: by_weight
 威利诱	wei li you	100
 未离渝	wei li yu	100
 未离郑	wei li zheng	100
-威廉福克纳	wei lian fu ke na	100
+威廉·福克纳	wei lian fu ke na	100
 威廉古堡	wei lian gu bao	100
-威廉莎士比亚	wei lian sha shi bi ya	100
+威廉·莎士比亚	wei lian sha shi bi ya	100
 威廉斯堡	wei lian si bao	100
 威联通科技	wei lian tong ke ji	100
 未联系	wei lian xi	100
-威廉亚历山大	wei lian ya li shan da	100
+威廉·亚历山大	wei lian ya li shan da	100
 微量白蛋白	wei liang bai dan bai	100
 微凉的晨露	wei liang de chen lu	100
 微凉的记忆	wei liang de ji yi	100
@@ -280764,6 +280774,7 @@ sort: by_weight
 亚克朗	ya ke lang	100
 压克力	ya ke li	100
 压克力板	ya ke li ban	100
+雅克-路易·大卫	ya ke lu yi da wei	100
 亚克诺姆	ya ke nuo mu	100
 亚克席	ya ke xi	100
 亚克席法印	ya ke xi fa yin	100
@@ -283232,6 +283243,8 @@ sort: by_weight
 杨梦婧	yang meng jing	100
 杨幂参加活动	yang mi can jia huo dong	100
 杨幂的大长腿	yang mi de da chang tui	100
+杨-米尔斯方程	yang mi er si fang cheng	100
+杨-米尔斯理论	yang mi er si li lun	100
 仰面长叹	yang mian chang tan	100
 仰面朝上	yang mian chao shang	100
 仰面大笑	yang mian da xiao	100
@@ -292579,6 +292592,7 @@ sort: by_weight
 一胎制	yi tai zhi	100
 一探便知	yi tan bian zhi	100
 一弹指顷	yi tan zhi qing	100
+一樘玻璃门	yi tang bo li men	100
 一汤匙	yi tang chi	100
 一趟旅行	yi tang lv xing	100
 以汤沃沸	yi tang wo fei	100
@@ -324807,7 +324821,6 @@ sort: by_weight
 中台医护技术学院	zhong tai yi hu ji shu xue yuan	100
 中台医事技术专科学校	zhong tai yi shi ji shu zhuan ke xue xiao	100
 中台医专	zhong tai yi zhuan	100
-重碳酸钙	zhong tan suan gai	100
 中唐时期	zhong tang shi qi	100
 重特大案件	zhong te da an jian	100
 重特大疾病	zhong te da ji bing	100
@@ -328566,7 +328579,6 @@ sort: by_weight
 拽布披麻	zhuai bu pi ma	100
 拽布拖麻	zhuai bu tuo ma	100
 拽了出来	zhuai le chu lai	100
-拽什么拽	zhuai shen me zhuai	100
 拽象拖犀	zhuai xiang tuo xi	100
 拽着你	zhuai zhe ni	100
 拽着你们	zhuai zhe ni men	100

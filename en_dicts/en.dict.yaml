@@ -17,7 +17,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2025-10-20"
+version: "2025-10-31"
 sort: by_weight
 ...
 # +_+
@@ -3958,6 +3958,7 @@ communism	communism
 communist	communist
 communities	communities
 community	community
+commutation	commutation
 commute	commute
 commuter	commuter
 # como	como
@@ -8285,7 +8286,7 @@ GeForce	GeForce
 geisha	geisha
 gel	gel
 gem	gem
-Gemini	Gemini
+gemini	gemini
 gems	gems
 gemstone	gemstone
 gemstones	gemstones
@@ -8712,6 +8713,7 @@ groan	groan
 grocer	grocer
 groceries	groceries
 grocery	grocery
+grok	grok
 groom	groom
 grooming	grooming
 groove	groove
@@ -9821,6 +9823,11 @@ improvement	improvement
 improvements	improvements
 improves	improves
 improving	improving
+improvisation	improvisation
+improvise	improvise
+improvised	improvised
+improvises	improvises
+improvising	improvising
 impulse	impulse
 impurity	impurity
 # ims	ims
@@ -13839,10 +13846,12 @@ operations	operations
 operative	operative
 operator	operator
 operators	operators
+Ophelia	Ophelia
 ophthalmology	ophthalmology
 opinion	opinion
 opinions	opinions
 opium	opium
+opossum	opossum
 # opp	opp
 opponent	opponent
 opponents	opponents
@@ -14024,6 +14033,7 @@ outlook	outlook
 outlying	outlying
 outpatient	outpatient
 outpost	outpost
+outpouring	outpouring
 output	output
 outputs	outputs
 outrage	outrage
@@ -16333,6 +16343,7 @@ regulations	regulations
 regulator	regulator
 regulators	regulators
 regulatory	regulatory
+regulex	regulex
 rehab	rehab
 rehabilitation	rehabilitation
 rehearsal	rehearsal
@@ -16670,6 +16681,7 @@ retains	retains
 retard	retard
 retardation	retardation
 retention	retention
+retina	retina
 retire	retire
 retired	retired
 retirement	retirement
@@ -16801,6 +16813,7 @@ ridge	ridge
 ridicule	ridicule
 ridiculous	ridiculous
 riding	riding
+riff	riff
 rifle	rifle
 rifles	rifles
 rig	rig
@@ -16866,6 +16879,7 @@ Riviera	Riviera
 RNA	RNA
 # ro	ro
 roach	roach
+roaches	roaches
 road	road
 roadmap	roadmap
 roads	roads
@@ -19140,6 +19154,7 @@ successfully	successfully
 succession	succession
 successive	successive
 successor	successor
+succinct	succinct
 succulent	succulent
 succulently	succulently
 such	such
@@ -19220,6 +19235,8 @@ superannuation	superannuation
 superb	superb
 superficial	superficial
 superfluous	superfluous
+superhero	superhero
+superheroes	superheroes
 superintendent	superintendent
 superior	superior
 superiority	superiority
@@ -19995,7 +20012,7 @@ tick	tick
 # tickboxes	tickboxes
 ticker	ticker
 ticket	ticket
-ticketmaster	ticketmaster
+# ticketmaster	ticketmaster
 tickets	tickets
 tickle	tickle
 tickling	tickling
@@ -22209,6 +22226,7 @@ zoo	zoo
 zoofilia	zoofilia
 zoology	zoology
 zoom	zoom
+zoomorphic	zoomorphic
 zoophilia	zoophilia
 # zshops	zshops
 # zu	zu

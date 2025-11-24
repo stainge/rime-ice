@@ -175,6 +175,9 @@ app_options:
   Stardew Valley.exe:
     ascii_mode: true
     inline_preedit: true
+  StardewModdingAPI.exe:
+    ascii_mode: true
+    inline_preedit: true
   bg3_dx11.exe:
     ascii_mode: true
     inline_preedit: true

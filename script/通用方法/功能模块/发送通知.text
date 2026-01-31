@@ -1,0 +1,147 @@
+--【【模块需要的参数】】〖〖(名称,内容)〗〗
+
+require "import"
+
+import "android.content.Context"
+import "android.content.Intent"
+import "android.app.PendingIntent"
+import "android.app.Notification"
+import "android.graphics.BitmapFactory"
+import "android.graphics.drawable.*"
+import "android.graphics.drawable.Drawable"
+import "android.net.Uri"
+import "java.lang.Math"
+
+
+local 脚本路径=debug.getinfo(1,"S").source:sub(2)--获取Lua脚本的完整路径
+
+local m,n,脚本目录=string.find(脚本路径, "(.*/)")
+
+
+local 图标id=service.getResources().getIdentifier("icon", "drawable", service.getPackageName())
+local 图标 = BitmapFactory.decodeFile(脚本目录.."通知图标.png")
+
+
+local function 发送通知全能版(标题,内容)
+  local mBuilder
+  if Build.VERSION.SDK_INT > 26  then
+    local Notif=this.getSystemService(this.NOTIFICATION_SERVICE)
+    local channel=NotificationChannel("渠道","类别",NotificationManager.IMPORTANCE_DEFAULT)
+    channel.setDescription("类别描述")
+    Notif.createNotificationChannel(channel)
+    
+    mBuilder=Notification.Builder(this,"渠道")
+  else
+    mBuilder= Notification.Builder(this);
+  end
+  --设置状态栏通知图标
+  mBuilder.setSmallIcon(图标id)--设置图标
+  --设置通知栏图标--大图标
+  mBuilder.setLargeIcon(图标)
+
+  mBuilder.setContentTitle(标题)--大标
+  mBuilder.setContentText(内容)--小标
+
+  --设置通知时的滚动文本
+  --mBuilder.setTicker("设置通知时的滚动文本");
+  -- 次要内容
+  mBuilder.setSubText("这是软件更新内容");
+  -- 附加文本
+  mBuilder.setContentInfo("下载中..");
+  -- 附加数字，等价于 setContentInfo, 为了显示效果用一个不同的字体尺寸显示数字
+  mBuilder.setNumber(999);
+
+  -- 设置时间
+  mBuilder.setWhen(System.currentTimeMillis())
+  -- 设置是否显示时间
+  mBuilder.setShowWhen(true);
+  -- 设置是否显示时钟表示时间(count up)
+  --mBuilder.setUsesChronometer(false);
+  -- 设置时钟是否为倒计时(count down)
+  mBuilder.setChronometerCountDown(true);
+
+  --不确定进度的进度条
+  --mBuilder.setProgress(0, 0, true);
+  --mNotifyManager.notify(id, mBuilder.build());
+  --进度条
+  local max = 100; -- 进度最大值
+  local progress = 50; -- 当前进度
+  local pss = math.random(10,90)
+  local indeterminate = false; -- 是否是不明确的进度条
+ -- mBuilder.setProgress(max, pss, indeterminate);
+
+  -- mBuilder.setDefaults(Notification.DEFAULT_LIGHTS);-- 设置指示灯
+  -- mBuilder.setDefaults(Notification.DEFAULT_SOUND);-- 设置提示声音
+  -- mBuilder.setDefaults(Notification.DEFAULT_VIBRATE);-- 设置震动
+  mBuilder.setDefaults(Notification.DEFAULT_ALL);-- 包含以上三个
+
+  -- 创建NotificationManager的对象
+  NotificationManager = service.getSystemService(Context.NOTIFICATION_SERVICE);
+
+  --打开方式--
+  notificationIntent = Intent("android.intent.action.VIEW");
+  notificationIntent.setClassName("com.androlua","com.androlua.Welcome")
+  notificationIntent.putExtra("Ve","需要传递的参数");
+  pendingIntent = PendingIntent.getActivity(service.getApplicationContext(), 0, notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+
+  notificationIntent2 = Intent(Intent.ACTION_VIEW, Uri.parse("http://m.ys168.com/hehuan#/"));
+  pendingIntent2 = PendingIntent.getActivity(service.getApplicationContext(), 0, notificationIntent2, 0);
+
+
+  -- 添加操作按钮
+  --mBuilder.addAction(图标id, "取消", pendingIntent);
+  --mBuilder.addAction(图标id, "确定", pendingIntent2);
+
+
+  --设置点击响应--通知消失
+  --mBuilder.setContentIntent(pendingIntent).setAutoCancel(true)
+  --设置点击消失
+  mBuilder.setAutoCancel(true)
+    --浮动通知
+  --mBuilder.setFullScreenIntent(pendingIntent, true);
+
+  local ss = tointeger(Math.random()*100)
+  -- 显示notification
+  NotificationManager.notify(ss, mBuilder.build()); --发送通知
+
+  task(2000,function() --2s后关闭悬浮通知
+    NotificationManager.cancel(ss);   --关闭通知
+  end)--间隔时间
+
+end
+
+
+local function 发送普通通知(标题,内容)
+    local mBuilder
+  if Build.VERSION.SDK_INT > 26  then
+    local Notif=this.getSystemService(this.NOTIFICATION_SERVICE)
+    local channel=NotificationChannel("渠道","类别",NotificationManager.IMPORTANCE_DEFAULT)
+    channel.setDescription("类别描述")
+    Notif.createNotificationChannel(channel)
+    
+    mBuilder=Notification.Builder(this,"渠道")
+  else
+    mBuilder= Notification.Builder(this);
+  end
+  --设置状态栏通知图标
+  mBuilder.setSmallIcon(图标id)--设置图标
+  --设置通知栏图标--大图标
+   mBuilder.setLargeIcon(图标)
+  mBuilder.setContentTitle(标题)--大标
+  mBuilder.setContentText(内容)--小标
+
+  --设置这个标志当用户单击面板就可以让通知将自动取消通知
+  mBuilder.setAutoCancel(true);
+  
+  local ss = tointeger(Math.random()*100)+1
+  -- 显示notification
+  NotificationManager.notify(ss, mBuilder.build()); --发送通知
+  
+end
+
+local function 发送通知(标题,内容)
+  --发送普通通知(标题,内容)
+  发送通知全能版(标题,内容)
+end
+
+return 发送通知

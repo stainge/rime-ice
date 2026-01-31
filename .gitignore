@@ -8,7 +8,6 @@ sync/
 *.userdb/
 installation.yaml
 user.yaml
-*.custom.yaml
 !others/**/*.custom.yaml
 
 custom_phrase_double.txt
@@ -21,3 +20,12 @@ cn_dicts/temp.txt
 rime_console
 rime_deployer
 rime_patch
+
+clipboard.json
+data.json
+files.json
+phrase.json
+logs/
+*.ocd
+*.ocd2
+cloud.dict.yaml

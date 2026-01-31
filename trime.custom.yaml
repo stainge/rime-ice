@@ -1,0 +1,81 @@
+patch: #将第27行两个/之间改为你的九宫格方案id
+  "preset_keyboards/eng":
+    ascii_mode: 1
+    author: "osfans <waxaca@163.com>"
+    height: 44
+    keys: [{click: 1, long_click: "!"}, {click: 2, long_click: "@"}, {click: 3, long_click: "#"}, {click: 4, long_click: "$"}, {click: 5, long_click: "%"}, {click: 6, long_click: "^"}, {click: 7, long_click: "&"}, {click: 8, long_click: "*"}, {click: 9, long_click: "("}, {click: 0, long_click: ")"}, {click: q, long_click: _}, {click: w, long_click: "-"}, {click: e, long_click: "+"}, {click: r, long_click: "="}, {click: t, long_click: "|"}, {click: y, long_click: "\\"}, {click: u, long_click: "["}, {click: i, long_click: "]"}, {click: o, long_click: "{"}, {click: p, long_click: "}"}, {width: 5}, {click: a, long_click: select_all}, {click: s, long_click: Home}, {click: d, long_click: End}, {click: f, long_click: Page_Up}, {click: g, long_click: Page_Down}, {click: h, long_click: Left}, {click: j, long_click: Down}, {click: k, long_click: ":"}, {click: l, long_click: ";"}, {width: 5}, {click: Shift_L, has_menu: "'", width: 15}, {click: z, long_click: "`"}, {click: x, long_click: cut}, {click: c, long_click: copy}, {click: v, long_click: paste}, {click: b, long_click: "~"}, {click: n, long_click: "\""}, {click: m, long_click: MoeDict}, {click: BackSpace, width: 15}, {click: Keyboard_default, long_click: Menu, width: 15}, {click: Keyboard_symbols, long_click: Keyboard_number}, {click: ",", long_click: "<"}, {click: space, width: 30}, {click: ., long_click: ">"}, {click: "/", long_click: "?"}, {click: Return, long_click: CommitComment, width: 15}]
+    label_transform: uppercase
+    name: "預設36鍵"
+    width: 10
+
+  "preset_keyboards/letter":
+    ascii_mode: 0
+    author: "osfans <waxaca@163.com>"
+    height: 55
+    key_hint_offset_x: 0
+    key_hint_offset_y: 0
+    key_press_offset_x: 2
+    key_press_offset_y: 2
+    key_symbol_offset_x: 0
+    key_symbol_offset_y: 0
+    key_text_offset_x: 0
+    key_text_offset_y: 0
+    keys: [{click: q, long_click: "!", swipe_up: 1}, {click: w, long_click: "@", swipe_up: 2}, {click: e, long_click: "#", swipe_up: 3}, {click: r, long_click: "$", swipe_up: 4}, {click: t, long_click: "%", swipe_up: 5}, {click: y, long_click: "^", swipe_up: 6}, {click: u, long_click: "&", swipe_up: 7}, {click: i, long_click: "*", swipe_up: 8}, {click: o, long_click: "(){Left}", swipe_up: 9}, {click: p, long_click: Hide, swipe_up: 0}, {width: 5}, {click: a, long_click: select_all, swipe_down: Down, swipe_left: Left, swipe_right: Right, swipe_up: Up}, {click: s, long_click: "~", swipe_down: Page_Down, swipe_left: Home, swipe_right: End, swipe_up: Page_Up}, {click: d, long_click: "-", swipe_down: _}, {click: f, long_click: "+", swipe_down: "="}, {click: g, long_click: "\\", swipe_down: "|"}, {click: h, long_click: "[]{Left}", swipe_left: "[", swipe_right: "]"}, {click: j, long_click: "{}{Left}", swipe_left: "{", swipe_right: "}"}, {click: k, long_click: ":"}, {click: l, long_click: ";"}, {width: 5}, {click: Shift_L, send_bindings: false, width: 15}, {click: z, long_click: "`"}, {click: x, long_click: cut}, {click: c, long_click: copy}, {click: v, long_click: paste}, {click: b, long_click: Time, swipe_up: Date}, {click: n, long_click: "\""}, {click: m, long_click: "'"}, {click: BackSpace, swipe_left: Escape, width: 15}, {click: Keyboard_default, long_click: Menu, width: 15}, {click: Keyboard_symbols, long_click: Keyboard_number}, {click: ",", long_click: "<"}, {click: space, width: 30}, {click: ., long_click: ">"}, {click: "/", long_click: "?"}, {click: Return, long_click: CommitComment, width: 15}]
+    name: "預設26鍵"
+    width: 10
+
+  "preset_keyboards/jgg_terra_pinyin":
+    ascii_mode: 0
+    author: "Uncle光 <467896722@qq.com>"
+    name: 九宮地球
+    height: 48
+    horizontal_gap: 5
+    vertical_gap: 7
+    width: 22
+    keys:
+    #第一行
+      - {click: ",", long_click: ";", key_back_color: 0x00, width: 16}
+      - {click: "'", label: "’詞", swipe_up: Up, swipe_down: Down, long_click: Escape}      
+      - {click: d, label: abc, swipe_up: Up, swipe_down: Down}
+      - {click: q, label: def, swipe_up: Up, swipe_down: Down}
+      - {click: BackSpace, width: 18}
+    #第二行
+      - {click: ".", long_click: ":", key_back_color: 0x00, key_back_color: 0x00, width: 16}
+      - {click: p, label: ghi, swipe_up: Up, swipe_down: Down}
+      - {click: y, label: jkl, swipe_up: Up, swipe_down: Down}
+      - {click: j, label: mno, swipe_up: Up, swipe_down: Down}
+      - {click: "@", long_click: "`{Keyboard_letter}", width: 18}
+    #第三行
+      - {click: "?", long_click: "!", key_back_color: 0x00, width: 16}
+      - {click: g, label: pqrs, swipe_up: Up, swipe_down: Down}
+      - {click: s, label: tuv, swipe_up: Up, swipe_down: Down}
+      - {click: r, label: wxyz, swipe_up: Up, swipe_down: Down}
+      - {click: Keyboard_symbols, long_click: Keyboard_number, width: 18}
+    #第四行
+      - {click: Menu, long_click: Theme_settings, width: 16, height: 56}
+      - {click: 1, label: "ˉ", swipe_up: Up, swipe_down: Down, width: 11}
+      - {click: 2, label: "ˊ", swipe_up: Up, swipe_down: Down, width: 11}
+      - {click: 3, label: "ˇ", swipe_up: Up, swipe_down: Down, width: 11}
+      - {click: 4, label: "ˋ", swipe_up: Up, swipe_down: Down, width: 11}
+      - {click: space, long_click:  Keyboard_eng}
+      - {click: Return, long_click: CommitComment, key_back_color: Skyblue, width: 18}
+
+  "preset_keys/Keyboard_eng":
+    label: "英文"
+    select: eng
+    send: Eisu_toggle
+
+  "preset_keys/Keyboard_letter":
+    label: "反查"
+    select: letter
+    send: Eisu_toggle
+
+  "style/keyboards":
+    - .default
+    - alpha
+    - emoji
+    - letter
+    - eng
+    - default
+    - number
+    - symbols

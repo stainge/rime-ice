@@ -1,0 +1,377 @@
+--[[
+--无障碍版专用脚本
+--脚本名称: 分词工具
+--用途：将剪贴板内容分词
+--版本号: 1.0
+▂▂▂▂▂▂▂▂
+日期: 2020年08月18日🗓️
+农历: 鼠🐁庚子年六月廿九
+时间: 23:45:21🕦
+星期: 周二
+--制作者: 风之漫舞
+--首发qq群: Rime 同文斋(458845988)
+--邮箱: bj19490007@163.com(不一定及时看到)
+--特别说明
+  基于学会忘记大佬工具脚本二次开发,感谢
+
+--配置说明
+用法一
+第①步 将 脚本文件放置 Android/rime/script 文件夹内,
+
+第②步 向主题方案中加入按键
+以 XXX.trime.yaml主题方案为例
+找到以下节点preset_keys，加入以下按键LuaFC
+
+preset_keys:
+  LuaFC: {label: 分词工具, send: function, command: '分词工具.lua', option: ""}
+
+向该主题方案任意键盘按键中加入上述按键既可
+--------------------
+用法二
+①放到脚本启动器->脚本库目录 下任意位置及子文件夹中,脚本启动器自动显示该脚本
+②主题方案挂载脚本启动器
+③显示一个键盘界面,点击按键即可
+]]
+
+
+
+
+require "import"
+import "android.app.*"
+import "android.os.*"
+import "android.widget.*"
+import "android.view.*"
+import "android.graphics.RectF"
+import "android.content.Context"  --导入类
+import "android.graphics.drawable.StateListDrawable"
+import "java.io.File"
+
+import "android.os.*"
+import "com.osfans.trime.*" --载入包
+import "script.包.键盘操作.主键盘"
+import "script.包.字符串.其它"
+
+print("请稍等,剪切板内容正在分词中...")
+
+local 参数=(...)
+local 脚本目录=tostring(service.getLuaExtDir("script"))
+local 脚本名=debug.getinfo(1,"S").source:sub(2)--获取Lua脚本的完整路径
+local 脚本相对路径=string.sub(脚本名,#脚本目录+1)
+local 纯脚本名=File(脚本名).getName()
+local p=string.sub(脚本名,1,#脚本名-#纯脚本名).."d.txt"
+
+local t=dofile(p)
+
+
+local function check(s,i)
+  for n=5,1,-1
+    local u=utf8.sub(s,i,i+n-1)
+    local a=t[u]
+    if a
+      return a
+    end
+  end
+  return 0
+end
+
+local function check2(s,i,m)
+  for n=m,1,-1
+    local u=utf8.sub(s,i,i+n-1)
+    local a=t[u]
+    if a
+      return a
+    end
+  end
+  return 0
+end
+
+function split(s)
+  local l=utf8.len(s)
+  local i=1
+  local mm=2
+  local nn=2
+  local r={}
+  while i<l
+    --print(i)
+    for n=5,1,-1
+      if n==1
+        local u=utf8.sub(s,i,i)
+        i=i+1
+        table.insert(r,u)
+        break
+      end
+      local u=utf8.sub(s,i,i+n-1)
+      local a=t[u]
+      if a
+        local b=check(s,i+1)
+        if b>a*nn
+          local c=check(s,i+2)
+          if b>c
+            local u=utf8.sub(s,i,i)
+            i=i+1
+            table.insert(r,u)
+            goto eee
+          end
+        end
+        if check2(s,i,n-1)>a*mm
+          continue
+        end
+        i=i+n
+        table.insert(r,u)
+        break
+      end
+    end
+@eee
+  end
+  return r
+end
+
+
+--剪贴板=service.getSystemService(Context.CLIPBOARD_SERVICE).getText() --获取剪贴板 
+local 剪贴板数组=service.getClipBoard()--读取剪切板数组"从0开始"
+
+
+
+local function 取网址(内容)
+ local 内容1=""
+ local 内容组0=中英字符串转数组(内容)
+ for i=1,#内容组0 do
+  if string.find(内容组0[i],"([a-zA-Z%./:])") !=nil then
+    内容1=内容1..内容组0[i]
+  end--if
+ end--for
+ return 内容1
+end
+
+
+local 内容2=取网址(剪贴板数组[0])
+local 全部内容组={}
+local 内容组={}
+if 内容2~="" then 
+	local 内容组=split(tostring(剪贴板数组[0]))
+		全部内容组[1]=内容2
+	for i=1,#内容组 do
+		全部内容组[i+1]=内容组[i]
+	end
+else
+	全部内容组=split(tostring(剪贴板数组[0]))
+end--]]
+
+
+
+
+
+
+--流式布局
+require "import"
+import "android.app.*"
+import "android.os.*"
+import "android.widget.*"
+import "android.view.*"
+
+local function Back() --生成功能键背景
+  local bka=LuaDrawable(function(c,p,d)
+    local b=d.bounds
+    b=RectF(b.left,b.top,b.right,b.bottom)
+    p.setColor(0xffffffff)
+    c.drawRoundRect(b,20,20,p) --圆角20
+  end)
+  local bkb=LuaDrawable(function(c,p,d)
+    local b=d.bounds
+    b=RectF(b.left,b.top,b.right,b.bottom)
+    p.setColor(0x49d3d7da)
+    c.drawRoundRect(b,20,20,p)
+  end)
+
+  local stb=StateListDrawable()
+  stb.addState({-android.R.attr.state_pressed},bkb)
+  stb.addState({android.R.attr.state_pressed},bka)
+  return stb
+end
+
+
+local function Bu_R(id) --生成功能键
+  local ta={TextView,
+    gravity=17,
+    Background=Back(),
+    layout_height=-1,
+    layout_width=-1,
+    layout_weight=1,
+    layout_margin="1dp",
+    layout_marginTop="2dp",
+    layout_marginBottom="2dp",
+    textColor=0xff232323,
+    textSize="18dp"}
+
+  if id==2 then
+    ta.text="⌫"
+    ta.textSize="22dp"
+    ta.onClick=function()
+      service.sendEvent("BackSpace")
+    end
+    ta.OnLongClickListener={onLongClick=function() return true end}
+   
+   elseif id==3 then
+    ta.text="⏎"
+    ta.onClick=function()
+      service.sendEvent("Return")
+    end
+    ta.OnLongClickListener={onLongClick=function() return true end}
+   elseif id==4 then
+    ta.text="返回"
+    ta.onClick=function()
+      service.sendEvent("Keyboard_default")
+    end
+    ta.OnLongClickListener={onLongClick=function()
+        service.sendEvent("undo")
+        return true
+    end}
+    
+  end
+  return ta
+end
+
+
+local layout={
+LinearLayout,
+ -- orientation="vertical",
+  orientation=1,
+  layout_width="fill",
+  layout_height="fill",
+   {TextView,
+    id="title",
+    layout_height="30dp",
+    layout_width=-1,
+    text="流式布局",
+    gravity="center",
+    paddingLeft="2dp",
+    paddingRight="2dp",
+    BackgroundColor=0x49d3d7da
+    },
+    {LinearLayout,
+      id="main",
+      orientation=2,
+      layout_weight=2,
+      --右侧功能键宽度
+      --layout_weight=1,
+     -- layout_height=-1,
+      layout_gravity=13|3,
+  {ScrollView,
+  layout_weight=39,
+  --layout_width="800dp",
+   {
+  LinearLayout,
+  orientation="vertical",
+  layout_width="fill",
+  layout_height="fill",
+  id="ll",
+   },
+  },
+  {LinearLayout,
+      orientation=1,
+      layout_weight=1,
+      
+      layout_width="40dp",
+      layout_height=-1,
+      layout_gravity=5|84,
+      
+    Bu_R(2),
+    Bu_R(3),
+    Bu_R(4),
+      },
+    },    
+}
+
+service.setKeyboard(loadlayout(layout))
+
+--群里有人问如何实现流式布局,于是自己想了一个Demo
+--实现原理:在线性布局中addView,每添加一个数据,就判断控件剩余宽高
+
+
+
+
+
+function setFluidLayout(id,tab)
+
+  import "android.content.Context"
+
+  --获取手机屏幕宽度
+
+resources = service.getResources()
+dm = resources.getDisplayMetrics();
+w = dm.widthPixels;--手机屏幕宽度
+--w=tointeger(w/40*39)
+h = dm.heightPixels;--手机屏幕高度
+  --获取指定控件宽度
+  local function getWidth(view)
+    view.measure(View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED),View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED));
+    width =view.getMeasuredWidth()
+    return width
+  end
+
+  --定义一个横向布局,用来装载子控件
+  local a={
+    LinearLayout,
+    layout_width="fill",
+    gravity="center",
+    layout_height="36dp",
+    id="sp",
+  }
+
+  --不管有没有数据,先添加一个
+  id.addView(loadlayout(a))
+
+
+  --遍历tab数据
+  for k,v in pairs(tab) do
+
+    --子子控件布局(宽度不能写死,不建议添加宽度)
+    b={TextView,
+    gravity=17,
+    Background=Back(),
+    BackgroundColor=0xff66DD00,
+    layout_height="32dp",
+      singleLine="true",
+     -- text=k..v.."  ",
+      text="  "..v.."  ",
+      --layout_margin="1dp",
+    --layout_marginTop="2dp",
+    --layout_marginBottom="2dp",
+    textColor=0xff232323,
+    textSize="20dp",
+      onClick=function()
+        service.commitText(v)
+      end
+    }
+    b.OnLongClickListener={onLongClick=function()
+        service.getSystemService(Context.CLIPBOARD_SERVICE).setText(v) 
+        --写入剪贴板
+        return true
+    end}
+    c={TextView,
+    gravity=17,
+    --Background=Back(),
+    --BackgroundColor=0xffFFBB66,
+    layout_height="36dp",
+      singleLine="true",
+      text="  "}
+
+    sp.addView(loadlayout(c))
+    sp.addView(loadlayout(b))
+
+    --如果大于了w-200则另起一行
+    if getWidth(sp)>=w-200 then
+
+      id.addView(loadlayout(a))
+
+    end
+
+
+  end
+
+
+end
+
+setFluidLayout(ll,全部内容组)
+
+

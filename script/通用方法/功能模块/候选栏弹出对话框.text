@@ -1,0 +1,67 @@
+--【【模块需要的参数】】〖〖(内容)〗〗
+
+local function 布局渐变色设置(布局id,右色,左色) --右色,左色可空
+  local 右色1= 0x99363C4A
+  local 左色1= 0x991F8792
+  if 左色~=nil 左色1=左色  end
+  if 右色~=nil 右色1=右色  end
+  import "android.graphics.drawable.GradientDrawable"
+    --渐变色--
+    local drawable = GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{
+      右色1,
+      左色1,
+    });
+    布局id.setBackgroundDrawable(drawable)
+end
+
+
+local function 缩放动画1(view,time)
+  import "android.animation.ObjectAnimator"
+  ObjectAnimator().ofFloat(view,"scaleX",{0.1,1}).setDuration(time).start()
+  ObjectAnimator().ofFloat(view,"scaleY",{0.1,1}).setDuration(time).start()
+end
+
+local function 候选栏弹出对话框(内容)
+	local height=service.getLastKeyboardHeight()
+	local width=service.getWidth()--取键盘宽度
+	local 宽度,高度=width*0.5,height*0.14
+	local 弹出布局={
+						FrameLayout,
+						layout_height=高度,
+						layout_width=宽度,
+						--背景颜色
+						BackgroundColor=0x2A734028,
+						{
+							TextView;--文本框
+							layout_height=高度,
+							layout_width=宽度,
+							text=内容;
+							id="tv",
+							gravity="center";
+							textColor="#DF6E1F";
+							textSize="11sp";
+						};
+					}
+	local 弹出布局=loadlayout(弹出布局)
+	缩放动画1(弹出布局,300)
+	布局渐变色设置(弹出布局)
+	local popWnd = PopupWindow(this);
+		  popWnd.setContentView(弹出布局);
+		  popWnd.setWidth(宽度) --设置显示宽度
+		  popWnd.setHeight(高度) --设置显示高度
+		  --popWnd.setFocusable(false);设置焦点
+		  popWnd.setOutsideTouchable(true)--点击外面区域消失
+		  --相对某个控件的位置（正左下方），无偏移
+		  --popWnd.showAsDropDown(v)
+		  --相对某个控件的位置，有偏移;xoff表示x轴的偏移，正值表示向左，负值表示向右；yoff表示相对y轴的偏移，正值是向下，负值是向上；
+		  --popWnd.showAsDropDown(View anchor, int xoff, int yoff)
+		  --相对于父控件的位置（例如正中央Gravity.CENTER，下方Gravity.BOTTOM,Gravity.TOP,Gravity.RIGHT等），可以设置偏移或无偏移
+	local v=service.getCandidateView()
+	popWnd.showAtLocation(v,Gravity.TOP, 0, 0)
+
+	tv.onClick=function()
+		service.commitText(tv.getText())
+		popWnd.dismiss()
+	end
+end
+return 候选栏弹出对话框

@@ -1,0 +1,13 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Feb 11 16:03:52 2025"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    - {schema: t9}
+    - {schema: hifumi}
+    - {schema: rime_ice}
+  menu:
+    page_size: 7

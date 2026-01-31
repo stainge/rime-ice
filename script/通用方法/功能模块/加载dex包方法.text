@@ -1,0 +1,14 @@
+--【【模块需要的参数】】〖〖(路径,类名)〗〗
+
+
+--加载dex包类
+local function 加载dex包类方法(路径,类名) --包含dex的apk或jar文件
+ import "dalvik.system.DexClassLoader"
+ import"android.content.Context"
+ local optimizedDexOutputPath = service.getDir("dex", Context.MODE_PRIVATE);
+ local classLoader=DexClassLoader(路径,optimizedDexOutputPath.getAbsolutePath(), nil,service.getClassLoader());
+ return classLoader.loadClass(类名) --dex中的类全名
+end
+
+return 加载dex包类方法
+

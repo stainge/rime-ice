@@ -1,0 +1,77 @@
+--[[
+自动状态栏
+
+当前版本: "V1.1"
+更新日期: 2022-09-03
+更新作者: 小浩 3489472862
+更新内容: 
+
+当前版本: "V1.0"
+创建日期: 2022-08-18
+创建作者: 小浩 3489472862
+功能说明:
+         1. 进入lua自动隐藏状态栏
+         2. 退出lua自动恢复
+
+使用方法:
+         1. 将该lua放入 script/包/键盘操作/ 文件夹内
+         2. 对应脚本lua里面导入该包，import "script.包.键盘操作.自动状态栏"
+         3. 对应脚本lua在程序开头调用隐藏状态栏()
+         4. 对应脚本lua在返回按钮处调用恢复状态栏()
+         5. 将lua界面的高度设置为lua高度
+
+已知bug:
+        1. 原来有状态栏，进入lua后隐藏，直接切换成最近应用，显示键盘，状态栏没有恢复（时好时坏）
+]]
+
+
+require "import"
+import "com.osfans.trime.*" --载入包
+import "yaml"
+import "android.util.TypedValue"
+import "android.content.res.Resources"
+
+
+local 输入法目录=tostring(service.getLuaExtDir("")).."/"
+local 主题组=Config.get()
+local 当前主题0=主题组.getTheme()
+local 主题文件=输入法目录.."build/"..当前主题0..".yaml"
+local yaml组 = yaml.load(io.readall(主题文件))
+状态栏状态 = Rime.getOption("_hide_candidate")
+local 键盘高度 = service.getLastKeyboardHeight()
+local candidate_view_height = yaml组["style"]["candidate_view_height"] --候選區高度
+local comment_height = yaml组["style"]["comment_height"] --編碼提示區高度
+local comment_on_top = yaml组["style"]["comment_on_top"] --編碼提示在上方或右側
+local 状态栏高度 = 0
+lua高度 = 键盘高度
+
+
+local function getPixel(f)
+  return Math.round(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, f, Resources.getSystem().getDisplayMetrics()))
+end
+
+状态栏高度 = getPixel(candidate_view_height)
+
+-- 这个编码提示应该还可以关闭，这里暂时不考虑关闭的情况
+if comment_on_top == true then
+  状态栏高度 = 状态栏高度 + getPixel(comment_height)
+end
+
+function getLuaHeight()
+  状态栏状态 = Rime.getOption("_hide_candidate")
+  if 状态栏状态 == false then
+    lua高度 = 键盘高度 + 状态栏高度
+  else
+    lua高度 = 键盘高度
+  end
+end
+
+-- 隐藏状态栏
+function 隐藏状态栏()
+  getLuaHeight()
+  Trime.getService().onOptionChanged2("_hide_candidate", true)
+end
+
+function 恢复状态栏()
+  Trime.getService().onOptionChanged2("_hide_candidate", 状态栏状态)
+end

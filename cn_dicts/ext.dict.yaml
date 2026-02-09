@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2026-01-28"
+version: "2026-02-04"
 sort: by_weight
 ...
 # +_+
@@ -10304,6 +10304,7 @@ sort: by_weight
 被按在地上摩擦	bei an zai di shang mo ca	100
 被扒出来	bei ba chu lai	100
 北巴传媒	bei ba chuan mei	100
+被扒掉	bei ba diao	100
 被扒光	bei ba guang	100
 被扒光衣服	bei ba guang yi fu	100
 被扒皮	bei ba pi	100
@@ -12546,6 +12547,7 @@ sort: by_weight
 必定不会	bi ding bu hui	100
 必定成真	bi ding cheng zhen	100
 必定会付出	bi ding hui fu chu	100
+吡啶甲酸锌	bi ding jia suan xin	100
 必定卡死	bi ding ka si	100
 必定可以	bi ding ke yi	100
 吡啶啉	bi ding lin	100
@@ -33229,6 +33231,7 @@ sort: by_weight
 承德地区	cheng de di qu	100
 承德府	cheng de fu	100
 撑得过	cheng de guo	100
+撑得很	cheng de hen	100
 承德石油	cheng de shi you	100
 撑得住吗	cheng de zhu ma	100
 成等正觉	cheng deng zheng jue	100
@@ -40806,6 +40809,7 @@ sort: by_weight
 穿得太多	chuan de tai duo	100
 穿得太多了	chuan de tai duo le	100
 穿得太少	chuan de tai shao	100
+穿得太少了	chuan de tai shao le	100
 穿的衣服	chuan de yi fu	100
 穿得这么	chuan de zhe me	100
 传灯录	chuan deng lu	100
@@ -64333,6 +64337,7 @@ sort: by_weight
 都治好	dou zhi hao	100
 都指挥	dou zhi hui	100
 都指挥佥事	dou zhi hui qian shi	100
+都直了	dou zhi le	100
 都知事	dou zhi shi	100
 斗志旺盛	dou zhi wang sheng	100
 都只为了	dou zhi wei le	100
@@ -161586,6 +161591,7 @@ sort: by_weight
 没大问题	mei da wen ti	100
 没答应	mei da ying	100
 没大用	mei da yong	100
+没打游戏	mei da you xi	100
 没打招呼	mei da zhao hu	100
 没打中	mei da zhong	100
 没大夫	mei dai fu	100
@@ -161964,6 +161970,7 @@ sort: by_weight
 没发朋友圈	mei fa peng you quan	100
 没发票	mei fa piao	100
 没法评价	mei fa ping jia	100
+没法切割	mei fa qie ge	100
 没法去啊	mei fa qu a	100
 没法忍	mei fa ren	100
 没发烧	mei fa shao	100
@@ -163783,6 +163790,7 @@ sort: by_weight
 没人过生日	mei ren guo sheng ri	100
 没人喝酒	mei ren he jiu	100
 没任何难度	mei ren he nan du	100
+没任何问题	mei ren he wen ti	100
 没人黑	mei ren hei	100
 没人哄	mei ren hong	100
 没人怀疑	mei ren huai yi	100
@@ -164431,6 +164439,7 @@ sort: by_weight
 没事了吧	mei shi le ba	100
 没势力	mei shi li	100
 没实力	mei shi li	100
+没事咯	mei shi lo	100
 美食旅行	mei shi lv xing	100
 每时每刻都	mei shi mei ke dou	100
 每时每刻都在变化	mei shi mei ke dou zai bian hua	100
@@ -166335,6 +166344,8 @@ sort: by_weight
 没这么少	mei zhe me shao	100
 没这么严重	mei zhe me yan zhong	100
 没这么直接	mei zhe me zhi jie	100
+没折腾	mei zhe teng	100
+没折腾过	mei zhe teng guo	100
 没这张	mei zhe zhang	100
 没这种感觉	mei zhe zhong gan jue	100
 没真心	mei zhen xin	100
@@ -242305,6 +242316,7 @@ sort: by_weight
 铁道游击战	tie dao you ji zhan	100
 贴得更紧	tie de geng jin	100
 贴得更近	tie de geng jin	100
+贴得很近	tie de hen jin	100
 铁的证据	tie de zheng ju	100
 贴地而行	tie di er xing	100
 贴地气	tie di qi	100
@@ -266885,6 +266897,7 @@ sort: by_weight
 下这么大	xia zhe me da	100
 下这么大的雨	xia zhe me da de yu	100
 下者飘转沉塘坳	xia zhe piao zhuan chen tang ao	100
+瞎折腾啊	xia zhe teng a	100
 下着小雨	xia zhe xiao yu	100
 下真大	xia zhen da	100
 夏振凯	xia zhen kai	100
@@ -299498,6 +299511,7 @@ sort: by_weight
 赢得观众	ying de guan zhong	100
 赢得关注	ying de guan zhu	100
 赢得广大用户	ying de guang da yong hu	100
+赢得过	ying de guo	100
 赢得好	ying de hao	100
 硬得很	ying de hen	100
 赢得机会	ying de ji hui	100
@@ -314421,6 +314435,7 @@ sort: by_weight
 长相貌美	zhang xiang mao mei	100
 长相美	zhang xiang mei	100
 长相美丽	zhang xiang mei li	100
+长相美貌	zhang xiang mei mao	100
 长相美艳	zhang xiang mei yan	100
 长相难看	zhang xiang nan kan	100
 长相漂亮	zhang xiang piao liang	100
@@ -317132,6 +317147,7 @@ sort: by_weight
 这套体系	zhe tao ti xi	100
 这套体系中	zhe tao ti xi zhong	100
 这特么	zhe te me	100
+折腾啊	zhe teng a	100
 折腾不折腾	zhe teng bu zhe teng	100
 折腾得够呛	zhe teng de gou qiang	100
 折腾来	zhe teng lai	100
